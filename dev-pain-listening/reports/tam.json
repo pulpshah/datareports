@@ -1,0 +1,185 @@
+{
+ "draws": 200000,
+ "inputs": {
+  "developers_worldwide": {
+   "low": 40200000.0,
+   "mode": 47200000.0,
+   "high": 48400000.0,
+   "kind": "external",
+   "source": "IDC 2025 projection 40.2M; SlashData 2025 47.2M; Q3 2025 48.4M (secondary)"
+  },
+  "share_using_ai_weekly": {
+   "low": 0.51,
+   "mode": 0.62,
+   "high": 0.65,
+   "kind": "external",
+   "source": "Stack Overflow 2025: 51% of professionals daily; 47.1% daily plus 17.7% weekly of all respondents"
+  },
+  "nondev_ai_builders_active": {
+   "low": 2000000.0,
+   "mode": 5000000.0,
+   "high": 10000000.0,
+   "kind": "assumed",
+   "source": "Lovable ~8M users, Bolt 5M+, Replit 40M (mostly free, overlapping); active non-developer builders"
+  },
+  "price_per_seat_month": {
+   "low": 15,
+   "mode": 25,
+   "high": 50,
+   "kind": "assumed",
+   "source": "anchored by the measured $20 entry tier; loosethreads as an add-on to AI tool spend"
+  },
+  "entrant_share": {
+   "low": 0.25,
+   "mode": 0.32,
+   "high": 0.4,
+   "kind": "assumed",
+   "source": "developers with under about 5 years; Stack Overflow 2025 reports early career (1 to 5 years) as a large group"
+  },
+  "web_frontend_share": {
+   "low": 0.4,
+   "mode": 0.48,
+   "high": 0.55,
+   "kind": "assumed",
+   "source": "developers doing web front end or full stack"
+  },
+  "paying_or_influencing_share": {
+   "low": 0.3,
+   "mode": 0.45,
+   "high": 0.6,
+   "kind": "assumed",
+   "source": "share who pay for AI tools themselves or choose them"
+  },
+  "paying_vibe_builders": {
+   "low": 800000.0,
+   "mode": 1200000.0,
+   "high": 1800000.0,
+   "kind": "external",
+   "source": "Lovable ~$400M ARR / $30 to $50 a month = 0.67M to 1.1M; Replit 175K paying (Sacra); Bolt ~0.1M"
+  },
+  "high_end_share_of_paying_vibe": {
+   "low": 0.3,
+   "mode": 0.45,
+   "high": 0.6,
+   "kind": "assumed",
+   "source": "ship real products, pay for several tools, talk architecture or debt"
+  },
+  "reachable_share": {
+   "low": 0.5,
+   "mode": 0.6,
+   "high": 0.7,
+   "kind": "assumed",
+   "source": "English-first, web-first markets reachable at launch"
+  },
+  "som_penetration_3yr": {
+   "low": 0.005,
+   "mode": 0.015,
+   "high": 0.03,
+   "kind": "assumed",
+   "source": "share of SAM paying within 3 years, typical early devtools range"
+  },
+  "ai_coding_spend_2026_usd": {
+   "low": 6000000000.0,
+   "mode": 8000000000.0,
+   "high": 11000000000.0,
+   "kind": "external",
+   "source": "Cursor >$2B annualized (Bloomberg via TechCrunch); Claude Code $2.5B run rate (Anthropic claim); Lovable ~$0.4B; Replit, Bolt, Copilot and others (Copilot assumed $1.5B to $4B)"
+  },
+  "incidents_per_month": {
+   "low": 1,
+   "mode": 2,
+   "high": 4,
+   "kind": "assumed",
+   "source": "stated time-loss incidents per active builder per month"
+  },
+  "hours_per_incident": {
+   "low": 1,
+   "mode": 3,
+   "high": 8,
+   "kind": "measured",
+   "source": "median 3 hours lost per stated incident (n = 5,435 items; IQR 20 minutes to 48 hours, capped here)"
+  },
+  "hourly_value_usd": {
+   "low": 25,
+   "mode": 45,
+   "high": 75,
+   "kind": "assumed",
+   "source": "value of an hour of builder time"
+  },
+  "share_addressable": {
+   "low": 0.2,
+   "mode": 0.3,
+   "high": 0.5,
+   "kind": "assumed",
+   "source": "share of that time loss that contracts and gates address (drift, platform breaks, rework)"
+  }
+ },
+ "tam_people": {
+  "p10": 29409639.787927084,
+  "median": 32530263.714616027,
+  "p90": 35634007.58477508
+ },
+ "tam_usd_per_year": {
+  "p10": 8037625398.615048,
+  "median": 11335091369.363617,
+  "p90": 15969664095.254166
+ },
+ "tam_vs_current_ai_coding_spend": {
+  "p10": 0.9384912880026046,
+  "median": 1.3722799138816095,
+  "p90": 1.9905842629840855
+ },
+ "sam_people": {
+  "p10": 1747623.06833061,
+  "median": 2198692.847988976,
+  "p90": 2733233.256507228
+ },
+ "sam_entrant_fe_people": {
+  "p10": 1425402.1792217495,
+  "median": 1855949.8339738217,
+  "p90": 2370454.7953333785
+ },
+ "sam_high_end_vibe_people": {
+  "p10": 247726.01459821916,
+  "median": 335107.6852325093,
+  "p90": 445746.44867516874
+ },
+ "sam_usd_per_year": {
+  "p10": 514682342.7035719,
+  "median": 766989357.4525388,
+  "p90": 1133264821.3162377
+ },
+ "som_paying_seats": {
+  "p10": 20893.276626616964,
+  "median": 35615.46162378136,
+  "p90": 55036.003139047025
+ },
+ "som_usd_per_year": {
+  "p10": 6690709.327917387,
+  "median": 12341512.312261295,
+  "p90": 21305673.11806285
+ },
+ "pain_pool_usd_per_year_reference": {
+  "p10": 24021025989.596485,
+  "median": 51298784526.518684,
+  "p90": 103321404841.93501
+ },
+ "som_sensitivity_spearman": {
+  "developers_worldwide": 0.071,
+  "share_using_ai_weekly": -0.005,
+  "nondev_ai_builders_active": 0.001,
+  "price_per_seat_month": 0.548,
+  "entrant_share": 0.171,
+  "web_frontend_share": 0.119,
+  "paying_or_influencing_share": 0.249,
+  "paying_vibe_builders": 0.057,
+  "high_end_share_of_paying_vibe": 0.045,
+  "reachable_share": 0.149,
+  "som_penetration_3yr": 0.719,
+  "ai_coding_spend_2026_usd": 0.001,
+  "incidents_per_month": -0.003,
+  "hours_per_incident": -0.003,
+  "hourly_value_usd": 0.004,
+  "share_addressable": 0.002
+ }
+}

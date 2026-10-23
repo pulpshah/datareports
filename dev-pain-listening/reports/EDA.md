@@ -4,6 +4,7 @@
 - `reports/MONEY.md`: the money stated across all 277,504 items.
 - `reports/EVENTS.md`: the event timeline behind the Hacker News spikes.
 - `reports/NOTE-FOR-RADIANCE.md`: the rm_raw versus length finding, for the radiance team.
+- `reports/TAM.md`: TAM, SAM and SOM for loosethreads as an MCP offering, with ranges and every assumption labeled.
 
 **Scope.** Oct 23 2025 to Oct 23 2026, four equal quarters (W1 to W4). Two layers of evidence:
 

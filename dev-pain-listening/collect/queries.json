@@ -1,5 +1,5 @@
 {
-  "version": "1.3",
+  "version": "1.4",
   "frozen": "2026-10-23",
   "windows": [
     [
@@ -164,6 +164,23 @@
       "usage limit",
       "technical debt",
       "broke my"
+    ],
+    "icp_builder": [
+      "SideProject",
+      "indiehackers",
+      "nocode",
+      "SaaS",
+      "buildinpublic",
+      "Supabase",
+      "windsurf"
+    ],
+    "icp_entrant": [
+      "css",
+      "learnreactjs",
+      "tailwindcss",
+      "webdevelopment",
+      "codingbootcamp",
+      "FreeCodeCamp"
     ]
   },
   "hn_weekly_keywords": [

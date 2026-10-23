@@ -292,3 +292,17 @@ To save credits, Shah ended collection at 16:50 UTC and asked for a first sample
 - **Coding in this run:** batch 1 only, the first of the 8 proportional batches (about 250 candidates), with the blind
   second coder on 20%. The pre-registered n of 1,000 relevant items is reached by coding later batches; until then every
   number is reported as batch 1 with its interval, and quarter comparisons are labeled underpowered.
+
+### Amendment 5 (Oct 23 2026, 19:55 UTC): ICP-targeted collection
+
+The first run found only 5 of 145 coded items from the ICP (higher end vibe coders and entrant FE developers). To reach
+them, two community clusters are added, collected with the same week-by-week listing and frozen family regexes as
+Amendment 1, with text-availability counts as Amendment 3:
+- **icp_builder** (people shipping products, often with AI and low-code tools): r/SideProject, r/indiehackers,
+  r/nocode, r/SaaS, r/buildinpublic, r/Supabase (where UI-to-data wiring shows up), r/windsurf.
+- **icp_entrant** (people early in frontend work): r/css, r/learnreactjs, r/tailwindcss, r/webdevelopment,
+  r/codingbootcamp, r/FreeCodeCamp.
+
+AI families still require an AI term in these clusters, because they are not AI-dedicated communities. This is an
+expansion, not a change to the first run. Its sample is drawn later as a separate ICP stratum with its own seed, and its
+coding waits for Shah's credit call. `queries.json` is v1.4.
