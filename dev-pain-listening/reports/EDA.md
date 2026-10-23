@@ -1,5 +1,10 @@
 # Developer pain listening: first run (batch 1), Oct 23 2026
 
+**Added Oct 23, later:**
+- `reports/MONEY.md`: the money stated across all 277,504 items.
+- `reports/EVENTS.md`: the event timeline behind the Hacker News spikes.
+- `reports/NOTE-FOR-RADIANCE.md`: the rm_raw versus length finding, for the radiance team.
+
 **Scope.** Oct 23 2025 to Oct 23 2026, four equal quarters (W1 to W4). Two layers of evidence:
 
 1. **Population trends** from every Reddit post in 21 communities, about 453,000 scanned, 222,114 with surviving
