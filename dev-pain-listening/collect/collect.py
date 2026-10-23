@@ -23,8 +23,20 @@ ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "data" / "raw"
 Q = json.loads((ROOT / "collect" / "queries.json").read_text())
 SALT = (ROOT / "collect" / "salt.txt").read_text().strip()
-UA = "pulp-listening-study/1.0 (research; contact product@pulp.com.ai)"
+UA = "pulp-listening-study/1.0 (research)"
 CAP = 300
+# No request may carry an email address (incident, Oct 23 2026: the owner's address went out in the User-Agent).
+EMAIL_RE = re.compile(r"[\w.+-]+@[\w-]+(\.[\w-]+)*")
+
+
+def outbound_ok(url, headers):
+    """Stop the run before sending a request whose URL or headers hold an email address."""
+    for where, text in [("URL", urllib.parse.unquote(url))] + [(f"{k} header", v) for k, v in headers.items()]:
+        if EMAIL_RE.search(text):
+            raise SystemExit(f"refusing to send: an email address is in the {where}")
+
+
+outbound_ok("https://example.invalid/", {"User-Agent": UA})  # a bad User-Agent stops the run at start
 
 WINDOWS = [(w, int(datetime.fromisoformat(a).replace(tzinfo=timezone.utc).timestamp()),
             int(datetime.fromisoformat(b).replace(tzinfo=timezone.utc).timestamp()))
@@ -60,7 +72,9 @@ def get_json(url, gap=1.0, tries=6):
             time.sleep(wait)
         _last[host] = time.time()
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
+            headers = {"User-Agent": UA, "Accept": "application/json"}
+            outbound_ok(url, headers)
+            req = urllib.request.Request(url, headers=headers)
             with urllib.request.urlopen(req, timeout=90) as r:
                 data = json.loads(r.read().decode("utf-8", "replace"))
             if isinstance(data, dict) and data.get("error") and data.get("data") is None:

@@ -306,3 +306,13 @@ Amendment 1, with text-availability counts as Amendment 3:
 AI families still require an AI term in these clusters, because they are not AI-dedicated communities. This is an
 expansion, not a change to the first run. Its sample is drawn later as a separate ICP stratum with its own seed, and its
 coding waits for Shah's credit call. `queries.json` is v1.4.
+
+### Amendment 6 (Oct 23 2026, 22:05 UTC): no email address in any request
+**What changed.** The crawler's User-Agent names the study only (`pulp-listening-study/1.0 (research)`), and
+`collect.py` stops the run before sending any request whose URL or headers hold an email address. Before any new
+crawl starts, the exact headers of its first request are written here for Shah to see.
+
+**Why.** From 15:09 to 19:57 UTC on Oct 23 the crawler sent Shah's work email to outside services in its User-Agent.
+`INCIDENTS.md` records what went out, where, why, and the safeguards.
+
+**Effect on the design.** None on the data, windows, sample or codebook.
