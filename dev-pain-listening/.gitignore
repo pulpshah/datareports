@@ -1,3 +1,4 @@
 data/raw/*.jsonl
 data/raw/log_*.txt
 __pycache__/
+!data/raw/*.jsonl.gz
