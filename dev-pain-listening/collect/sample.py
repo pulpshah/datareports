@@ -26,6 +26,8 @@ PER_WINDOW = 500
 N_BATCHES = 8
 AUTHOR_CAP = 3
 MIN_CHARS = 60
+_cp = RAW / "comment_pairs_complete.json"
+COMPLETE_PAIRS = json.loads(_cp.read_text()) if _cp.exists() else []
 
 # Section 5 quotas as shares of a window's 500.
 QUOTAS = {
@@ -70,10 +72,8 @@ def load_pool():
             r = json.loads(line)
             if not r.get("window"):
                 continue
-            if r["src"] == "reddit" and r["kind"] == "comment" and (
-                    r["community"] not in collect.Q["reddit"]["comment_subs"]
-                    or r.get("kw") not in collect.Q["reddit"]["comment_keywords"]):
-                continue  # Amendment 2: only the evenly covered comment queries enter the sample
+            if r["src"] == "reddit" and r["kind"] == "comment" and [r["community"], r.get("kw")] not in COMPLETE_PAIRS:
+                continue  # Amendment 4: only comment queries complete in every window enter the sample
             if r["src"] == "devto" and r.get("kw") not in ("vibecoding", "ai"):
                 continue  # Amendment 3: only the fully crawled DEV.to tags enter the sample
             body = (r.get("title") or "") + "\n" + (r.get("text") or "")
@@ -127,9 +127,12 @@ def main():
             short = quota[st] - len(strata.get(st, []))
             if short > 0:
                 quota[st] = len(strata.get(st, []))
-                sibs = [s for s in QUOTAS if s[0] == st[0] and s != st] or [s for s in QUOTAS if s != st]
+                # same source and cluster first (a missing comment quota goes to that cluster's posts)
+                sibs = ([s for s in QUOTAS if s[:2] == st[:2] and s != st]
+                        + [s for s in QUOTAS if s[0] == st[0] and s[:2] != st[:2]]
+                        or [s for s in QUOTAS if s != st])
                 spare = {s: len(strata.get(s, [])) - quota[s] for s in sibs}
-                for s in sorted(sibs, key=lambda s: -spare[s]):
+                for s in sibs:
                     give = min(short, max(0, spare[s]))
                     quota[s] += give
                     short -= give

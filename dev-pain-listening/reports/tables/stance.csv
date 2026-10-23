@@ -1,0 +1,5 @@
+value,n,share,ci_lo,ci_hi
+complaint,73,0.5034,0.423,0.5837
+praise_or_fix,35,0.2414,0.179,0.3171
+mixed,26,0.1793,0.1254,0.2498
+neutral_question,11,0.0759,0.0429,0.1307

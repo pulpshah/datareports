@@ -274,3 +274,21 @@ survivors.
 8,661 in W1 to 118,873 in W4 (13 times). That is far beyond the 200 item DEV.to quota, so DEV.to was stopped
 once "vibecoding" and "ai" were complete in every window. The one partial "webdev" page (W4 only) is excluded
 from the sample. The W1 to W4 rise is reported as a finding about DEV.to volume, not about developer pain.
+
+**Comment chunks that failed.** Until 16:40 UTC on Oct 23, a comment chunk whose request gave up after its
+retries was still marked done, with a count of 0. Those 23 chunks are read back from the logs and retried, and a
+failed chunk is now never marked done. Comments now run as one lane per community. Any chunk still failing at the
+end is listed as a gap in the report.
+
+### Amendment 4 (Oct 23 2026, before any item was drawn or coded): the first run is cut off
+
+To save credits, Shah ended collection at 16:50 UTC and asked for a first sample run, with expansion later.
+
+- **Collected:** every source is complete except Reddit comments, which stopped at 128 of 260 chunks. Reddit posts are
+  complete: 21 communities, 53 weeks each, 453,082 posts scanned, with text availability counted for every week.
+- **Comments in this run:** only keyword and community pairs complete in every window enter the sample: r/ClaudeAI
+  (expensive, usage limit, technical debt, broke my) and r/cursor (expensive, usage limit, technical debt). So comments
+  speak for the AI cluster only. The dev and learner comment quotas move to those clusters' posts first.
+- **Coding in this run:** batch 1 only, the first of the 8 proportional batches (about 250 candidates), with the blind
+  second coder on 20%. The pre-registered n of 1,000 relevant items is reached by coding later batches; until then every
+  number is reported as batch 1 with its interval, and quarter comparisons are labeled underpowered.

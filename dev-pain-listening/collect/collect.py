@@ -212,10 +212,23 @@ def reddit_recount(s, only=None):
     reddit_posts(s, only)
 
 
-def reddit_comments(s):
+def reddit_comments(s, only=None):
+    """Comments by keyword in about 30 day chunks. `only` is one community, for a parallel lane.
+
+    A chunk is marked done only when its request succeeded, so a failure is retried on the next run and
+    never stands as a zero. Done keys are shared across lanes; chunks that gave up before this fix are
+    read from the logs and retried.
+    """
     fields = "id,body,created_utc,score,author,link_id,subreddit,author_flair_text"
     ai = set(Q["reddit"]["ai"])
+    for f in RAW.glob("_done_reddit_comments*.txt"):
+        s.done |= set(f.read_text().split("\n"))
+    for f in RAW.glob("log_reddit_comments*.txt"):
+        for m in re.finditer(r"GAVE UP \S*subreddit=([^&]+)&body=([^&]+)&after=(\d+)", f.read_text()):
+            s.done.discard(f"{m.group(1)}|{urllib.parse.unquote(m.group(2))}|{m.group(3)}")
     for sub in Q["reddit"]["comment_subs"]:
+        if only and sub != only:
+            continue
         cluster = "ai" if sub in ai else ("learner" if sub in Q["reddit"]["learner"] else "dev")
         for kw in Q["reddit"]["comment_keywords"]:
             for w, a, b in WINDOWS:
@@ -226,8 +239,10 @@ def reddit_comments(s):
                         continue
                     url = (f"{ARCTIC}/comments/search?subreddit={sub}&body={urllib.parse.quote(kw)}"
                            f"&after={ca}&before={cb}&limit=100&fields={fields}")
-                    d = get_json(url, gap=2.0)
-                    rows = (d or {}).get("data") or []
+                    d = get_json(url, gap=2.0, tries=8)
+                    if d is None:
+                        continue  # not marked: retried on the next run
+                    rows = d.get("data") or []
                     for c in rows:
                         s.item({"src": "reddit", "kind": "comment", "id": "t1_" + c["id"],
                                 "community": c.get("subreddit") or sub, "cluster": cluster,
@@ -399,7 +414,9 @@ def so(s):
 if __name__ == "__main__":
     src = sys.argv[1]
     only = sys.argv[2] if len(sys.argv) > 2 else None
-    if only:  # the dev worker keeps the original file names, so its finished weeks are not refetched
+    if src == "reddit_comments" and only:
+        globals()[src](Sink(f"{src}_{only}"), only)
+    elif only:  # the dev worker keeps the original file names, so its finished weeks are not refetched
         name = src if only == "dev" else f"{src}_{only}"
         if len(sys.argv) > 4:  # a lane for some of a cluster's communities: `<cluster> <sub,sub> <lane>`
             name = f"{name}_{sys.argv[4]}"

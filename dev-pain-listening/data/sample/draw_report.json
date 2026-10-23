@@ -1,0 +1,124 @@
+{
+  "pool_total": 277504,
+  "windows": {
+    "W1": {
+      "pool": {
+        "devto|devto|*": 2324,
+        "discourse|forum.cursor.com|*": 1745,
+        "discourse|community.vercel.com|*": 254,
+        "hn|hn|*": 8465,
+        "reddit|ai|comment": 1208,
+        "reddit|dev|post": 4980,
+        "reddit|ai|post": 16598,
+        "reddit|learner|post": 1306,
+        "stackoverflow|so|*": 42
+      },
+      "quota": {
+        "reddit|dev|post": 83,
+        "reddit|dev|comment": 0,
+        "reddit|learner|post": 83,
+        "reddit|learner|comment": 0,
+        "reddit|ai|post": 50,
+        "reddit|ai|comment": 34,
+        "hn|hn|*": 100,
+        "discourse|forum.cursor.com|*": 50,
+        "discourse|community.vercel.com|*": 25,
+        "devto|devto|*": 50,
+        "stackoverflow|so|*": 25
+      },
+      "drawn": 500
+    },
+    "W2": {
+      "pool": {
+        "devto|devto|*": 15824,
+        "discourse|forum.cursor.com|*": 1941,
+        "discourse|community.vercel.com|*": 350,
+        "hn|hn|*": 10230,
+        "reddit|ai|comment": 1131,
+        "reddit|dev|post": 6189,
+        "reddit|ai|post": 34219,
+        "reddit|learner|post": 1407,
+        "stackoverflow|so|*": 21
+      },
+      "quota": {
+        "reddit|dev|post": 87,
+        "reddit|dev|comment": 0,
+        "reddit|learner|post": 83,
+        "reddit|learner|comment": 0,
+        "reddit|ai|post": 50,
+        "reddit|ai|comment": 34,
+        "hn|hn|*": 100,
+        "discourse|forum.cursor.com|*": 50,
+        "discourse|community.vercel.com|*": 25,
+        "devto|devto|*": 50,
+        "stackoverflow|so|*": 21
+      },
+      "drawn": 500
+    },
+    "W3": {
+      "pool": {
+        "devto|devto|*": 40270,
+        "discourse|forum.cursor.com|*": 1933,
+        "discourse|community.vercel.com|*": 237,
+        "hn|hn|*": 8250,
+        "reddit|ai|comment": 1236,
+        "reddit|dev|post": 4405,
+        "reddit|ai|post": 31891,
+        "reddit|learner|post": 1170,
+        "stackoverflow|so|*": 12
+      },
+      "quota": {
+        "reddit|dev|post": 96,
+        "reddit|dev|comment": 0,
+        "reddit|learner|post": 83,
+        "reddit|learner|comment": 0,
+        "reddit|ai|post": 50,
+        "reddit|ai|comment": 34,
+        "hn|hn|*": 100,
+        "discourse|forum.cursor.com|*": 50,
+        "discourse|community.vercel.com|*": 25,
+        "devto|devto|*": 50,
+        "stackoverflow|so|*": 12
+      },
+      "drawn": 500
+    },
+    "W4": {
+      "pool": {
+        "devto|devto|*": 40612,
+        "discourse|forum.cursor.com|*": 1963,
+        "discourse|community.vercel.com|*": 254,
+        "hn|hn|*": 8146,
+        "reddit|ai|comment": 1327,
+        "reddit|dev|post": 2660,
+        "reddit|ai|post": 24106,
+        "reddit|learner|post": 791,
+        "stackoverflow|so|*": 7
+      },
+      "quota": {
+        "reddit|dev|post": 101,
+        "reddit|dev|comment": 0,
+        "reddit|learner|post": 83,
+        "reddit|learner|comment": 0,
+        "reddit|ai|post": 50,
+        "reddit|ai|comment": 34,
+        "hn|hn|*": 100,
+        "discourse|forum.cursor.com|*": 50,
+        "discourse|community.vercel.com|*": 25,
+        "devto|devto|*": 50,
+        "stackoverflow|so|*": 7
+      },
+      "drawn": 500
+    }
+  },
+  "drawn_total": 2000,
+  "by_batch": {
+    "1": 273,
+    "2": 268,
+    "3": 252,
+    "4": 247,
+    "5": 242,
+    "6": 240,
+    "7": 240,
+    "8": 238
+  }
+}

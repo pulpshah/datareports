@@ -56,3 +56,58 @@ ClaudeAI|technical debt|1782086400
 ClaudeAI|technical debt|1784678400
 ClaudeAI|technical debt|1784764800
 ClaudeAI|technical debt|1787356800
+ClaudeAI|technical debt|1789948800
+ClaudeAI|technical debt|1792540800
+ClaudeAI|broke my|1761177600
+ClaudeAI|broke my|1763769600
+ClaudeAI|broke my|1766361600
+ClaudeAI|broke my|1768953600
+ClaudeAI|broke my|1769126400
+ClaudeAI|broke my|1771718400
+ClaudeAI|broke my|1774310400
+ClaudeAI|broke my|1776902400
+ClaudeAI|broke my|1779494400
+ClaudeAI|broke my|1782086400
+ClaudeAI|broke my|1784678400
+ClaudeAI|broke my|1784764800
+ClaudeAI|broke my|1787356800
+ClaudeAI|broke my|1789948800
+ClaudeAI|broke my|1792540800
+cursor|expensive|1761177600
+cursor|expensive|1763769600
+cursor|expensive|1766361600
+cursor|expensive|1768953600
+cursor|expensive|1769126400
+cursor|expensive|1771718400
+cursor|expensive|1774310400
+cursor|expensive|1776902400
+cursor|expensive|1779494400
+cursor|expensive|1782086400
+cursor|expensive|1784678400
+cursor|expensive|1784764800
+cursor|expensive|1787356800
+cursor|expensive|1789948800
+cursor|expensive|1792540800
+cursor|usage limit|1761177600
+cursor|usage limit|1763769600
+cursor|usage limit|1766361600
+cursor|usage limit|1768953600
+cursor|usage limit|1769126400
+cursor|usage limit|1771718400
+cursor|usage limit|1774310400
+cursor|usage limit|1776902400
+cursor|usage limit|1779494400
+cursor|usage limit|1782086400
+cursor|usage limit|1784678400
+cursor|usage limit|1784764800
+cursor|usage limit|1787356800
+cursor|usage limit|1789948800
+cursor|usage limit|1792540800
+cursor|technical debt|1761177600
+cursor|technical debt|1763769600
+cursor|technical debt|1766361600
+cursor|technical debt|1768953600
+cursor|technical debt|1769126400
+cursor|technical debt|1771718400
+cursor|technical debt|1774310400
+cursor|technical debt|1776902400

@@ -1,0 +1,41 @@
+tool,n,share,complaint,praise_or_fix,net_complaint,median_pm_fair,top_theme
+Cursor,36,0.2483,20,9,0.306,0.145,other
+Claude,15,0.1034,4,5,-0.067,0.159,ai_cost
+Claude Code,13,0.0897,3,4,-0.077,0.266,ai_cost
+TypeScript,7,0.0483,3,1,0.286,0.221,ai_stability
+Vercel,7,0.0483,7,0,1.0,0.221,other
+MCP,7,0.0483,1,5,-0.571,0.242,other
+Next.js,6,0.0414,1,0,0.167,0.225,ai_stability
+Docker,6,0.0414,4,1,0.5,0.299,other
+Codex,6,0.0414,0,3,-0.5,0.209,ai_cost
+Opus,5,0.0345,1,2,-0.2,0.147,ai_cost
+v0,5,0.0345,4,1,0.6,0.196,ai_cost
+React,5,0.0345,0,3,-0.6,0.201,ai_stability
+VS Code,5,0.0345,2,2,0.0,0.169,other
+Python,5,0.0345,3,2,0.2,0.278,ai_stability
+npm,4,0.0276,2,2,0.0,0.255,build_time
+Auto,4,0.0276,3,1,0.5,0.097,ai_cost
+Copilot,4,0.0276,1,1,0.0,0.236,ai_cost
+Sonnet,4,0.0276,1,2,-0.25,0.183,ai_cost
+Node.js,3,0.0207,1,2,-0.333,0.29,other
+express,3,0.0207,1,1,0.0,0.29,other
+Postgres,3,0.0207,1,1,0.0,0.35,ui_data_gap
+AWS,3,0.0207,1,0,0.333,0.222,ai_cost
+Claude Max,3,0.0207,1,1,0.0,0.197,ai_cost
+git,3,0.0207,2,1,0.333,0.257,ai_cost
+Angular,3,0.0207,1,2,-0.333,0.253,other
+CLAUDE.md,3,0.0207,1,0,0.333,0.191,ai_stability
+GitHub,3,0.0207,3,0,1.0,0.287,other
+Fable,3,0.0207,1,2,-0.333,0.108,ai_speed
+OpenAI,2,0.0138,1,0,0.5,0.146,ai_stability
+Tailwind,2,0.0138,0,1,-0.5,0.268,other
+Claude API,2,0.0138,1,0,0.5,0.116,ai_cost
+Claude Pro,2,0.0138,2,0,1.0,0.134,ai_cost
+Claude Opus,2,0.0138,0,0,0.0,0.166,ai_cost
+Opus 4.5,2,0.0138,1,0,0.5,0.167,ai_cost
+Netlify,2,0.0138,0,2,-1.0,0.238,other
+Django,2,0.0138,1,1,0.0,0.321,other
+local LLM,2,0.0138,1,1,0.0,0.203,ai_cost
+SQLite,2,0.0138,0,0,0.0,0.339,ai_stability
+ESLint,2,0.0138,1,0,0.5,0.274,build_time
+Figma,2,0.0138,0,1,-0.5,0.244,ai_stability

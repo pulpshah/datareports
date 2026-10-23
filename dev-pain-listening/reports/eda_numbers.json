@@ -1,0 +1,2581 @@
+{
+ "n_candidates": 273,
+ "n_relevant": 145,
+ "relevance_rate": [
+  0.5311,
+  0.4719,
+  0.5895
+ ],
+ "k_median_rm_batch1": 716.35,
+ "by_window": {
+  "W1": 69,
+  "W2": 68,
+  "W3": 68,
+  "W4": 68
+ },
+ "relevant_by_window": {
+  "W1": 41,
+  "W2": 39,
+  "W3": 35,
+  "W4": 30
+ },
+ "relevant_by_source": {
+  "devto": 16,
+  "discourse": 43,
+  "hn": 17,
+  "reddit": 61,
+  "stackoverflow": 8
+ },
+ "relevant_by_cluster": {
+  "ai": 37,
+  "dev": 15,
+  "devto": 16,
+  "forum": 43,
+  "hn": 17,
+  "learner": 9,
+  "so": 8
+ },
+ "stance": [
+  {
+   "value": "complaint",
+   "n": 73,
+   "share": 0.5034,
+   "ci_lo": 0.423,
+   "ci_hi": 0.5837
+  },
+  {
+   "value": "praise_or_fix",
+   "n": 35,
+   "share": 0.2414,
+   "ci_lo": 0.179,
+   "ci_hi": 0.3171
+  },
+  {
+   "value": "mixed",
+   "n": 26,
+   "share": 0.1793,
+   "ci_lo": 0.1254,
+   "ci_hi": 0.2498
+  },
+  {
+   "value": "neutral_question",
+   "n": 11,
+   "share": 0.0759,
+   "ci_lo": 0.0429,
+   "ci_hi": 0.1307
+  }
+ ],
+ "tier": [
+  {
+   "value": "unknown",
+   "n": 115,
+   "share": 0.7931,
+   "ci_lo": 0.72,
+   "ci_hi": 0.8511
+  },
+  {
+   "value": "expert",
+   "n": 14,
+   "share": 0.0966,
+   "ci_lo": 0.0584,
+   "ci_hi": 0.1555
+  },
+  {
+   "value": "entrant",
+   "n": 8,
+   "share": 0.0552,
+   "ci_lo": 0.0282,
+   "ci_hi": 0.1051
+  },
+  {
+   "value": "intermediate",
+   "n": 7,
+   "share": 0.0483,
+   "ci_lo": 0.0236,
+   "ci_hi": 0.0963
+  },
+  {
+   "value": "vibe_coder",
+   "n": 1,
+   "share": 0.0069,
+   "ci_lo": 0.0012,
+   "ci_hi": 0.038
+  }
+ ],
+ "tier_confidence": {
+  "high": {
+   "entrant": 5,
+   "expert": 2,
+   "intermediate": 0,
+   "unknown": 0,
+   "vibe_coder": 0
+  },
+  "low": {
+   "entrant": 1,
+   "expert": 6,
+   "intermediate": 5,
+   "unknown": 115,
+   "vibe_coder": 0
+  },
+  "medium": {
+   "entrant": 2,
+   "expert": 6,
+   "intermediate": 2,
+   "unknown": 0,
+   "vibe_coder": 1
+  }
+ },
+ "icp": [
+  {
+   "value": "unknown",
+   "n": 115,
+   "share": 0.7931,
+   "ci_lo": 0.72,
+   "ci_hi": 0.8511
+  },
+  {
+   "value": "neither",
+   "n": 26,
+   "share": 0.1793,
+   "ci_lo": 0.1254,
+   "ci_hi": 0.2498
+  },
+  {
+   "value": "entrant_fe",
+   "n": 4,
+   "share": 0.0276,
+   "ci_lo": 0.0108,
+   "ci_hi": 0.0688
+  }
+ ],
+ "severity": [
+  {
+   "value": "none",
+   "n": 71,
+   "share": 0.4897,
+   "ci_lo": 0.4096,
+   "ci_hi": 0.5702
+  },
+  {
+   "value": "annoyed",
+   "n": 56,
+   "share": 0.3862,
+   "ci_lo": 0.3109,
+   "ci_hi": 0.4674
+  },
+  {
+   "value": "blocked",
+   "n": 16,
+   "share": 0.1103,
+   "ci_lo": 0.0691,
+   "ci_hi": 0.1717
+  },
+  {
+   "value": "switched_or_quit",
+   "n": 2,
+   "share": 0.0138,
+   "ci_lo": 0.0038,
+   "ci_hi": 0.0489
+  }
+ ],
+ "tier_by_cluster": {
+  "entrant": {
+   "ai": 0,
+   "dev": 2,
+   "devto": 0,
+   "forum": 0,
+   "hn": 0,
+   "learner": 6,
+   "so": 0
+  },
+  "expert": {
+   "ai": 1,
+   "dev": 2,
+   "devto": 2,
+   "forum": 5,
+   "hn": 2,
+   "learner": 0,
+   "so": 2
+  },
+  "intermediate": {
+   "ai": 0,
+   "dev": 3,
+   "devto": 1,
+   "forum": 2,
+   "hn": 0,
+   "learner": 1,
+   "so": 0
+  },
+  "unknown": {
+   "ai": 35,
+   "dev": 8,
+   "devto": 13,
+   "forum": 36,
+   "hn": 15,
+   "learner": 2,
+   "so": 6
+  },
+  "vibe_coder": {
+   "ai": 1,
+   "dev": 0,
+   "devto": 0,
+   "forum": 0,
+   "hn": 0,
+   "learner": 0,
+   "so": 0
+  }
+ },
+ "themes": [
+  {
+   "value": "ai_cost",
+   "n": 52,
+   "share": 0.3586,
+   "ci_lo": 0.2851,
+   "ci_hi": 0.4394
+  },
+  {
+   "value": "other",
+   "n": 50,
+   "share": 0.3448,
+   "ci_lo": 0.2724,
+   "ci_hi": 0.4253
+  },
+  {
+   "value": "ai_stability",
+   "n": 39,
+   "share": 0.269,
+   "ci_lo": 0.2034,
+   "ci_hi": 0.3464
+  },
+  {
+   "value": "ai_speed",
+   "n": 22,
+   "share": 0.1517,
+   "ci_lo": 0.1024,
+   "ci_hi": 0.219
+  },
+  {
+   "value": "build_time",
+   "n": 8,
+   "share": 0.0552,
+   "ci_lo": 0.0282,
+   "ci_hi": 0.1051
+  },
+  {
+   "value": "ui_data_gap",
+   "n": 7,
+   "share": 0.0483,
+   "ci_lo": 0.0236,
+   "ci_hi": 0.0963
+  },
+  {
+   "value": "tool_fragmentation",
+   "n": 7,
+   "share": 0.0483,
+   "ci_lo": 0.0236,
+   "ci_hi": 0.0963
+  }
+ ],
+ "layers": [
+  {
+   "value": "cross",
+   "n": 102,
+   "share": 0.7034,
+   "ci_lo": 0.6246,
+   "ci_hi": 0.7718
+  },
+  {
+   "value": "ci_infra",
+   "n": 26,
+   "share": 0.1793,
+   "ci_lo": 0.1254,
+   "ci_hi": 0.2498
+  },
+  {
+   "value": "fe",
+   "n": 21,
+   "share": 0.1448,
+   "ci_lo": 0.0967,
+   "ci_hi": 0.2113
+  },
+  {
+   "value": "be",
+   "n": 20,
+   "share": 0.1379,
+   "ci_lo": 0.0911,
+   "ci_hi": 0.2035
+  },
+  {
+   "value": "data",
+   "n": 10,
+   "share": 0.069,
+   "ci_lo": 0.0379,
+   "ci_hi": 0.1223
+  },
+  {
+   "value": "interactivity",
+   "n": 4,
+   "share": 0.0276,
+   "ci_lo": 0.0108,
+   "ci_hi": 0.0688
+  }
+ ],
+ "pain_types": [
+  {
+   "value": "costly",
+   "n": 50,
+   "share": 0.3448,
+   "ci_lo": 0.2724,
+   "ci_hi": 0.4253
+  },
+  {
+   "value": "wrong_output",
+   "n": 22,
+   "share": 0.1517,
+   "ci_lo": 0.1024,
+   "ci_hi": 0.219
+  },
+  {
+   "value": "none",
+   "n": 21,
+   "share": 0.1448,
+   "ci_lo": 0.0967,
+   "ci_hi": 0.2113
+  },
+  {
+   "value": "context_limits",
+   "n": 15,
+   "share": 0.1034,
+   "ci_lo": 0.0637,
+   "ci_hi": 0.1637
+  },
+  {
+   "value": "cant_debug",
+   "n": 15,
+   "share": 0.1034,
+   "ci_lo": 0.0637,
+   "ci_hi": 0.1637
+  },
+  {
+   "value": "slow",
+   "n": 14,
+   "share": 0.0966,
+   "ci_lo": 0.0584,
+   "ci_hi": 0.1555
+  },
+  {
+   "value": "drift_inconsistency",
+   "n": 13,
+   "share": 0.0897,
+   "ci_lo": 0.0531,
+   "ci_hi": 0.1473
+  },
+  {
+   "value": "learning_curve",
+   "n": 9,
+   "share": 0.0621,
+   "ci_lo": 0.033,
+   "ci_hi": 0.1137
+  },
+  {
+   "value": "review_burden",
+   "n": 9,
+   "share": 0.0621,
+   "ci_lo": 0.033,
+   "ci_hi": 0.1137
+  },
+  {
+   "value": "debt_buildup",
+   "n": 8,
+   "share": 0.0552,
+   "ci_lo": 0.0282,
+   "ci_hi": 0.1051
+  },
+  {
+   "value": "flaky",
+   "n": 5,
+   "share": 0.0345,
+   "ci_lo": 0.0148,
+   "ci_hi": 0.0782
+  },
+  {
+   "value": "scattered_tools",
+   "n": 4,
+   "share": 0.0276,
+   "ci_lo": 0.0108,
+   "ci_hi": 0.0688
+  },
+  {
+   "value": "lock_in",
+   "n": 3,
+   "share": 0.0207,
+   "ci_lo": 0.0071,
+   "ci_hi": 0.0591
+  }
+ ],
+ "theme_pairs": [
+  {
+   "pair": [
+    "ai_cost",
+    "ai_stability"
+   ],
+   "n": 11
+  },
+  {
+   "pair": [
+    "ai_speed",
+    "ai_stability"
+   ],
+   "n": 6
+  },
+  {
+   "pair": [
+    "ai_stability",
+    "other"
+   ],
+   "n": 5
+  },
+  {
+   "pair": [
+    "ai_cost",
+    "ai_speed"
+   ],
+   "n": 5
+  },
+  {
+   "pair": [
+    "build_time",
+    "other"
+   ],
+   "n": 4
+  },
+  {
+   "pair": [
+    "ai_speed",
+    "other"
+   ],
+   "n": 3
+  },
+  {
+   "pair": [
+    "other",
+    "tool_fragmentation"
+   ],
+   "n": 2
+  },
+  {
+   "pair": [
+    "ai_stability",
+    "tool_fragmentation"
+   ],
+   "n": 2
+  },
+  {
+   "pair": [
+    "ai_cost",
+    "other"
+   ],
+   "n": 2
+  },
+  {
+   "pair": [
+    "ai_cost",
+    "tool_fragmentation"
+   ],
+   "n": 1
+  },
+  {
+   "pair": [
+    "ai_stability",
+    "build_time"
+   ],
+   "n": 1
+  },
+  {
+   "pair": [
+    "ai_cost",
+    "build_time"
+   ],
+   "n": 1
+  }
+ ],
+ "n_known_tier": 30,
+ "n_icp": 4,
+ "n_expert": 14,
+ "argument_type": [
+  {
+   "value": "anecdote",
+   "n": 81,
+   "share": 0.5586,
+   "ci_lo": 0.4773,
+   "ci_hi": 0.6369
+  },
+  {
+   "value": "generalization",
+   "n": 16,
+   "share": 0.1103,
+   "ci_lo": 0.0691,
+   "ci_hi": 0.1717
+  },
+  {
+   "value": "question",
+   "n": 15,
+   "share": 0.1034,
+   "ci_lo": 0.0637,
+   "ci_hi": 0.1637
+  },
+  {
+   "value": "venting",
+   "n": 13,
+   "share": 0.0897,
+   "ci_lo": 0.0531,
+   "ci_hi": 0.1473
+  },
+  {
+   "value": "authority",
+   "n": 9,
+   "share": 0.0621,
+   "ci_lo": 0.033,
+   "ci_hi": 0.1137
+  },
+  {
+   "value": "measurement",
+   "n": 7,
+   "share": 0.0483,
+   "ci_lo": 0.0236,
+   "ci_hi": 0.0963
+  },
+  {
+   "value": "analogy",
+   "n": 3,
+   "share": 0.0207,
+   "ci_lo": 0.0071,
+   "ci_hi": 0.0591
+  },
+  {
+   "value": "benchmark_or_link",
+   "n": 1,
+   "share": 0.0069,
+   "ci_lo": 0.0012,
+   "ci_hi": 0.038
+  }
+ ],
+ "evidence_level": [
+  {
+   "value": "personal_experience",
+   "n": 93,
+   "share": 0.6414,
+   "ci_lo": 0.5606,
+   "ci_hi": 0.7149
+  },
+  {
+   "value": "none",
+   "n": 25,
+   "share": 0.1724,
+   "ci_lo": 0.1196,
+   "ci_hi": 0.2421
+  },
+  {
+   "value": "numbers_given",
+   "n": 22,
+   "share": 0.1517,
+   "ci_lo": 0.1024,
+   "ci_hi": 0.219
+  },
+  {
+   "value": "external_source",
+   "n": 5,
+   "share": 0.0345,
+   "ci_lo": 0.0148,
+   "ci_hi": 0.0782
+  }
+ ],
+ "promo_share": [
+  16,
+  0.0691,
+  0.1717
+ ],
+ "ai_written": {
+  "false": 122,
+  "unsure": 21,
+  "true": 2
+ },
+ "dist_rm_raw": {
+  "n": 145,
+  "mean": 1094.738,
+  "sd": 1019.813,
+  "min": 82.55,
+  "p10": 149.51,
+  "q1": 321.6,
+  "median": 716.35,
+  "q3": 1402.8,
+  "p90": 2962.33,
+  "max": 3671.0,
+  "median_ci": [
+   593.6,
+   905.85
+  ],
+  "skew": 1.186
+ },
+ "dist_pa": {
+  "n": 145,
+  "mean": 0.314,
+  "sd": 0.096,
+  "min": -0.095,
+  "p10": 0.209,
+  "q1": 0.259,
+  "median": 0.325,
+  "q3": 0.365,
+  "p90": 0.435,
+  "max": 0.529,
+  "median_ci": [
+   0.3,
+   0.338
+  ],
+  "skew": -0.615
+ },
+ "dist_speed": {
+  "n": 145,
+  "mean": 0.375,
+  "sd": 0.084,
+  "min": 0.123,
+  "p10": 0.268,
+  "q1": 0.318,
+  "median": 0.377,
+  "q3": 0.427,
+  "p90": 0.476,
+  "max": 0.584,
+  "median_ci": [
+   0.36,
+   0.397
+  ],
+  "skew": -0.158
+ },
+ "dist_pf": {
+  "n": 145,
+  "mean": 364.27,
+  "sd": 391.832,
+  "min": -256.999,
+  "p10": 45.211,
+  "q1": 87.436,
+  "median": 236.023,
+  "q3": 487.739,
+  "p90": 959.219,
+  "max": 1795.119,
+  "median_ci": [
+   163.836,
+   285.167
+  ],
+  "skew": 1.57
+ },
+ "dist_pm": {
+  "n": 145,
+  "mean": 425.324,
+  "sd": 429.214,
+  "min": 17.289,
+  "p10": 57.645,
+  "q1": 113.325,
+  "median": 292.699,
+  "q3": 588.084,
+  "p90": 1123.178,
+  "max": 1896.525,
+  "median_ci": [
+   203.468,
+   348.346
+  ],
+  "skew": 1.494
+ },
+ "dist_pf_fair": {
+  "n": 145,
+  "mean": 0.161,
+  "sd": 0.098,
+  "min": -0.075,
+  "p10": 0.049,
+  "q1": 0.082,
+  "median": 0.157,
+  "q3": 0.219,
+  "p90": 0.291,
+  "max": 0.414,
+  "median_ci": [
+   0.129,
+   0.181
+  ],
+  "skew": 0.472
+ },
+ "dist_pm_fair": {
+  "n": 145,
+  "mean": 0.19,
+  "sd": 0.103,
+  "min": 0.021,
+  "p10": 0.064,
+  "q1": 0.108,
+  "median": 0.189,
+  "q3": 0.257,
+  "p90": 0.322,
+  "max": 0.439,
+  "median_ci": [
+   0.155,
+   0.206
+  ],
+  "skew": 0.439
+ },
+ "channels_mean": {
+  "ethos": 0.159,
+  "pathos": 0.143,
+  "logos": 0.217,
+  "kairos": 0.328,
+  "style": 0.079,
+  "clarity": 0.512,
+  "focus": 0.562,
+  "awareness": 0.211
+ },
+ "channels_by_tier": {
+  "ch_ethos": {
+   "entrant": 0.025,
+   "expert": 0.429,
+   "intermediate": 0.214,
+   "unknown": 0.133,
+   "vibe_coder": 0.1
+  },
+  "ch_pathos": {
+   "entrant": 0.238,
+   "expert": 0.129,
+   "intermediate": 0.229,
+   "unknown": 0.132,
+   "vibe_coder": 0.3
+  },
+  "ch_logos": {
+   "entrant": 0.112,
+   "expert": 0.414,
+   "intermediate": 0.271,
+   "unknown": 0.197,
+   "vibe_coder": 0.1
+  },
+  "ch_kairos": {
+   "entrant": 0.312,
+   "expert": 0.364,
+   "intermediate": 0.357,
+   "unknown": 0.323,
+   "vibe_coder": 0.4
+  },
+  "ch_style": {
+   "entrant": 0.0,
+   "expert": 0.157,
+   "intermediate": 0.143,
+   "unknown": 0.07,
+   "vibe_coder": 0.1
+  },
+  "ch_clarity": {
+   "entrant": 0.5,
+   "expert": 0.564,
+   "intermediate": 0.5,
+   "unknown": 0.508,
+   "vibe_coder": 0.5
+  },
+  "ch_focus": {
+   "entrant": 0.575,
+   "expert": 0.629,
+   "intermediate": 0.514,
+   "unknown": 0.556,
+   "vibe_coder": 0.6
+  },
+  "ch_awareness": {
+   "entrant": 0.45,
+   "expert": 0.35,
+   "intermediate": 0.329,
+   "unknown": 0.17,
+   "vibe_coder": 0.3
+  }
+ },
+ "channels_by_stance": {
+  "ch_ethos": {
+   "complaint": 0.137,
+   "mixed": 0.192,
+   "neutral_question": 0.045,
+   "praise_or_fix": 0.217
+  },
+  "ch_pathos": {
+   "complaint": 0.189,
+   "mixed": 0.123,
+   "neutral_question": 0.118,
+   "praise_or_fix": 0.071
+  },
+  "ch_logos": {
+   "complaint": 0.215,
+   "mixed": 0.262,
+   "neutral_question": 0.091,
+   "praise_or_fix": 0.226
+  },
+  "ch_kairos": {
+   "complaint": 0.341,
+   "mixed": 0.338,
+   "neutral_question": 0.236,
+   "praise_or_fix": 0.323
+  },
+  "ch_style": {
+   "complaint": 0.052,
+   "mixed": 0.127,
+   "neutral_question": 0.036,
+   "praise_or_fix": 0.111
+  },
+  "ch_clarity": {
+   "complaint": 0.51,
+   "mixed": 0.508,
+   "neutral_question": 0.509,
+   "praise_or_fix": 0.523
+  },
+  "ch_focus": {
+   "complaint": 0.574,
+   "mixed": 0.55,
+   "neutral_question": 0.591,
+   "praise_or_fix": 0.537
+  },
+  "ch_awareness": {
+   "complaint": 0.147,
+   "mixed": 0.292,
+   "neutral_question": 0.355,
+   "praise_or_fix": 0.24
+  }
+ },
+ "rm_vs_length_spearman": 0.951,
+ "pf_fair_vs_uptake_rho": 0.063,
+ "pf_fair_vs_uptake_by_source": {
+  "discourse": {
+   "rho": -0.001,
+   "p": 0.9946,
+   "n": 43
+  },
+  "reddit": {
+   "rho": -0.094,
+   "p": 0.4716,
+   "n": 61
+  }
+ },
+ "pm_fair_vs_uptake_rho": 0.062,
+ "pm_fair_vs_uptake_by_source": {
+  "discourse": {
+   "rho": 0.005,
+   "p": 0.9739,
+   "n": 43
+  },
+  "reddit": {
+   "rho": -0.107,
+   "p": 0.413,
+   "n": 61
+  }
+ },
+ "pa_vs_uptake_rho": -0.05,
+ "pa_vs_uptake_by_source": {
+  "discourse": {
+   "rho": -0.099,
+   "p": 0.5274,
+   "n": 43
+  },
+  "reddit": {
+   "rho": -0.15,
+   "p": 0.2491,
+   "n": 61
+  }
+ },
+ "speed_vs_uptake_rho": -0.031,
+ "speed_vs_uptake_by_source": {
+  "discourse": {
+   "rho": -0.05,
+   "p": 0.7502,
+   "n": 43
+  },
+  "reddit": {
+   "rho": -0.145,
+   "p": 0.2638,
+   "n": 61
+  }
+ },
+ "pf_fair_by_argument": {
+  "anecdote": {
+   "n": 81,
+   "mean": 0.167,
+   "sd": 0.089,
+   "min": 0.024,
+   "p10": 0.057,
+   "q1": 0.091,
+   "median": 0.173,
+   "q3": 0.226,
+   "p90": 0.28,
+   "max": 0.409,
+   "median_ci": [
+    0.134,
+    0.188
+   ],
+   "skew": 0.421
+  },
+  "authority": {
+   "n": 9,
+   "mean": 0.201,
+   "sd": 0.078,
+   "min": 0.099,
+   "p10": 0.115,
+   "q1": 0.135,
+   "median": 0.217,
+   "q3": 0.229,
+   "p90": 0.269,
+   "max": 0.355,
+   "median_ci": [
+    0.135,
+    0.248
+   ],
+   "skew": 0.536
+  },
+  "generalization": {
+   "n": 16,
+   "mean": 0.161,
+   "sd": 0.102,
+   "min": -0.075,
+   "p10": 0.078,
+   "q1": 0.117,
+   "median": 0.137,
+   "q3": 0.208,
+   "p90": 0.303,
+   "max": 0.324,
+   "median_ci": [
+    0.119,
+    0.198
+   ],
+   "skew": -0.278
+  },
+  "question": {
+   "n": 15,
+   "mean": 0.132,
+   "sd": 0.08,
+   "min": 0.017,
+   "p10": 0.053,
+   "q1": 0.063,
+   "median": 0.123,
+   "q3": 0.168,
+   "p90": 0.244,
+   "max": 0.292,
+   "median_ci": [
+    0.06,
+    0.157
+   ],
+   "skew": 0.563
+  },
+  "venting": {
+   "n": 13,
+   "mean": 0.056,
+   "sd": 0.048,
+   "min": 0.006,
+   "p10": 0.016,
+   "q1": 0.032,
+   "median": 0.046,
+   "q3": 0.069,
+   "p90": 0.083,
+   "max": 0.195,
+   "median_ci": [
+    0.032,
+    0.069
+   ],
+   "skew": 1.944
+  }
+ },
+ "pf_fair_by_evidence": {
+  "none": {
+   "n": 25,
+   "mean": 0.112,
+   "sd": 0.084,
+   "min": 0.006,
+   "p10": 0.023,
+   "q1": 0.05,
+   "median": 0.099,
+   "q3": 0.143,
+   "p90": 0.216,
+   "max": 0.324,
+   "median_ci": [
+    0.058,
+    0.134
+   ],
+   "skew": 0.967
+  },
+  "numbers_given": {
+   "n": 22,
+   "mean": 0.227,
+   "sd": 0.126,
+   "min": 0.038,
+   "p10": 0.057,
+   "q1": 0.107,
+   "median": 0.236,
+   "q3": 0.334,
+   "p90": 0.376,
+   "max": 0.414,
+   "median_ci": [
+    0.141,
+    0.318
+   ],
+   "skew": -0.088
+  },
+  "personal_experience": {
+   "n": 93,
+   "mean": 0.158,
+   "sd": 0.087,
+   "min": -0.075,
+   "p10": 0.052,
+   "q1": 0.091,
+   "median": 0.157,
+   "q3": 0.216,
+   "p90": 0.268,
+   "max": 0.409,
+   "median_ci": [
+    0.129,
+    0.181
+   ],
+   "skew": 0.294
+  }
+ },
+ "pf_fair_by_tier": {
+  "entrant": {
+   "n": 8,
+   "mean": 0.185,
+   "sd": 0.054,
+   "min": 0.106,
+   "p10": 0.142,
+   "q1": 0.165,
+   "median": 0.174,
+   "q3": 0.198,
+   "p90": 0.239,
+   "max": 0.292,
+   "median_ci": [
+    0.157,
+    0.216
+   ],
+   "skew": 0.729
+  },
+  "expert": {
+   "n": 14,
+   "mean": 0.271,
+   "sd": 0.102,
+   "min": 0.061,
+   "p10": 0.153,
+   "q1": 0.202,
+   "median": 0.289,
+   "q3": 0.353,
+   "p90": 0.388,
+   "max": 0.414,
+   "median_ci": [
+    0.208,
+    0.373
+   ],
+   "skew": -0.436
+  }
+ },
+ "pm_fair_by_argument": {
+  "anecdote": {
+   "n": 81,
+   "mean": 0.193,
+   "sd": 0.095,
+   "min": 0.032,
+   "p10": 0.069,
+   "q1": 0.109,
+   "median": 0.197,
+   "q3": 0.263,
+   "p90": 0.307,
+   "max": 0.432,
+   "median_ci": [
+    0.152,
+    0.224
+   ],
+   "skew": 0.268
+  },
+  "authority": {
+   "n": 9,
+   "mean": 0.237,
+   "sd": 0.082,
+   "min": 0.117,
+   "p10": 0.135,
+   "q1": 0.206,
+   "median": 0.246,
+   "q3": 0.267,
+   "p90": 0.309,
+   "max": 0.394,
+   "median_ci": [
+    0.206,
+    0.287
+   ],
+   "skew": 0.322
+  },
+  "generalization": {
+   "n": 16,
+   "mean": 0.202,
+   "sd": 0.088,
+   "min": 0.061,
+   "p10": 0.137,
+   "q1": 0.146,
+   "median": 0.163,
+   "q3": 0.239,
+   "p90": 0.34,
+   "max": 0.375,
+   "median_ci": [
+    0.147,
+    0.23
+   ],
+   "skew": 0.715
+  },
+  "question": {
+   "n": 15,
+   "mean": 0.166,
+   "sd": 0.094,
+   "min": 0.022,
+   "p10": 0.065,
+   "q1": 0.09,
+   "median": 0.15,
+   "q3": 0.209,
+   "p90": 0.292,
+   "max": 0.35,
+   "median_ci": [
+    0.086,
+    0.192
+   ],
+   "skew": 0.407
+  },
+  "venting": {
+   "n": 13,
+   "mean": 0.075,
+   "sd": 0.049,
+   "min": 0.021,
+   "p10": 0.036,
+   "q1": 0.043,
+   "median": 0.064,
+   "q3": 0.092,
+   "p90": 0.108,
+   "max": 0.211,
+   "median_ci": [
+    0.043,
+    0.092
+   ],
+   "skew": 1.69
+  }
+ },
+ "pm_fair_by_evidence": {
+  "none": {
+   "n": 25,
+   "mean": 0.139,
+   "sd": 0.093,
+   "min": 0.021,
+   "p10": 0.042,
+   "q1": 0.071,
+   "median": 0.117,
+   "q3": 0.162,
+   "p90": 0.25,
+   "max": 0.366,
+   "median_ci": [
+    0.083,
+    0.162
+   ],
+   "skew": 0.937
+  },
+  "numbers_given": {
+   "n": 22,
+   "mean": 0.255,
+   "sd": 0.136,
+   "min": 0.05,
+   "p10": 0.07,
+   "q1": 0.124,
+   "median": 0.269,
+   "q3": 0.373,
+   "p90": 0.416,
+   "max": 0.439,
+   "median_ci": [
+    0.169,
+    0.362
+   ],
+   "skew": -0.169
+  },
+  "personal_experience": {
+   "n": 93,
+   "mean": 0.186,
+   "sd": 0.089,
+   "min": 0.032,
+   "p10": 0.066,
+   "q1": 0.115,
+   "median": 0.192,
+   "q3": 0.243,
+   "p90": 0.299,
+   "max": 0.432,
+   "median_ci": [
+    0.152,
+    0.211
+   ],
+   "skew": 0.284
+  }
+ },
+ "pm_fair_by_tier": {
+  "entrant": {
+   "n": 8,
+   "mean": 0.228,
+   "sd": 0.062,
+   "min": 0.152,
+   "p10": 0.173,
+   "q1": 0.196,
+   "median": 0.214,
+   "q3": 0.24,
+   "p90": 0.302,
+   "max": 0.35,
+   "median_ci": [
+    0.182,
+    0.282
+   ],
+   "skew": 0.926
+  },
+  "expert": {
+   "n": 14,
+   "mean": 0.296,
+   "sd": 0.109,
+   "min": 0.074,
+   "p10": 0.171,
+   "q1": 0.22,
+   "median": 0.31,
+   "q3": 0.391,
+   "p90": 0.424,
+   "max": 0.439,
+   "median_ci": [
+    0.228,
+    0.413
+   ],
+   "skew": -0.418
+  }
+ },
+ "tools": [
+  {
+   "tool": "Cursor",
+   "n": 36,
+   "share": 0.2483,
+   "complaint": 20,
+   "praise_or_fix": 9,
+   "net_complaint": 0.306,
+   "median_pm_fair": 0.145,
+   "top_theme": "other"
+  },
+  {
+   "tool": "Claude",
+   "n": 15,
+   "share": 0.1034,
+   "complaint": 4,
+   "praise_or_fix": 5,
+   "net_complaint": -0.067,
+   "median_pm_fair": 0.159,
+   "top_theme": "ai_cost"
+  },
+  {
+   "tool": "Claude Code",
+   "n": 13,
+   "share": 0.0897,
+   "complaint": 3,
+   "praise_or_fix": 4,
+   "net_complaint": -0.077,
+   "median_pm_fair": 0.266,
+   "top_theme": "ai_cost"
+  },
+  {
+   "tool": "TypeScript",
+   "n": 7,
+   "share": 0.0483,
+   "complaint": 3,
+   "praise_or_fix": 1,
+   "net_complaint": 0.286,
+   "median_pm_fair": 0.221,
+   "top_theme": "ai_stability"
+  },
+  {
+   "tool": "Vercel",
+   "n": 7,
+   "share": 0.0483,
+   "complaint": 7,
+   "praise_or_fix": 0,
+   "net_complaint": 1.0,
+   "median_pm_fair": 0.221,
+   "top_theme": "other"
+  },
+  {
+   "tool": "MCP",
+   "n": 7,
+   "share": 0.0483,
+   "complaint": 1,
+   "praise_or_fix": 5,
+   "net_complaint": -0.571,
+   "median_pm_fair": 0.242,
+   "top_theme": "other"
+  },
+  {
+   "tool": "Next.js",
+   "n": 6,
+   "share": 0.0414,
+   "complaint": 1,
+   "praise_or_fix": 0,
+   "net_complaint": 0.167,
+   "median_pm_fair": 0.225,
+   "top_theme": "ai_stability"
+  },
+  {
+   "tool": "Docker",
+   "n": 6,
+   "share": 0.0414,
+   "complaint": 4,
+   "praise_or_fix": 1,
+   "net_complaint": 0.5,
+   "median_pm_fair": 0.299,
+   "top_theme": "other"
+  },
+  {
+   "tool": "Codex",
+   "n": 6,
+   "share": 0.0414,
+   "complaint": 0,
+   "praise_or_fix": 3,
+   "net_complaint": -0.5,
+   "median_pm_fair": 0.209,
+   "top_theme": "ai_cost"
+  },
+  {
+   "tool": "Opus",
+   "n": 5,
+   "share": 0.0345,
+   "complaint": 1,
+   "praise_or_fix": 2,
+   "net_complaint": -0.2,
+   "median_pm_fair": 0.147,
+   "top_theme": "ai_cost"
+  },
+  {
+   "tool": "v0",
+   "n": 5,
+   "share": 0.0345,
+   "complaint": 4,
+   "praise_or_fix": 1,
+   "net_complaint": 0.6,
+   "median_pm_fair": 0.196,
+   "top_theme": "ai_cost"
+  },
+  {
+   "tool": "React",
+   "n": 5,
+   "share": 0.0345,
+   "complaint": 0,
+   "praise_or_fix": 3,
+   "net_complaint": -0.6,
+   "median_pm_fair": 0.201,
+   "top_theme": "ai_stability"
+  },
+  {
+   "tool": "VS Code",
+   "n": 5,
+   "share": 0.0345,
+   "complaint": 2,
+   "praise_or_fix": 2,
+   "net_complaint": 0.0,
+   "median_pm_fair": 0.169,
+   "top_theme": "other"
+  },
+  {
+   "tool": "Python",
+   "n": 5,
+   "share": 0.0345,
+   "complaint": 3,
+   "praise_or_fix": 2,
+   "net_complaint": 0.2,
+   "median_pm_fair": 0.278,
+   "top_theme": "ai_stability"
+  },
+  {
+   "tool": "npm",
+   "n": 4,
+   "share": 0.0276,
+   "complaint": 2,
+   "praise_or_fix": 2,
+   "net_complaint": 0.0,
+   "median_pm_fair": 0.255,
+   "top_theme": "build_time"
+  },
+  {
+   "tool": "Auto",
+   "n": 4,
+   "share": 0.0276,
+   "complaint": 3,
+   "praise_or_fix": 1,
+   "net_complaint": 0.5,
+   "median_pm_fair": 0.097,
+   "top_theme": "ai_cost"
+  },
+  {
+   "tool": "Copilot",
+   "n": 4,
+   "share": 0.0276,
+   "complaint": 1,
+   "praise_or_fix": 1,
+   "net_complaint": 0.0,
+   "median_pm_fair": 0.236,
+   "top_theme": "ai_cost"
+  },
+  {
+   "tool": "Sonnet",
+   "n": 4,
+   "share": 0.0276,
+   "complaint": 1,
+   "praise_or_fix": 2,
+   "net_complaint": -0.25,
+   "median_pm_fair": 0.183,
+   "top_theme": "ai_cost"
+  },
+  {
+   "tool": "Node.js",
+   "n": 3,
+   "share": 0.0207,
+   "complaint": 1,
+   "praise_or_fix": 2,
+   "net_complaint": -0.333,
+   "median_pm_fair": 0.29,
+   "top_theme": "other"
+  },
+  {
+   "tool": "express",
+   "n": 3,
+   "share": 0.0207,
+   "complaint": 1,
+   "praise_or_fix": 1,
+   "net_complaint": 0.0,
+   "median_pm_fair": 0.29,
+   "top_theme": "other"
+  },
+  {
+   "tool": "Postgres",
+   "n": 3,
+   "share": 0.0207,
+   "complaint": 1,
+   "praise_or_fix": 1,
+   "net_complaint": 0.0,
+   "median_pm_fair": 0.35,
+   "top_theme": "ui_data_gap"
+  },
+  {
+   "tool": "AWS",
+   "n": 3,
+   "share": 0.0207,
+   "complaint": 1,
+   "praise_or_fix": 0,
+   "net_complaint": 0.333,
+   "median_pm_fair": 0.222,
+   "top_theme": "ai_cost"
+  },
+  {
+   "tool": "Claude Max",
+   "n": 3,
+   "share": 0.0207,
+   "complaint": 1,
+   "praise_or_fix": 1,
+   "net_complaint": 0.0,
+   "median_pm_fair": 0.197,
+   "top_theme": "ai_cost"
+  },
+  {
+   "tool": "git",
+   "n": 3,
+   "share": 0.0207,
+   "complaint": 2,
+   "praise_or_fix": 1,
+   "net_complaint": 0.333,
+   "median_pm_fair": 0.257,
+   "top_theme": "ai_cost"
+  },
+  {
+   "tool": "Angular",
+   "n": 3,
+   "share": 0.0207,
+   "complaint": 1,
+   "praise_or_fix": 2,
+   "net_complaint": -0.333,
+   "median_pm_fair": 0.253,
+   "top_theme": "other"
+  },
+  {
+   "tool": "CLAUDE.md",
+   "n": 3,
+   "share": 0.0207,
+   "complaint": 1,
+   "praise_or_fix": 0,
+   "net_complaint": 0.333,
+   "median_pm_fair": 0.191,
+   "top_theme": "ai_stability"
+  },
+  {
+   "tool": "GitHub",
+   "n": 3,
+   "share": 0.0207,
+   "complaint": 3,
+   "praise_or_fix": 0,
+   "net_complaint": 1.0,
+   "median_pm_fair": 0.287,
+   "top_theme": "other"
+  },
+  {
+   "tool": "Fable",
+   "n": 3,
+   "share": 0.0207,
+   "complaint": 1,
+   "praise_or_fix": 2,
+   "net_complaint": -0.333,
+   "median_pm_fair": 0.108,
+   "top_theme": "ai_speed"
+  },
+  {
+   "tool": "OpenAI",
+   "n": 2,
+   "share": 0.0138,
+   "complaint": 1,
+   "praise_or_fix": 0,
+   "net_complaint": 0.5,
+   "median_pm_fair": 0.146,
+   "top_theme": "ai_stability"
+  },
+  {
+   "tool": "Tailwind",
+   "n": 2,
+   "share": 0.0138,
+   "complaint": 0,
+   "praise_or_fix": 1,
+   "net_complaint": -0.5,
+   "median_pm_fair": 0.268,
+   "top_theme": "other"
+  },
+  {
+   "tool": "Claude API",
+   "n": 2,
+   "share": 0.0138,
+   "complaint": 1,
+   "praise_or_fix": 0,
+   "net_complaint": 0.5,
+   "median_pm_fair": 0.116,
+   "top_theme": "ai_cost"
+  },
+  {
+   "tool": "Claude Pro",
+   "n": 2,
+   "share": 0.0138,
+   "complaint": 2,
+   "praise_or_fix": 0,
+   "net_complaint": 1.0,
+   "median_pm_fair": 0.134,
+   "top_theme": "ai_cost"
+  },
+  {
+   "tool": "Claude Opus",
+   "n": 2,
+   "share": 0.0138,
+   "complaint": 0,
+   "praise_or_fix": 0,
+   "net_complaint": 0.0,
+   "median_pm_fair": 0.166,
+   "top_theme": "ai_cost"
+  },
+  {
+   "tool": "Opus 4.5",
+   "n": 2,
+   "share": 0.0138,
+   "complaint": 1,
+   "praise_or_fix": 0,
+   "net_complaint": 0.5,
+   "median_pm_fair": 0.167,
+   "top_theme": "ai_cost"
+  },
+  {
+   "tool": "Netlify",
+   "n": 2,
+   "share": 0.0138,
+   "complaint": 0,
+   "praise_or_fix": 2,
+   "net_complaint": -1.0,
+   "median_pm_fair": 0.238,
+   "top_theme": "other"
+  },
+  {
+   "tool": "Django",
+   "n": 2,
+   "share": 0.0138,
+   "complaint": 1,
+   "praise_or_fix": 1,
+   "net_complaint": 0.0,
+   "median_pm_fair": 0.321,
+   "top_theme": "other"
+  },
+  {
+   "tool": "local LLM",
+   "n": 2,
+   "share": 0.0138,
+   "complaint": 1,
+   "praise_or_fix": 1,
+   "net_complaint": 0.0,
+   "median_pm_fair": 0.203,
+   "top_theme": "ai_cost"
+  },
+  {
+   "tool": "SQLite",
+   "n": 2,
+   "share": 0.0138,
+   "complaint": 0,
+   "praise_or_fix": 0,
+   "net_complaint": 0.0,
+   "median_pm_fair": 0.339,
+   "top_theme": "ai_stability"
+  },
+  {
+   "tool": "ESLint",
+   "n": 2,
+   "share": 0.0138,
+   "complaint": 1,
+   "praise_or_fix": 0,
+   "net_complaint": 0.5,
+   "median_pm_fair": 0.274,
+   "top_theme": "build_time"
+  },
+  {
+   "tool": "Figma",
+   "n": 2,
+   "share": 0.0138,
+   "complaint": 0,
+   "praise_or_fix": 1,
+   "net_complaint": -0.5,
+   "median_pm_fair": 0.244,
+   "top_theme": "ai_stability"
+  }
+ ],
+ "quantities": {
+  "build_seconds": {
+   "n": 4,
+   "mean": 64944.75,
+   "sd": 129503.756,
+   "min": 0.0,
+   "p10": 6.6,
+   "q1": 16.5,
+   "median": 289.5,
+   "q3": 65217.75,
+   "p90": 181607.1,
+   "max": 259200.0,
+   "median_ci": [
+    null,
+    null
+   ],
+   "skew": 1.155
+  },
+  "other_seconds": {
+   "n": 22,
+   "mean": 85475.691,
+   "sd": 197401.777,
+   "min": 1.2,
+   "p10": 3.2,
+   "q1": 10.5,
+   "median": 457.0,
+   "q3": 23400.0,
+   "p90": 259200.0,
+   "max": 864000.0,
+   "median_ci": [
+    29.0,
+    16245.0
+   ],
+   "skew": 3.034
+  },
+  "percent": {
+   "n": 10,
+   "mean": 68.938,
+   "sd": 32.999,
+   "min": 0.38,
+   "p10": 25.238,
+   "q1": 55.0,
+   "median": 80.0,
+   "q3": 93.75,
+   "p90": 96.4,
+   "max": 100.0,
+   "median_ci": [
+    49.975,
+    95.0
+   ],
+   "skew": -1.037
+  },
+  "tokens": {
+   "n": 7,
+   "mean": 25757.143,
+   "sd": 42829.183,
+   "min": 10.0,
+   "p10": 10.0,
+   "q1": 45.0,
+   "median": 200.0,
+   "q3": 40000.0,
+   "p90": 85000.0,
+   "max": 100000.0,
+   "median_ci": [
+    10.0,
+    75000.0
+   ],
+   "skew": 1.036
+  },
+  "usd_once_or_unknown": {
+   "n": 16,
+   "mean": 11630.432,
+   "sd": 45408.35,
+   "min": 0.0,
+   "p10": 2.0,
+   "q1": 5.0,
+   "median": 40.0,
+   "q3": 500.0,
+   "p90": 1350.0,
+   "max": 181902.0,
+   "median_ci": [
+    5.0,
+    435.0
+   ],
+   "skew": 3.614
+  },
+  "usd_per_month": {
+   "n": 9,
+   "mean": 152.778,
+   "sd": 218.419,
+   "min": 5.0,
+   "p10": 17.0,
+   "q1": 20.0,
+   "median": 100.0,
+   "q3": 200.0,
+   "p90": 300.0,
+   "max": 700.0,
+   "median_ci": [
+    20.0,
+    200.0
+   ],
+   "skew": 1.96
+  }
+ },
+ "by_window_totals": {
+  "W1": 41,
+  "W2": 39,
+  "W3": 35,
+  "W4": 30
+ },
+ "pm_fair_by_window": {
+  "W1": {
+   "n": 41,
+   "mean": 0.186,
+   "sd": 0.096,
+   "min": 0.035,
+   "p10": 0.064,
+   "q1": 0.106,
+   "median": 0.182,
+   "q3": 0.232,
+   "p90": 0.307,
+   "max": 0.411,
+   "median_ci": [
+    0.138,
+    0.221
+   ],
+   "skew": 0.43
+  },
+  "W2": {
+   "n": 39,
+   "mean": 0.159,
+   "sd": 0.092,
+   "min": 0.021,
+   "p10": 0.059,
+   "q1": 0.078,
+   "median": 0.152,
+   "q3": 0.228,
+   "p90": 0.282,
+   "max": 0.375,
+   "median_ci": [
+    0.098,
+    0.201
+   ],
+   "skew": 0.426
+  },
+  "W3": {
+   "n": 35,
+   "mean": 0.195,
+   "sd": 0.12,
+   "min": 0.022,
+   "p10": 0.051,
+   "q1": 0.091,
+   "median": 0.191,
+   "q3": 0.282,
+   "p90": 0.383,
+   "max": 0.432,
+   "median_ci": [
+    0.117,
+    0.266
+   ],
+   "skew": 0.361
+  },
+  "W4": {
+   "n": 30,
+   "mean": 0.228,
+   "sd": 0.094,
+   "min": 0.064,
+   "p10": 0.128,
+   "q1": 0.158,
+   "median": 0.22,
+   "q3": 0.264,
+   "p90": 0.334,
+   "max": 0.439,
+   "median_ci": [
+    0.177,
+    0.253
+   ],
+   "skew": 0.623
+  }
+ },
+ "pf_fair_by_window": {
+  "W1": {
+   "n": 41,
+   "mean": 0.158,
+   "sd": 0.089,
+   "min": 0.025,
+   "p10": 0.049,
+   "q1": 0.082,
+   "median": 0.157,
+   "q3": 0.217,
+   "p90": 0.28,
+   "max": 0.365,
+   "median_ci": [
+    0.111,
+    0.188
+   ],
+   "skew": 0.456
+  },
+  "W2": {
+   "n": 39,
+   "mean": 0.131,
+   "sd": 0.08,
+   "min": 0.006,
+   "p10": 0.044,
+   "q1": 0.063,
+   "median": 0.134,
+   "q3": 0.186,
+   "p90": 0.241,
+   "max": 0.313,
+   "median_ci": [
+    0.069,
+    0.168
+   ],
+   "skew": 0.423
+  },
+  "W3": {
+   "n": 35,
+   "mean": 0.172,
+   "sd": 0.114,
+   "min": 0.017,
+   "p10": 0.04,
+   "q1": 0.069,
+   "median": 0.162,
+   "q3": 0.246,
+   "p90": 0.349,
+   "max": 0.409,
+   "median_ci": [
+    0.099,
+    0.235
+   ],
+   "skew": 0.477
+  },
+  "W4": {
+   "n": 30,
+   "mean": 0.194,
+   "sd": 0.103,
+   "min": -0.075,
+   "p10": 0.091,
+   "q1": 0.136,
+   "median": 0.196,
+   "q3": 0.227,
+   "p90": 0.3,
+   "max": 0.414,
+   "median_ci": [
+    0.143,
+    0.219
+   ],
+   "skew": 0.037
+  }
+ },
+ "events_named": [
+  [
+   "Cursor Auto usage limit notice",
+   1
+  ],
+  [
+   "Opus 4.5",
+   1
+  ],
+  [
+   "Cursor new pricing",
+   1
+  ],
+  [
+   "React Native upgrade from 0.76.6 to 0.82.1",
+   1
+  ],
+  [
+   "Copilot subscription requirement",
+   1
+  ],
+  [
+   "Opus 4.7 release",
+   1
+  ],
+  [
+   "Usage consumption change about 3 days earlier",
+   1
+  ],
+  [
+   "Cursor 2.4.31",
+   1
+  ],
+  [
+   "Composer 2 release",
+   1
+  ],
+  [
+   "Cursor update 2.5.26",
+   1
+  ],
+  [
+   "Opus 4.6 Fast half price promotion",
+   1
+  ],
+  [
+   "Anthropic suspending shared Max accounts",
+   1
+  ],
+  [
+   "Composer 2.5 release",
+   1
+  ],
+  [
+   "Cursor 3.8.24",
+   1
+  ],
+  [
+   "Cursor update May 2026",
+   1
+  ],
+  [
+   "May 11 regression in Cursor GitLab listing",
+   1
+  ],
+  [
+   "Vercel deployments stopped on 2026-07-11",
+   1
+  ],
+  [
+   "switch from cx-Oracle to oracledb 3.4.2",
+   1
+  ],
+  [
+   "Opus 5.5",
+   1
+  ],
+  [
+   "Cursor Microsoft 365 plugin announcement",
+   1
+  ],
+  [
+   "Cursor and Grok unify flow",
+   1
+  ],
+  [
+   "Offer ends Oct 26",
+   1
+  ],
+  [
+   "Cursor CLI 2026.09.18",
+   1
+  ],
+  [
+   "Vercel CLI 58.9.5",
+   1
+  ],
+  [
+   "Kaniko going unmaintained",
+   1
+  ]
+ ],
+ "events_by_window": {
+  "W1": [
+   [
+    "Cursor Auto usage limit notice",
+    1
+   ],
+   [
+    "Opus 4.5",
+    1
+   ],
+   [
+    "Cursor new pricing",
+    1
+   ],
+   [
+    "React Native upgrade from 0.76.6 to 0.82.1",
+    1
+   ]
+  ],
+  "W2": [
+   [
+    "Copilot subscription requirement",
+    1
+   ],
+   [
+    "Opus 4.7 release",
+    1
+   ],
+   [
+    "Usage consumption change about 3 days earlier",
+    1
+   ],
+   [
+    "Cursor 2.4.31",
+    1
+   ],
+   [
+    "Composer 2 release",
+    1
+   ],
+   [
+    "Cursor update 2.5.26",
+    1
+   ],
+   [
+    "Opus 4.6 Fast half price promotion",
+    1
+   ]
+  ],
+  "W3": [
+   [
+    "Anthropic suspending shared Max accounts",
+    1
+   ],
+   [
+    "Composer 2.5 release",
+    1
+   ],
+   [
+    "Cursor 3.8.24",
+    1
+   ],
+   [
+    "Cursor update May 2026",
+    1
+   ],
+   [
+    "May 11 regression in Cursor GitLab listing",
+    1
+   ],
+   [
+    "Vercel deployments stopped on 2026-07-11",
+    1
+   ],
+   [
+    "switch from cx-Oracle to oracledb 3.4.2",
+    1
+   ]
+  ],
+  "W4": [
+   [
+    "Opus 5.5",
+    1
+   ],
+   [
+    "Cursor Microsoft 365 plugin announcement",
+    1
+   ],
+   [
+    "Cursor and Grok unify flow",
+    1
+   ],
+   [
+    "Offer ends Oct 26",
+    1
+   ],
+   [
+    "Cursor CLI 2026.09.18",
+    1
+   ],
+   [
+    "Vercel CLI 58.9.5",
+    1
+   ],
+   [
+    "Kaniko going unmaintained",
+    1
+   ]
+  ]
+ },
+ "claims": [
+  {
+   "claim_id": "C11",
+   "claim": "The AI tools themselves are unstable: updates break the editor or agent, and fixes lag",
+   "n": 17,
+   "share": 0.1172,
+   "ci": [
+    0.0745,
+    0.1797
+   ],
+   "themes": "other:10; ai_stability:4; ai_speed:4",
+   "tiers": "unknown:15; intermediate:1; expert:1",
+   "icp_n": 0,
+   "expert_n": 1,
+   "complaint_share": 0.647,
+   "median_pf_fair": 0.09,
+   "median_pm_fair": 0.116,
+   "median_uptake": 0.469,
+   "evidence_numbers_or_source": 0.294,
+   "W1": 3,
+   "W2": 5,
+   "W3": 4,
+   "W4": 5,
+   "example_quote": "So on My Machines, upgrading the CLI binary alone is not enough until the worker unit is restarted; otherwise agents keep the old runtime (and we hit the broken Shell plumbing).",
+   "example_url": "https://forum.cursor.com/t/my-machines-worker-repeated-controller-disconnected-claim-detach-resets-agent-store-mid-run-model-thrash-lost-thread/172713/9"
+  },
+  {
+   "claim_id": "C01",
+   "claim": "AI coding costs are unpredictable: usage limits and credits drain fast or change without notice",
+   "n": 15,
+   "share": 0.1034,
+   "ci": [
+    0.0637,
+    0.1637
+   ],
+   "themes": "ai_cost:15; ai_stability:3",
+   "tiers": "unknown:15",
+   "icp_n": 0,
+   "expert_n": 0,
+   "complaint_share": 0.8,
+   "median_pf_fair": 0.082,
+   "median_pm_fair": 0.102,
+   "median_uptake": 0.754,
+   "evidence_numbers_or_source": 0.4,
+   "W1": 4,
+   "W2": 8,
+   "W3": 2,
+   "W4": 1,
+   "example_quote": "You just hit the cap out of nowhere mid-conversation and get told to come back in a few hours.",
+   "example_url": "https://www.reddit.com/r/ClaudeAI/comments/1ssh7w3/"
+  },
+  {
+   "claim_id": "C04",
+   "claim": "Premium models cost more without being better, so people route work across models to save",
+   "n": 13,
+   "share": 0.0897,
+   "ci": [
+    0.0531,
+    0.1473
+   ],
+   "themes": "ai_cost:13; ai_stability:2; other:1",
+   "tiers": "unknown:12; expert:1",
+   "icp_n": 0,
+   "expert_n": 1,
+   "complaint_share": 0.308,
+   "median_pf_fair": 0.114,
+   "median_pm_fair": 0.137,
+   "median_uptake": 0.659,
+   "evidence_numbers_or_source": 0.0,
+   "W1": 4,
+   "W2": 2,
+   "W3": 4,
+   "W4": 3,
+   "example_quote": "I can also ask my dumbest questions to a local model and get a response faster, without burning tokens that count towards usage limits on the hosted services I use for actual work.",
+   "example_url": "https://news.ycombinator.com/item?id=45775189"
+  },
+  {
+   "claim_id": "C12",
+   "claim": "Builds break in the platform, not the code: hosted build and deploy failures with opaque errors",
+   "n": 11,
+   "share": 0.0759,
+   "ci": [
+    0.0429,
+    0.1307
+   ],
+   "themes": "other:10; build_time:4",
+   "tiers": "unknown:9; expert:2",
+   "icp_n": 0,
+   "expert_n": 2,
+   "complaint_share": 1.0,
+   "median_pf_fair": 0.226,
+   "median_pm_fair": 0.265,
+   "median_uptake": 0.669,
+   "evidence_numbers_or_source": 0.182,
+   "W1": 4,
+   "W2": 2,
+   "W3": 3,
+   "W4": 2,
+   "example_quote": "Isolated the regression to a Vercel platform-side change between CLI 58.1.0",
+   "example_url": "https://community.vercel.com/t/cli-58-9-5-regression-serverless-function-fails-to-bundle-declared-dependency/47642/1"
+  },
+  {
+   "claim_id": "C07",
+   "claim": "Agents do destructive or out of scope work unless boxed in by task contracts, guardrails and review",
+   "n": 10,
+   "share": 0.069,
+   "ci": [
+    0.0379,
+    0.1223
+   ],
+   "themes": "ai_stability:10; ai_speed:2; other:1",
+   "tiers": "unknown:9; intermediate:1",
+   "icp_n": 0,
+   "expert_n": 0,
+   "complaint_share": 0.3,
+   "median_pf_fair": 0.254,
+   "median_pm_fair": 0.284,
+   "median_uptake": 0.8,
+   "evidence_numbers_or_source": 0.2,
+   "W1": 3,
+   "W2": 1,
+   "W3": 4,
+   "W4": 2,
+   "example_quote": "The agent shipped a 400-line PR that touched the password reset flow, the session middleware, and a feature flag I had not heard of.",
+   "example_url": "https://dev.to/tacoda/how-to-write-a-ticket-an-agent-can-act-on-52ic"
+  },
+  {
+   "claim_id": "C09",
+   "claim": "AI speeds work up, but less than claimed, and the gain can feel hollow",
+   "n": 10,
+   "share": 0.069,
+   "ci": [
+    0.0379,
+    0.1223
+   ],
+   "themes": "ai_speed:8; other:4; ai_stability:1",
+   "tiers": "unknown:7; expert:2; vibe_coder:1",
+   "icp_n": 0,
+   "expert_n": 2,
+   "complaint_share": 0.1,
+   "median_pf_fair": 0.186,
+   "median_pm_fair": 0.213,
+   "median_uptake": 0.67,
+   "evidence_numbers_or_source": 0.1,
+   "W1": 3,
+   "W2": 1,
+   "W3": 2,
+   "W4": 4,
+   "example_quote": "Now, before I start coding, I try to talk to this tool.",
+   "example_url": "https://dev.to/pablotz/how-coding-with-ai-changed-my-developer-mindset-1587"
+  },
+  {
+   "claim_id": "C14",
+   "claim": "Wiring the UI to data and services is where newer builders stall",
+   "n": 9,
+   "share": 0.0621,
+   "ci": [
+    0.033,
+    0.1137
+   ],
+   "themes": "ui_data_gap:7; other:2; tool_fragmentation:1",
+   "tiers": "unknown:6; entrant:2; intermediate:1",
+   "icp_n": 0,
+   "expert_n": 0,
+   "complaint_share": 0.0,
+   "median_pf_fair": 0.144,
+   "median_pm_fair": 0.189,
+   "median_uptake": 0.663,
+   "evidence_numbers_or_source": 0.0,
+   "W1": 4,
+   "W2": 2,
+   "W3": 2,
+   "W4": 1,
+   "example_quote": "capture meaningful interactions on a portfolio page (like which section was opened, which outbound link clicked) in a privacy-respecting way",
+   "example_url": "https://www.reddit.com/r/learnprogramming/comments/1orfsld/"
+  },
+  {
+   "claim_id": "C06",
+   "claim": "Agents ignore rules and drift; long sessions pollute context and parallel agents collide",
+   "n": 8,
+   "share": 0.0552,
+   "ci": [
+    0.0282,
+    0.1051
+   ],
+   "themes": "ai_stability:8; ai_cost:1; other:1",
+   "tiers": "unknown:7; intermediate:1",
+   "icp_n": 0,
+   "expert_n": 0,
+   "complaint_share": 0.75,
+   "median_pf_fair": 0.125,
+   "median_pm_fair": 0.145,
+   "median_uptake": 0.582,
+   "evidence_numbers_or_source": 0.0,
+   "W1": 2,
+   "W2": 3,
+   "W3": 2,
+   "W4": 1,
+   "example_quote": "It deleted the local and deleted the remote branch, and then did a disk whip and entirely delete the files?",
+   "example_url": "https://forum.cursor.com/t/composer-2-feedback/155663/27"
+  },
+  {
+   "claim_id": "C15",
+   "claim": "Too many tools, rules files and MCP servers to glue together and vet",
+   "n": 8,
+   "share": 0.0552,
+   "ci": [
+    0.0282,
+    0.1051
+   ],
+   "themes": "other:5; tool_fragmentation:3; ai_stability:1",
+   "tiers": "unknown:6; intermediate:1; expert:1",
+   "icp_n": 0,
+   "expert_n": 1,
+   "complaint_share": 0.25,
+   "median_pf_fair": 0.223,
+   "median_pm_fair": 0.248,
+   "median_uptake": 0.541,
+   "evidence_numbers_or_source": 0.375,
+   "W1": 1,
+   "W2": 4,
+   "W3": 1,
+   "W4": 2,
+   "example_quote": "every agent wants its own context file.",
+   "example_url": "https://dev.to/luzgan/i-built-an-eslint-like-tool-for-composing-ai-agent-rules-heres-why-gfd"
+  },
+  {
+   "claim_id": "C13",
+   "claim": "Build tooling is slow and upgrades are feared: long compiles, stale hot reload, version churn",
+   "n": 8,
+   "share": 0.0552,
+   "ci": [
+    0.0282,
+    0.1051
+   ],
+   "themes": "other:6; build_time:3",
+   "tiers": "unknown:4; expert:3; entrant:1",
+   "icp_n": 1,
+   "expert_n": 3,
+   "complaint_share": 0.625,
+   "median_pf_fair": 0.245,
+   "median_pm_fair": 0.268,
+   "median_uptake": 0.475,
+   "evidence_numbers_or_source": 0.25,
+   "W1": 3,
+   "W2": 1,
+   "W3": 2,
+   "W4": 2,
+   "example_quote": "pip install oracledb takes ~9 minutes on Alpine (musl) because no musllinux wheel",
+   "example_url": "https://stackoverflow.com/questions/79931687/pip-install-oracledb-takes-9-minutes-on-alpine-musl-because-no-musllinux-whee"
+  },
+  {
+   "claim_id": "C16",
+   "claim": "Other one-off observations",
+   "n": 7,
+   "share": 0.0483,
+   "ci": [
+    0.0236,
+    0.0963
+   ],
+   "themes": "ai_cost:3; other:3; ai_stability:1",
+   "tiers": "unknown:6; expert:1",
+   "icp_n": 0,
+   "expert_n": 1,
+   "complaint_share": 0.143,
+   "median_pf_fair": 0.069,
+   "median_pm_fair": 0.083,
+   "median_uptake": 0.713,
+   "evidence_numbers_or_source": 0.0,
+   "W1": 2,
+   "W2": 2,
+   "W3": 2,
+   "W4": 1,
+   "example_quote": "The $20 premium membership comes with $20 monthly usage credits to spend on prompts.",
+   "example_url": "https://community.vercel.com/t/payment-questions/27756/6"
+  },
+  {
+   "claim_id": "C05",
+   "claim": "Context discipline cuts cost: scoped rules, skills and smaller context use fewer tokens",
+   "n": 7,
+   "share": 0.0483,
+   "ci": [
+    0.0236,
+    0.0963
+   ],
+   "themes": "ai_cost:7; ai_speed:1; tool_fragmentation:1",
+   "tiers": "unknown:4; expert:3",
+   "icp_n": 0,
+   "expert_n": 3,
+   "complaint_share": 0.143,
+   "median_pf_fair": 0.179,
+   "median_pm_fair": 0.206,
+   "median_uptake": 0.503,
+   "evidence_numbers_or_source": 0.571,
+   "W1": 2,
+   "W2": 1,
+   "W3": 2,
+   "W4": 2,
+   "example_quote": "The useful lesson: if an AI feature has a quota, the quota has to be enforced before the model call, in the database, atomically.",
+   "example_url": "https://dev.to/toddsullivan/the-credit-counter-race-that-let-50-ai-requests-through-4al4"
+  },
+  {
+   "claim_id": "C03",
+   "claim": "Billing and account plumbing blocks people: cards, team plans, payments, shared accounts",
+   "n": 6,
+   "share": 0.0414,
+   "ci": [
+    0.0191,
+    0.0873
+   ],
+   "themes": "ai_cost:6",
+   "tiers": "unknown:6",
+   "icp_n": 0,
+   "expert_n": 0,
+   "complaint_share": 0.833,
+   "median_pf_fair": 0.173,
+   "median_pm_fair": 0.212,
+   "median_uptake": 0.752,
+   "evidence_numbers_or_source": 0.167,
+   "W1": 2,
+   "W2": 0,
+   "W3": 2,
+   "W4": 2,
+   "example_quote": "The unify flow only offers individual Plus / Premium / Super / Ultra plans, with no team, seats or admin role.",
+   "example_url": "https://forum.cursor.com/t/team-signup-redirects-to-individual-x-subscription-flow/174640/10"
+  },
+  {
+   "claim_id": "C08",
+   "claim": "AI writes code faster than anyone can understand it: review is the bottleneck and debt and security risk pile up",
+   "n": 6,
+   "share": 0.0414,
+   "ci": [
+    0.0191,
+    0.0873
+   ],
+   "themes": "ai_stability:5; ai_speed:2; other:2",
+   "tiers": "unknown:4; entrant:1; intermediate:1",
+   "icp_n": 1,
+   "expert_n": 0,
+   "complaint_share": 0.5,
+   "median_pf_fair": 0.164,
+   "median_pm_fair": 0.185,
+   "median_uptake": 0.416,
+   "evidence_numbers_or_source": 0.0,
+   "W1": 1,
+   "W2": 1,
+   "W3": 3,
+   "W4": 1,
+   "example_quote": "I wasn't isolating vector namespaces, so User A's scraped data was leaking into User B's chat.",
+   "example_url": "https://www.reddit.com/r/nextjs/comments/1q2m4ec/"
+  },
+  {
+   "claim_id": "C02",
+   "claim": "People pay for AI work that failed: credits burned by loops, lost work and 'free' fixes",
+   "n": 5,
+   "share": 0.0345,
+   "ci": [
+    0.0148,
+    0.0782
+   ],
+   "themes": "ai_cost:5; ai_stability:3; ai_speed:2",
+   "tiers": "unknown:5",
+   "icp_n": 0,
+   "expert_n": 0,
+   "complaint_share": 1.0,
+   "median_pf_fair": 0.186,
+   "median_pm_fair": 0.216,
+   "median_uptake": 0.718,
+   "evidence_numbers_or_source": 0.2,
+   "W1": 2,
+   "W2": 3,
+   "W3": 0,
+   "W4": 0,
+   "example_quote": "My credits dropped from 2 to 0 despite the task being labeled as free",
+   "example_url": "https://community.vercel.com/t/v0-credits-deducted-for-tasks-labeled-as-free-in-ui/36700/1"
+  },
+  {
+   "claim_id": "C10",
+   "claim": "Leaning on AI erodes the skills new developers need to build",
+   "n": 5,
+   "share": 0.0345,
+   "ci": [
+    0.0148,
+    0.0782
+   ],
+   "themes": "other:4; ai_speed:2",
+   "tiers": "entrant:4; intermediate:1",
+   "icp_n": 2,
+   "expert_n": 0,
+   "complaint_share": 0.6,
+   "median_pf_fair": 0.168,
+   "median_pm_fair": 0.205,
+   "median_uptake": 0.891,
+   "evidence_numbers_or_source": 0.0,
+   "W1": 1,
+   "W2": 3,
+   "W3": 0,
+   "W4": 1,
+   "example_quote": "it feels like AI can already build almost anything",
+   "example_url": "https://www.reddit.com/r/reactjs/comments/1rk9l2g/"
+  }
+ ],
+ "n_tests": 72,
+ "tests_q_lt_05": [
+  {
+   "test": "rm_raw tracks text length (Spearman)",
+   "stat": 0.9509,
+   "p": 1.0460555488523862e-74,
+   "n": 145,
+   "effect": null,
+   "note": "ADR 0003 risk: mass as a length proxy",
+   "q_bh": 7.53159995173718e-73
+  },
+  {
+   "test": "relevance rate differs by source",
+   "stat": 51.7142,
+   "p": 1.582960990017564e-10,
+   "n": 273,
+   "effect": {
+    "cramers_v": 0.435
+   },
+   "note": "",
+   "q_bh": 5.698659564063231e-09
+  },
+  {
+   "test": "pm_fair differs by argument type (Kruskal-Wallis)",
+   "stat": 23.6074,
+   "p": 9.573210938568158e-05,
+   "n": 134,
+   "effect": null,
+   "note": "",
+   "q_bh": 0.002004405257920454
+  },
+  {
+   "test": "pf_fair differs by argument type (Kruskal-Wallis)",
+   "stat": 23.2792,
+   "p": 0.00011135584766224745,
+   "n": 134,
+   "effect": null,
+   "note": "",
+   "q_bh": 0.002004405257920454
+  },
+  {
+   "test": "pf_fair differs by evidence level (Kruskal-Wallis)",
+   "stat": 13.0216,
+   "p": 0.001487279541687693,
+   "n": 140,
+   "effect": null,
+   "note": "",
+   "q_bh": 0.021416825400302777
+  },
+  {
+   "test": "pm_fair differs by evidence level (Kruskal-Wallis)",
+   "stat": 11.6801,
+   "p": 0.0029086870443546953,
+   "n": 140,
+   "effect": null,
+   "note": "",
+   "q_bh": 0.034904244532256344
+  },
+  {
+   "test": "pain_types:learning_curve share differs by tier",
+   "stat": 12.9241,
+   "p": 0.004803635862775003,
+   "n": 30,
+   "effect": {
+    "cramers_v": 0.656
+   },
+   "note": "",
+   "q_bh": 0.04940882601711431
+  }
+ ]
+}

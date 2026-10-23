@@ -45,7 +45,7 @@ def load():
     items, coded, rm = [], [], []
     for f in sorted((ROOT / "data" / "sample").glob("batch*.jsonl")):
         items += [json.loads(l) for l in open(f)]
-    for f in sorted((ROOT / "data" / "coded").glob("coded_batch*.jsonl")):
+    for f in sorted((ROOT / "data" / "coded").glob("coded_b*.jsonl")):
         coded += [json.loads(l) for l in open(f) if l.strip()]
     for f in sorted((ROOT / "data" / "coded").glob("rm_batch*.jsonl")):
         rm += [json.loads(l) for l in open(f)]

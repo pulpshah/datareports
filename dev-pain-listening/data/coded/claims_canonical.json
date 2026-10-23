@@ -1,0 +1,247 @@
+{
+ "method": "Grouped by the lead from the 145 coded claims of batch 1; every relevant item is in exactly one claim (checked by script). Lead synthesis, not a coder output.",
+ "date": "2026-10-23",
+ "claims": [
+  {
+   "id": "C01",
+   "claim": "AI coding costs are unpredictable: usage limits and credits drain fast or change without notice",
+   "ids": [
+    "t1_ohnhu51",
+    "t1_obcor30",
+    "t1_nmknyxc",
+    "t1_ob4j8yh",
+    "t3_1sn8pgb",
+    "t3_1pvgt2i",
+    "community.vercel.com_138858",
+    "community.vercel.com_102605",
+    "t3_1v1e6pa",
+    "t1_osnktqu",
+    "forum.cursor.com_294663",
+    "t3_1sndqc7",
+    "hn_46528942",
+    "t3_1ssh7w3",
+    "t3_1r6tjm0"
+   ]
+  },
+  {
+   "id": "C02",
+   "claim": "People pay for AI work that failed: credits burned by loops, lost work and 'free' fixes",
+   "ids": [
+    "community.vercel.com_111729",
+    "community.vercel.com_102906",
+    "community.vercel.com_107818",
+    "forum.cursor.com_294183",
+    "hn_45999169"
+   ]
+  },
+  {
+   "id": "C03",
+   "claim": "Billing and account plumbing blocks people: cards, team plans, payments, shared accounts",
+   "ids": [
+    "forum.cursor.com_514382",
+    "community.vercel.com_88891",
+    "community.vercel.com_141571",
+    "community.vercel.com_130882",
+    "t3_1pwpciz",
+    "t1_olmpgua"
+   ]
+  },
+  {
+   "id": "C04",
+   "claim": "Premium models cost more without being better, so people route work across models to save",
+   "ids": [
+    "t1_pa9d5wb",
+    "hn_46902864",
+    "forum.cursor.com_432495",
+    "forum.cursor.com_316460",
+    "t1_nzytka1",
+    "hn_48442536",
+    "t1_omu5vcy",
+    "t1_p1dplw2",
+    "t1_phhn5gs",
+    "hn_45775189",
+    "t1_no2vqzv",
+    "hn_49001539",
+    "t3_1rawy7n"
+   ]
+  },
+  {
+   "id": "C05",
+   "claim": "Context discipline cuts cost: scoped rules, skills and smaller context use fewer tokens",
+   "ids": [
+    "devto_3245152",
+    "devto_3168471",
+    "forum.cursor.com_450712",
+    "t1_pakfly0",
+    "t3_1tljldg",
+    "t1_o04nsto",
+    "devto_4604434"
+   ]
+  },
+  {
+   "id": "C06",
+   "claim": "Agents ignore rules and drift; long sessions pollute context and parallel agents collide",
+   "ids": [
+    "forum.cursor.com_448472",
+    "t3_1qq6npk",
+    "forum.cursor.com_374121",
+    "forum.cursor.com_378011",
+    "forum.cursor.com_328198",
+    "t3_1q0c8ct",
+    "devto_4255272",
+    "t3_1u6pn4q"
+   ]
+  },
+  {
+   "id": "C07",
+   "claim": "Agents do destructive or out of scope work unless boxed in by task contracts, guardrails and review",
+   "ids": [
+    "devto_3773561",
+    "forum.cursor.com_433149",
+    "devto_3542818",
+    "devto_3991927",
+    "devto_3145332",
+    "devto_3063477",
+    "devto_3114803",
+    "t3_1wugsgg",
+    "hn_50186355",
+    "devto_3508186"
+   ]
+  },
+  {
+   "id": "C08",
+   "claim": "AI writes code faster than anyone can understand it: review is the bottleneck and debt and security risk pile up",
+   "ids": [
+    "t1_otg1hu7",
+    "hn_48843319",
+    "t3_1t6pr8f",
+    "hn_47705598",
+    "hn_49800424",
+    "t3_1q2m4ec"
+   ]
+  },
+  {
+   "id": "C09",
+   "claim": "AI speeds work up, but less than claimed, and the gain can feel hollow",
+   "ids": [
+    "t3_1vf9sm9",
+    "hn_50108198",
+    "t3_1pels0c",
+    "devto_3173110",
+    "devto_3092685",
+    "devto_3346094",
+    "t3_1u2h85u",
+    "devto_4895733",
+    "t3_1xb6p3y",
+    "t3_1t74pov"
+   ]
+  },
+  {
+   "id": "C10",
+   "claim": "Leaning on AI erodes the skills new developers need to build",
+   "ids": [
+    "t3_1qo01h3",
+    "t3_1p53ur3",
+    "t3_1vcuz91",
+    "t3_1qp0t52",
+    "t3_1rk9l2g"
+   ]
+  },
+  {
+   "id": "C11",
+   "claim": "The AI tools themselves are unstable: updates break the editor or agent, and fixes lag",
+   "ids": [
+    "forum.cursor.com_303247",
+    "forum.cursor.com_405501",
+    "forum.cursor.com_507785",
+    "forum.cursor.com_383200",
+    "forum.cursor.com_358443",
+    "forum.cursor.com_472675",
+    "forum.cursor.com_491362",
+    "forum.cursor.com_328012",
+    "forum.cursor.com_404559",
+    "forum.cursor.com_398529",
+    "forum.cursor.com_499204",
+    "forum.cursor.com_374938",
+    "t3_1ta5cq5",
+    "forum.cursor.com_336128",
+    "forum.cursor.com_512585",
+    "t3_1ojw3wt",
+    "forum.cursor.com_349224"
+   ]
+  },
+  {
+   "id": "C12",
+   "claim": "Builds break in the platform, not the code: hosted build and deploy failures with opaque errors",
+   "ids": [
+    "community.vercel.com_138162",
+    "community.vercel.com_127189",
+    "community.vercel.com_82155",
+    "community.vercel.com_133401",
+    "community.vercel.com_92116",
+    "community.vercel.com_120913",
+    "so_79806823",
+    "so_79888436",
+    "so_79998427",
+    "so_79797666",
+    "so_79885438"
+   ]
+  },
+  {
+   "id": "C13",
+   "claim": "Build tooling is slow and upgrades are feared: long compiles, stale hot reload, version churn",
+   "ids": [
+    "so_79931687",
+    "so_79824064",
+    "hn_47476182",
+    "so_79836541",
+    "t3_1trr1fp",
+    "t3_1wzwar2",
+    "hn_49872839",
+    "t3_1oprhaq"
+   ]
+  },
+  {
+   "id": "C14",
+   "claim": "Wiring the UI to data and services is where newer builders stall",
+   "ids": [
+    "t3_1orfsld",
+    "t3_1uqyrsq",
+    "t3_1twlx9w",
+    "t3_1w0za67",
+    "t3_1r4v5qf",
+    "t3_1pudg5y",
+    "t3_1qwfn88",
+    "hn_46493460",
+    "t3_1os8mae"
+   ]
+  },
+  {
+   "id": "C15",
+   "claim": "Too many tools, rules files and MCP servers to glue together and vet",
+   "ids": [
+    "devto_3309837",
+    "t3_1tb1s4d",
+    "hn_47847513",
+    "t3_1xbzvn1",
+    "forum.cursor.com_483583",
+    "t3_1rrpw45",
+    "forum.cursor.com_307866",
+    "t3_1rl79f2"
+   ]
+  },
+  {
+   "id": "C16",
+   "claim": "Other one-off observations",
+   "ids": [
+    "community.vercel.com_82833",
+    "hn_46912746",
+    "hn_48901778",
+    "t1_nq1oqsa",
+    "t1_ohcghkn",
+    "t3_1u9evqn",
+    "t3_1woh07h"
+   ]
+  }
+ ]
+}

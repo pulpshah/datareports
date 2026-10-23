@@ -1,0 +1,99 @@
+{
+  "n": 55,
+  "single": {
+    "relevant": {
+      "kappa": 0.927,
+      "raw_agreement": 0.964
+    },
+    "stance": {
+      "kappa": 0.839,
+      "raw_agreement": 0.891
+    },
+    "tier": {
+      "kappa": 0.935,
+      "raw_agreement": 0.982
+    },
+    "icp": {
+      "kappa": 0.933,
+      "raw_agreement": 0.982
+    },
+    "severity": {
+      "kappa": 0.764,
+      "raw_agreement": 0.909
+    },
+    "argument_type": {
+      "kappa": 0.563,
+      "raw_agreement": 0.727
+    },
+    "evidence_level": {
+      "kappa": 0.935,
+      "raw_agreement": 0.964
+    }
+  },
+  "multi": {
+    "themes": {
+      "mean_jaccard": 0.903
+    },
+    "layers": {
+      "mean_jaccard": 0.9
+    },
+    "pain_types": {
+      "mean_jaccard": 0.667
+    }
+  },
+  "channels": {
+    "ethos": {
+      "spearman": 0.772,
+      "n": 28
+    },
+    "pathos": {
+      "spearman": 0.923,
+      "n": 28
+    },
+    "logos": {
+      "spearman": 0.863,
+      "n": 28
+    },
+    "kairos": {
+      "spearman": 0.63,
+      "n": 28
+    },
+    "style": {
+      "spearman": 0.863,
+      "n": 28
+    },
+    "clarity": {
+      "spearman": 0.834,
+      "n": 28
+    },
+    "focus": {
+      "spearman": 0.692,
+      "n": 28
+    },
+    "awareness": {
+      "spearman": 0.781,
+      "n": 28
+    }
+  },
+  "pa_est": {
+    "spearman": 0.82,
+    "n": 28
+  },
+  "disagreements": {
+    "relevant": [
+      "hn_46912746",
+      "t3_1woh07h"
+    ],
+    "stance": [
+      "hn_46912746",
+      "t1_nmknyxc",
+      "t3_1pudg5y",
+      "t3_1t6pr8f",
+      "t3_1vf9sm9",
+      "t3_1woh07h"
+    ],
+    "tier": [
+      "t3_1qoj81l"
+    ]
+  }
+}

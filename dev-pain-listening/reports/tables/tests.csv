@@ -1,0 +1,73 @@
+test,stat,p,n,effect,note,q_bh
+rm_raw tracks text length (Spearman),0.9509,1.0460555488523862e-74,145,,ADR 0003 risk: mass as a length proxy,7.53159995173718e-73
+relevance rate differs by source,51.7142,1.582960990017564e-10,273,{'cramers_v': 0.435},,5.698659564063231e-09
+pm_fair differs by argument type (Kruskal-Wallis),23.6074,9.573210938568158e-05,134,,,0.002004405257920454
+pf_fair differs by argument type (Kruskal-Wallis),23.2792,0.00011135584766224745,134,,,0.002004405257920454
+pf_fair differs by evidence level (Kruskal-Wallis),13.0216,0.001487279541687693,140,,,0.021416825400302777
+pm_fair differs by evidence level (Kruskal-Wallis),11.6801,0.0029086870443546953,140,,,0.034904244532256344
+pain_types:learning_curve share differs by tier,12.9241,0.004803635862775003,30,{'cramers_v': 0.656},,0.04940882601711431
+pain_types:slow share differs by tier,9.6016,0.022274221287586587,30,{'cramers_v': 0.566},,0.2004679915882793
+pf_fair differs by tier (Kruskal-Wallis),4.1925,0.04060206329499148,22,,,0.303260994948687
+pain_types:wrong_output share differs by tier,8.0134,0.045735725097782294,30,{'cramers_v': 0.517},,0.303260994948687
+time: pf_fair differs across windows,7.9846,0.0463315408949383,145,,,0.303260994948687
+time: pm_fair differs across windows,7.7079,0.052451612196096196,145,,,0.3147096731765772
+time: pain_types:drift_inconsistency linear trend (Cochran-Armitage),1.8894,0.05884136619520306,145,,,0.3258906435426631
+pain_types:drift_inconsistency share differs by tier,7.0408,0.07060813356111965,30,{'cramers_v': 0.484},,0.36312754402861536
+time: pain_types:slow share changes across windows (chi-square),6.855,0.07666564745646598,145,,,0.36799510779103667
+ICP vs expert: themes:ai_speed,11.0,0.08333333333333331,18,"{'icp_share': 0.75, 'expert_share': 0.214}",,0.37499999999999994
+themes:ai_speed share differs by tier,6.3421,0.0961038205494907,30,{'cramers_v': 0.46},,0.4056394501425159
+pm_fair differs by tier (Kruskal-Wallis),2.6832,0.10140986253562898,22,,,0.4056394501425159
+themes:ai_stability share differs by tier,5.9428,0.11442810971175911,30,{'cramers_v': 0.445},,0.4089635854341737
+themes:ui_data_gap share differs by tier,5.8929,0.11694092004423193,30,{'cramers_v': 0.443},,0.4089635854341737
+ICP vs expert: layers:cross,0.0,0.11928104575163401,18,"{'icp_share': 0.0, 'expert_share': 0.5}",,0.4089635854341737
+time: layers:fe linear trend (Cochran-Armitage),-1.4614,0.1439181143419564,145,,,0.4710047378464027
+time: pain_types:context_limits linear trend (Cochran-Armitage),-1.3831,0.1666400804195074,145,,,0.5216559039219363
+time: pain_types:drift_inconsistency share changes across windows (chi-square),4.406,0.22082905567015879,145,,,0.6277734699830556
+time: layers:be linear trend (Cochran-Armitage),1.214,0.22476155769382689,145,,,0.6277734699830556
+time: pain_types:costly linear trend (Cochran-Armitage),-1.2089,0.22669597527165897,145,,,0.6277734699830556
+ICP vs expert: themes:other,0.1852,0.27450980392156865,18,"{'icp_share': 0.25, 'expert_share': 0.643}",,0.7320261437908497
+time: themes:ai_cost linear trend (Cochran-Armitage),-1.0008,0.31693341638210204,145,,,0.7520184544405997
+time: pain_types:slow linear trend (Cochran-Armitage),0.9666,0.3337376464852043,145,,,0.7520184544405997
+pain_types:debt_buildup share differs by tier,3.399,0.3340976705494738,30,{'cramers_v': 0.337},,0.7520184544405997
+time: themes:other share changes across windows (chi-square),3.303,0.3472190236748771,145,,,0.7520184544405997
+pain_types:costly share differs by tier,3.2571,0.35365224150191654,30,{'cramers_v': 0.33},,0.7520184544405997
+themes:ai_cost share differs by tier,3.2571,0.35365224150191654,30,{'cramers_v': 0.33},,0.7520184544405997
+time: themes:ai_cost share changes across windows (chi-square),3.0623,0.38211993632986235,145,,,0.7520184544405997
+time: pain_types:cant_debug share changes across windows (chi-square),2.9813,0.39451405441151877,145,,,0.7520184544405997
+time: pain_types:costly share changes across windows (chi-square),2.8645,0.4129875750522797,145,,,0.7520184544405997
+pain_types:review_burden share differs by tier,2.8448,0.4161735629980329,30,{'cramers_v': 0.308},,0.7520184544405997
+themes:other share differs by tier,2.7857,0.42585700239923663,30,{'cramers_v': 0.305},,0.7520184544405997
+time: layers:fe share changes across windows (chi-square),2.6838,0.4429825766432659,145,,,0.7520184544405997
+pf_fair vs uptake (engagement percentile),0.0632,0.45030948644457397,145,,,0.7520184544405997
+pm_fair vs uptake (engagement percentile),0.0621,0.45841006947657964,145,,,0.7520184544405997
+time: pain_types:wrong_output share changes across windows (chi-square),2.5629,0.46402247511329897,145,,,0.7520184544405997
+pain_types:lock_in share differs by tier,2.449,0.48458221321567885,30,{'cramers_v': 0.286},,0.7520184544405997
+time: pain_types:wrong_output linear trend (Cochran-Armitage),-0.6711,0.5021472715891355,145,,,0.7520184544405997
+time: layers:ci_infra share changes across windows (chi-square),2.3274,0.5072914535322439,145,,,0.7520184544405997
+time: pain_types:context_limits share changes across windows (chi-square),2.3178,0.5091175055402613,145,,,0.7520184544405997
+time: layers:ci_infra linear trend (Cochran-Armitage),0.652,0.5143845363181047,145,,,0.7520184544405997
+time: layers:data share changes across windows (chi-square),2.2734,0.5176332786711084,145,,,0.7520184544405997
+time: pain_types:cant_debug linear trend (Cochran-Armitage),-0.6403,0.52196769894352,145,,,0.7520184544405997
+time: layers:cross share changes across windows (chi-square),2.2081,0.5303605507757416,145,,,0.7520184544405997
+ICP vs expert: pain_types:none,3.6667,0.5326797385620915,18,"{'icp_share': 0.5, 'expert_share': 0.214}",,0.7520184544405997
+pa vs uptake (engagement percentile),-0.0495,0.5543332982590233,145,,,0.7675384129740324
+evidence level differs by tier,10.274,0.5919362581991234,145,{'cramers_v': 0.154},,0.8041398224591865
+time: layers:be share changes across windows (chi-square),1.5721,0.6657278773139708,145,,,0.8636453186723588
+time: pain_types:none linear trend (Cochran-Armitage),-0.3901,0.6964710126800673,145,,,0.8636453186723588
+themes:tool_fragmentation share differs by tier,1.4286,0.6988513076924843,30,{'cramers_v': 0.218},,0.8636453186723588
+pain_types:cant_debug share differs by tier,1.4286,0.6988513076924843,30,{'cramers_v': 0.218},,0.8636453186723588
+time: layers:data linear trend (Cochran-Armitage),0.3797,0.7042044021568166,145,,,0.8636453186723588
+speed vs uptake (engagement percentile),-0.0314,0.7077093583565163,145,,,0.8636453186723588
+pain_types:scattered_tools share differs by tier,1.301,0.7288907845003285,30,{'cramers_v': 0.208},,0.8654408246219161
+time: layers:cross linear trend (Cochran-Armitage),0.3325,0.7395483030203884,145,,,0.8654408246219161
+themes:build_time share differs by tier,1.2302,0.7457804592658401,30,{'cramers_v': 0.202},,0.8654408246219161
+pain_types:flaky share differs by tier,1.1823,0.7572607215441766,30,{'cramers_v': 0.199},,0.8654408246219161
+time: themes:ai_stability linear trend (Cochran-Armitage),0.251,0.8018433003307199,145,,,0.8883669863828715
+time: themes:ai_speed linear trend (Cochran-Armitage),-0.2508,0.8019979738178701,145,,,0.8883669863828715
+pain_types:none share differs by tier,0.5357,0.9109779276419522,30,{'cramers_v': 0.134},,0.9903376501853365
+time: themes:other linear trend (Cochran-Armitage),-0.0985,0.9215642022557993,145,,,0.9903376501853365
+time: themes:ai_speed share changes across windows (chi-square),0.343,0.9517460055568732,145,,,0.993284808068941
+time: pain_types:none share changes across windows (chi-square),0.3422,0.9518979410660685,145,,,0.993284808068941
+time: themes:ai_stability share changes across windows (chi-square),0.2032,0.9770720451823276,145,,,1.0
+ICP vs expert: layers:be,1.8,1.0,18,"{'icp_share': 0.5, 'expert_share': 0.357}",,1.0
+ICP vs expert: layers:ci_infra,0.4444,1.0,18,"{'icp_share': 0.25, 'expert_share': 0.429}",,1.0

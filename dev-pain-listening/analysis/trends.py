@@ -26,7 +26,11 @@ FAMS = ["BUILD", "AICOST", "AISTAB", "AISPEED", "UIDATA"]
 WINDOWS = ["W1", "W2", "W3", "W4"]
 
 
+LAST_FULL_WEEK = "2026-10-15"  # the week from 2026-10-22 holds one day (the window ends 2026-10-23)
+
+
 def robust_spikes(s, label, thresh=3.0):
+    s = s[[str(k) <= LAST_FULL_WEEK for k in s.index]]
     med = s.median()
     mad = (s - med).abs().median() * 1.4826
     if not mad:
@@ -104,6 +108,10 @@ def main():
     hn = [json.loads(l) for l in open(RAW / "counts_hn_weekly_listed.jsonl")] if (RAW / "counts_hn_weekly_listed.jsonl").exists() else []
     if hn:
         h = pd.DataFrame(hn).drop_duplicates(["kw", "week_start"])
+        # Algolia lists at most 1,000 hits per query: a week at 1,000 is a cap, so that keyword's series is invalid.
+        capped = sorted(h[h["count"] >= 1000]["kw"].unique())
+        out["hn_capped_keywords"] = capped
+        h = h[~h["kw"].isin(capped)]
         h.to_csv(REP / "tables" / "trend_hn_weekly.csv", index=False)
         fig, ax = plt.subplots(figsize=(9, 4))
         for kw, g in h.groupby("kw"):
