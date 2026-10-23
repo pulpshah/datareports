@@ -1,0 +1,92 @@
+forum.cursor.com|slow|W1
+forum.cursor.com|slow|W2
+forum.cursor.com|slow|W3
+forum.cursor.com|slow|W4
+forum.cursor.com|expensive|W1
+forum.cursor.com|expensive|W2
+forum.cursor.com|expensive|W3
+forum.cursor.com|expensive|W4
+forum.cursor.com|usage limit|W1
+forum.cursor.com|usage limit|W2
+forum.cursor.com|usage limit|W3
+forum.cursor.com|usage limit|W4
+forum.cursor.com|pricing|W1
+forum.cursor.com|pricing|W2
+forum.cursor.com|pricing|W3
+forum.cursor.com|pricing|W4
+forum.cursor.com|broke|W1
+forum.cursor.com|broke|W2
+forum.cursor.com|broke|W3
+forum.cursor.com|broke|W4
+forum.cursor.com|ignores|W1
+forum.cursor.com|ignores|W2
+forum.cursor.com|ignores|W3
+forum.cursor.com|ignores|W4
+forum.cursor.com|regression|W1
+forum.cursor.com|regression|W2
+forum.cursor.com|regression|W3
+forum.cursor.com|regression|W4
+forum.cursor.com|context|W1
+forum.cursor.com|context|W2
+forum.cursor.com|context|W3
+forum.cursor.com|context|W4
+forum.cursor.com|hallucinat|W1
+forum.cursor.com|hallucinat|W2
+forum.cursor.com|hallucinat|W3
+forum.cursor.com|hallucinat|W4
+forum.cursor.com|worse|W1
+forum.cursor.com|worse|W2
+forum.cursor.com|worse|W3
+forum.cursor.com|worse|W4
+forum.cursor.com|rate limit|W1
+forum.cursor.com|rate limit|W2
+forum.cursor.com|rate limit|W3
+forum.cursor.com|rate limit|W4
+forum.cursor.com|build|W1
+forum.cursor.com|build|W2
+forum.cursor.com|build|W3
+forum.cursor.com|build|W4
+forum.cursor.com|backend|W1
+forum.cursor.com|backend|W2
+forum.cursor.com|backend|W3
+forum.cursor.com|backend|W4
+community.vercel.com|build time|W1
+community.vercel.com|build time|W2
+community.vercel.com|build time|W3
+community.vercel.com|build time|W4
+community.vercel.com|slow build|W1
+community.vercel.com|slow build|W2
+community.vercel.com|slow build|W3
+community.vercel.com|slow build|W4
+community.vercel.com|turbopack|W1
+community.vercel.com|turbopack|W2
+community.vercel.com|turbopack|W3
+community.vercel.com|turbopack|W4
+community.vercel.com|build failed|W1
+community.vercel.com|build failed|W2
+community.vercel.com|build failed|W3
+community.vercel.com|build failed|W4
+community.vercel.com|build cache|W1
+community.vercel.com|build cache|W2
+community.vercel.com|build cache|W3
+community.vercel.com|build cache|W4
+community.vercel.com|v0 credits|W1
+community.vercel.com|v0 credits|W2
+community.vercel.com|v0 credits|W3
+community.vercel.com|v0 credits|W4
+community.vercel.com|v0 broke|W1
+community.vercel.com|v0 broke|W2
+community.vercel.com|v0 broke|W3
+community.vercel.com|v0 broke|W4
+community.vercel.com|v0 backend|W1
+community.vercel.com|v0 backend|W2
+community.vercel.com|v0 backend|W3
+community.vercel.com|v0 backend|W4
+community.vercel.com|deploy slow|W1
+community.vercel.com|deploy slow|W2
+community.vercel.com|deploy slow|W3
+community.vercel.com|deploy slow|W4
+community.vercel.com|out of memory|W1
+community.vercel.com|out of memory|W2
+community.vercel.com|out of memory|W3
+community.vercel.com|out of memory|W4

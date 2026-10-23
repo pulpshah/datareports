@@ -1,0 +1,96 @@
+next.js|slow|W1
+next.js|slow|W2
+next.js|slow|W3
+next.js|slow|W4
+next.js|build time|W1
+next.js|build time|W2
+next.js|build time|W3
+next.js|build time|W4
+vite|slow|W1
+vite|slow|W2
+vite|slow|W3
+vite|slow|W4
+vite|build time|W1
+vite|build time|W2
+vite|build time|W3
+vite|build time|W4
+webpack|slow|W1
+webpack|slow|W2
+webpack|slow|W3
+webpack|slow|W4
+webpack|build time|W1
+webpack|build time|W2
+webpack|build time|W3
+webpack|build time|W4
+typescript|slow|W1
+typescript|slow|W2
+typescript|slow|W3
+typescript|slow|W4
+typescript|build time|W1
+typescript|build time|W2
+typescript|build time|W3
+typescript|build time|W4
+turbopack|slow|W1
+turbopack|slow|W2
+turbopack|slow|W3
+turbopack|slow|W4
+turbopack|build time|W1
+turbopack|build time|W2
+turbopack|build time|W3
+turbopack|build time|W4
+storybook|slow|W1
+storybook|slow|W2
+storybook|slow|W3
+storybook|slow|W4
+storybook|build time|W1
+storybook|build time|W2
+storybook|build time|W3
+storybook|build time|W4
+playwright|slow|W1
+playwright|slow|W2
+playwright|slow|W3
+playwright|slow|W4
+playwright|build time|W1
+playwright|build time|W2
+playwright|build time|W3
+playwright|build time|W4
+docker|slow|W1
+docker|slow|W2
+docker|slow|W3
+docker|slow|W4
+docker|build time|W1
+docker|build time|W2
+docker|build time|W3
+docker|build time|W4
+github-copilot|slow|W1
+github-copilot|slow|W2
+github-copilot|slow|W3
+github-copilot|slow|W4
+github-copilot|build time|W1
+github-copilot|build time|W2
+github-copilot|build time|W3
+github-copilot|build time|W4
+cursor-ide|slow|W1
+cursor-ide|slow|W2
+cursor-ide|slow|W3
+cursor-ide|slow|W4
+cursor-ide|build time|W1
+cursor-ide|build time|W2
+cursor-ide|build time|W3
+cursor-ide|build time|W4
+angular|slow|W1
+angular|slow|W2
+angular|slow|W3
+angular|slow|W4
+angular|build time|W1
+angular|build time|W2
+angular|build time|W3
+angular|build time|W4
+react-native|slow|W1
+react-native|slow|W2
+react-native|slow|W3
+react-native|slow|W4
+react-native|build time|W1
+react-native|build time|W2
+react-native|build time|W3
+react-native|build time|W4

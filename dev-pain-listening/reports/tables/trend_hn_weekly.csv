@@ -1,0 +1,531 @@
+src,kw,week_start,count,ok
+hn_weekly_listed,build times,2025-10-23,323,True
+hn_weekly_listed,build times,2025-10-30,453,True
+hn_weekly_listed,build times,2025-11-06,385,True
+hn_weekly_listed,build times,2025-11-13,321,True
+hn_weekly_listed,build times,2025-11-20,334,True
+hn_weekly_listed,build times,2025-11-27,452,True
+hn_weekly_listed,build times,2025-12-04,435,True
+hn_weekly_listed,build times,2025-12-11,468,True
+hn_weekly_listed,build times,2025-12-18,337,True
+hn_weekly_listed,build times,2025-12-25,379,True
+hn_weekly_listed,build times,2026-01-01,508,True
+hn_weekly_listed,build times,2026-01-08,402,True
+hn_weekly_listed,build times,2026-01-15,430,True
+hn_weekly_listed,build times,2026-01-22,436,True
+hn_weekly_listed,build times,2026-01-29,551,True
+hn_weekly_listed,build times,2026-02-05,532,True
+hn_weekly_listed,build times,2026-02-12,459,True
+hn_weekly_listed,build times,2026-02-19,495,True
+hn_weekly_listed,build times,2026-02-26,555,True
+hn_weekly_listed,build times,2026-03-05,594,True
+hn_weekly_listed,build times,2026-03-12,472,True
+hn_weekly_listed,build times,2026-03-19,439,True
+hn_weekly_listed,build times,2026-03-26,413,True
+hn_weekly_listed,build times,2026-04-02,429,True
+hn_weekly_listed,build times,2026-04-09,440,True
+hn_weekly_listed,build times,2026-04-16,332,True
+hn_weekly_listed,build times,2026-04-23,341,True
+hn_weekly_listed,build times,2026-04-30,455,True
+hn_weekly_listed,build times,2026-05-07,386,True
+hn_weekly_listed,build times,2026-05-14,338,True
+hn_weekly_listed,build times,2026-05-21,335,True
+hn_weekly_listed,build times,2026-05-28,445,True
+hn_weekly_listed,build times,2026-06-04,459,True
+hn_weekly_listed,build times,2026-06-11,418,True
+hn_weekly_listed,build times,2026-06-18,377,True
+hn_weekly_listed,build times,2026-06-25,339,True
+hn_weekly_listed,build times,2026-07-02,437,True
+hn_weekly_listed,build times,2026-07-09,376,True
+hn_weekly_listed,build times,2026-07-16,328,True
+hn_weekly_listed,build times,2026-07-23,379,True
+hn_weekly_listed,build times,2026-07-30,490,True
+hn_weekly_listed,build times,2026-08-06,380,True
+hn_weekly_listed,build times,2026-08-13,348,True
+hn_weekly_listed,build times,2026-08-20,311,True
+hn_weekly_listed,build times,2026-08-27,428,True
+hn_weekly_listed,build times,2026-09-03,386,True
+hn_weekly_listed,build times,2026-09-10,383,True
+hn_weekly_listed,build times,2026-09-17,338,True
+hn_weekly_listed,build times,2026-09-24,377,True
+hn_weekly_listed,build times,2026-10-01,502,True
+hn_weekly_listed,build times,2026-10-08,409,True
+hn_weekly_listed,build times,2026-10-15,430,True
+hn_weekly_listed,build times,2026-10-22,122,True
+hn_weekly_listed,turbopack,2025-10-23,5,True
+hn_weekly_listed,turbopack,2025-10-30,4,True
+hn_weekly_listed,turbopack,2025-11-06,1,True
+hn_weekly_listed,turbopack,2025-11-13,3,True
+hn_weekly_listed,turbopack,2025-11-20,0,True
+hn_weekly_listed,turbopack,2025-11-27,5,True
+hn_weekly_listed,turbopack,2025-12-04,2,True
+hn_weekly_listed,turbopack,2025-12-11,2,True
+hn_weekly_listed,turbopack,2025-12-18,2,True
+hn_weekly_listed,turbopack,2025-12-25,1,True
+hn_weekly_listed,turbopack,2026-01-01,3,True
+hn_weekly_listed,turbopack,2026-01-08,1,True
+hn_weekly_listed,turbopack,2026-01-15,6,True
+hn_weekly_listed,turbopack,2026-01-22,9,True
+hn_weekly_listed,turbopack,2026-01-29,2,True
+hn_weekly_listed,turbopack,2026-02-05,2,True
+hn_weekly_listed,turbopack,2026-02-12,2,True
+hn_weekly_listed,turbopack,2026-02-19,5,True
+hn_weekly_listed,turbopack,2026-02-26,4,True
+hn_weekly_listed,turbopack,2026-03-05,0,True
+hn_weekly_listed,turbopack,2026-03-12,3,True
+hn_weekly_listed,turbopack,2026-03-19,0,True
+hn_weekly_listed,turbopack,2026-03-26,1,True
+hn_weekly_listed,turbopack,2026-04-02,11,True
+hn_weekly_listed,turbopack,2026-04-09,6,True
+hn_weekly_listed,turbopack,2026-04-16,0,True
+hn_weekly_listed,turbopack,2026-04-23,0,True
+hn_weekly_listed,turbopack,2026-04-30,1,True
+hn_weekly_listed,turbopack,2026-05-07,2,True
+hn_weekly_listed,turbopack,2026-05-14,2,True
+hn_weekly_listed,turbopack,2026-05-21,0,True
+hn_weekly_listed,turbopack,2026-05-28,1,True
+hn_weekly_listed,turbopack,2026-06-04,1,True
+hn_weekly_listed,turbopack,2026-06-11,0,True
+hn_weekly_listed,turbopack,2026-06-18,1,True
+hn_weekly_listed,turbopack,2026-06-25,0,True
+hn_weekly_listed,turbopack,2026-07-02,4,True
+hn_weekly_listed,turbopack,2026-07-09,0,True
+hn_weekly_listed,turbopack,2026-07-16,0,True
+hn_weekly_listed,turbopack,2026-07-23,0,True
+hn_weekly_listed,turbopack,2026-07-30,0,True
+hn_weekly_listed,turbopack,2026-08-06,0,True
+hn_weekly_listed,turbopack,2026-08-13,2,True
+hn_weekly_listed,turbopack,2026-08-20,2,True
+hn_weekly_listed,turbopack,2026-08-27,1,True
+hn_weekly_listed,turbopack,2026-09-03,0,True
+hn_weekly_listed,turbopack,2026-09-10,1,True
+hn_weekly_listed,turbopack,2026-09-17,0,True
+hn_weekly_listed,turbopack,2026-09-24,2,True
+hn_weekly_listed,turbopack,2026-10-01,0,True
+hn_weekly_listed,turbopack,2026-10-08,1,True
+hn_weekly_listed,turbopack,2026-10-15,1,True
+hn_weekly_listed,turbopack,2026-10-22,0,True
+hn_weekly_listed,vite,2025-10-23,1000,True
+hn_weekly_listed,vite,2025-10-30,1000,True
+hn_weekly_listed,vite,2025-11-06,1000,True
+hn_weekly_listed,vite,2025-11-13,1000,True
+hn_weekly_listed,vite,2025-11-20,1000,True
+hn_weekly_listed,vite,2025-11-27,1000,True
+hn_weekly_listed,vite,2025-12-04,1000,True
+hn_weekly_listed,vite,2025-12-11,1000,True
+hn_weekly_listed,vite,2025-12-18,1000,True
+hn_weekly_listed,vite,2025-12-25,1000,True
+hn_weekly_listed,vite,2026-01-01,1000,True
+hn_weekly_listed,vite,2026-01-08,1000,True
+hn_weekly_listed,vite,2026-01-15,1000,True
+hn_weekly_listed,vite,2026-01-22,1000,True
+hn_weekly_listed,vite,2026-01-29,1000,True
+hn_weekly_listed,vite,2026-02-05,1000,True
+hn_weekly_listed,vite,2026-02-12,1000,True
+hn_weekly_listed,vite,2026-02-19,1000,True
+hn_weekly_listed,vite,2026-02-26,1000,True
+hn_weekly_listed,vite,2026-03-05,1000,True
+hn_weekly_listed,vite,2026-03-12,1000,True
+hn_weekly_listed,vite,2026-03-19,1000,True
+hn_weekly_listed,vite,2026-03-26,1000,True
+hn_weekly_listed,vite,2026-04-02,1000,True
+hn_weekly_listed,vite,2026-04-09,1000,True
+hn_weekly_listed,vite,2026-04-16,1000,True
+hn_weekly_listed,vite,2026-04-23,1000,True
+hn_weekly_listed,vite,2026-04-30,1000,True
+hn_weekly_listed,vite,2026-05-07,1000,True
+hn_weekly_listed,vite,2026-05-14,1000,True
+hn_weekly_listed,vite,2026-05-21,1000,True
+hn_weekly_listed,vite,2026-05-28,1000,True
+hn_weekly_listed,vite,2026-06-04,1000,True
+hn_weekly_listed,vite,2026-06-11,1000,True
+hn_weekly_listed,vite,2026-06-18,1000,True
+hn_weekly_listed,vite,2026-06-25,1000,True
+hn_weekly_listed,vite,2026-07-02,1000,True
+hn_weekly_listed,vite,2026-07-09,1000,True
+hn_weekly_listed,vite,2026-07-16,1000,True
+hn_weekly_listed,vite,2026-07-23,1000,True
+hn_weekly_listed,vite,2026-07-30,1000,True
+hn_weekly_listed,vite,2026-08-06,1000,True
+hn_weekly_listed,vite,2026-08-13,1000,True
+hn_weekly_listed,vite,2026-08-20,1000,True
+hn_weekly_listed,vite,2026-08-27,1000,True
+hn_weekly_listed,vite,2026-09-03,1000,True
+hn_weekly_listed,vite,2026-09-10,1000,True
+hn_weekly_listed,vite,2026-09-17,1000,True
+hn_weekly_listed,vite,2026-09-24,1000,True
+hn_weekly_listed,vite,2026-10-01,1000,True
+hn_weekly_listed,vite,2026-10-08,1000,True
+hn_weekly_listed,vite,2026-10-15,1000,True
+hn_weekly_listed,vite,2026-10-22,1000,True
+hn_weekly_listed,vibe coding,2025-10-23,108,True
+hn_weekly_listed,vibe coding,2025-10-30,67,True
+hn_weekly_listed,vibe coding,2025-11-06,121,True
+hn_weekly_listed,vibe coding,2025-11-13,106,True
+hn_weekly_listed,vibe coding,2025-11-20,106,True
+hn_weekly_listed,vibe coding,2025-11-27,165,True
+hn_weekly_listed,vibe coding,2025-12-04,262,True
+hn_weekly_listed,vibe coding,2025-12-11,208,True
+hn_weekly_listed,vibe coding,2025-12-18,194,True
+hn_weekly_listed,vibe coding,2025-12-25,193,True
+hn_weekly_listed,vibe coding,2026-01-01,210,True
+hn_weekly_listed,vibe coding,2026-01-08,278,True
+hn_weekly_listed,vibe coding,2026-01-15,230,True
+hn_weekly_listed,vibe coding,2026-01-22,428,True
+hn_weekly_listed,vibe coding,2026-01-29,266,True
+hn_weekly_listed,vibe coding,2026-02-05,301,True
+hn_weekly_listed,vibe coding,2026-02-12,301,True
+hn_weekly_listed,vibe coding,2026-02-19,273,True
+hn_weekly_listed,vibe coding,2026-02-26,285,True
+hn_weekly_listed,vibe coding,2026-03-05,246,True
+hn_weekly_listed,vibe coding,2026-03-12,262,True
+hn_weekly_listed,vibe coding,2026-03-19,198,True
+hn_weekly_listed,vibe coding,2026-03-26,210,True
+hn_weekly_listed,vibe coding,2026-04-02,249,True
+hn_weekly_listed,vibe coding,2026-04-09,230,True
+hn_weekly_listed,vibe coding,2026-04-16,153,True
+hn_weekly_listed,vibe coding,2026-04-23,233,True
+hn_weekly_listed,vibe coding,2026-04-30,262,True
+hn_weekly_listed,vibe coding,2026-05-07,239,True
+hn_weekly_listed,vibe coding,2026-05-14,255,True
+hn_weekly_listed,vibe coding,2026-05-21,196,True
+hn_weekly_listed,vibe coding,2026-05-28,185,True
+hn_weekly_listed,vibe coding,2026-06-04,195,True
+hn_weekly_listed,vibe coding,2026-06-11,201,True
+hn_weekly_listed,vibe coding,2026-06-18,123,True
+hn_weekly_listed,vibe coding,2026-06-25,122,True
+hn_weekly_listed,vibe coding,2026-07-02,147,True
+hn_weekly_listed,vibe coding,2026-07-09,177,True
+hn_weekly_listed,vibe coding,2026-07-16,126,True
+hn_weekly_listed,vibe coding,2026-07-23,151,True
+hn_weekly_listed,vibe coding,2026-07-30,138,True
+hn_weekly_listed,vibe coding,2026-08-06,132,True
+hn_weekly_listed,vibe coding,2026-08-13,149,True
+hn_weekly_listed,vibe coding,2026-08-20,105,True
+hn_weekly_listed,vibe coding,2026-08-27,153,True
+hn_weekly_listed,vibe coding,2026-09-03,92,True
+hn_weekly_listed,vibe coding,2026-09-10,157,True
+hn_weekly_listed,vibe coding,2026-09-17,173,True
+hn_weekly_listed,vibe coding,2026-09-24,173,True
+hn_weekly_listed,vibe coding,2026-10-01,199,True
+hn_weekly_listed,vibe coding,2026-10-08,200,True
+hn_weekly_listed,vibe coding,2026-10-15,207,True
+hn_weekly_listed,vibe coding,2026-10-22,40,True
+hn_weekly_listed,claude code,2025-10-23,357,True
+hn_weekly_listed,claude code,2025-10-30,314,True
+hn_weekly_listed,claude code,2025-11-06,293,True
+hn_weekly_listed,claude code,2025-11-13,399,True
+hn_weekly_listed,claude code,2025-11-20,357,True
+hn_weekly_listed,claude code,2025-11-27,434,True
+hn_weekly_listed,claude code,2025-12-04,396,True
+hn_weekly_listed,claude code,2025-12-11,561,True
+hn_weekly_listed,claude code,2025-12-18,627,True
+hn_weekly_listed,claude code,2025-12-25,585,True
+hn_weekly_listed,claude code,2026-01-01,893,True
+hn_weekly_listed,claude code,2026-01-08,1000,True
+hn_weekly_listed,claude code,2026-01-15,1000,True
+hn_weekly_listed,claude code,2026-01-22,1000,True
+hn_weekly_listed,claude code,2026-01-29,1000,True
+hn_weekly_listed,claude code,2026-02-05,1000,True
+hn_weekly_listed,claude code,2026-02-12,1000,True
+hn_weekly_listed,claude code,2026-02-19,1000,True
+hn_weekly_listed,claude code,2026-02-26,1000,True
+hn_weekly_listed,claude code,2026-03-05,1000,True
+hn_weekly_listed,claude code,2026-03-12,1000,True
+hn_weekly_listed,claude code,2026-03-19,1000,True
+hn_weekly_listed,claude code,2026-03-26,1000,True
+hn_weekly_listed,claude code,2026-04-02,1000,True
+hn_weekly_listed,claude code,2026-04-09,1000,True
+hn_weekly_listed,claude code,2026-04-16,1000,True
+hn_weekly_listed,claude code,2026-04-23,989,True
+hn_weekly_listed,claude code,2026-04-30,941,True
+hn_weekly_listed,claude code,2026-05-07,705,True
+hn_weekly_listed,claude code,2026-05-14,875,True
+hn_weekly_listed,claude code,2026-05-21,753,True
+hn_weekly_listed,claude code,2026-05-28,812,True
+hn_weekly_listed,claude code,2026-06-04,985,True
+hn_weekly_listed,claude code,2026-06-11,947,True
+hn_weekly_listed,claude code,2026-06-18,695,True
+hn_weekly_listed,claude code,2026-06-25,720,True
+hn_weekly_listed,claude code,2026-07-02,746,True
+hn_weekly_listed,claude code,2026-07-09,898,True
+hn_weekly_listed,claude code,2026-07-16,789,True
+hn_weekly_listed,claude code,2026-07-23,715,True
+hn_weekly_listed,claude code,2026-07-30,765,True
+hn_weekly_listed,claude code,2026-08-06,689,True
+hn_weekly_listed,claude code,2026-08-13,713,True
+hn_weekly_listed,claude code,2026-08-20,585,True
+hn_weekly_listed,claude code,2026-08-27,680,True
+hn_weekly_listed,claude code,2026-09-03,588,True
+hn_weekly_listed,claude code,2026-09-10,562,True
+hn_weekly_listed,claude code,2026-09-17,649,True
+hn_weekly_listed,claude code,2026-09-24,601,True
+hn_weekly_listed,claude code,2026-10-01,710,True
+hn_weekly_listed,claude code,2026-10-08,650,True
+hn_weekly_listed,claude code,2026-10-15,692,True
+hn_weekly_listed,claude code,2026-10-22,162,True
+hn_weekly_listed,cursor pricing,2025-10-23,3,True
+hn_weekly_listed,cursor pricing,2025-10-30,4,True
+hn_weekly_listed,cursor pricing,2025-11-06,1,True
+hn_weekly_listed,cursor pricing,2025-11-13,6,True
+hn_weekly_listed,cursor pricing,2025-11-20,4,True
+hn_weekly_listed,cursor pricing,2025-11-27,3,True
+hn_weekly_listed,cursor pricing,2025-12-04,1,True
+hn_weekly_listed,cursor pricing,2025-12-11,2,True
+hn_weekly_listed,cursor pricing,2025-12-18,5,True
+hn_weekly_listed,cursor pricing,2025-12-25,1,True
+hn_weekly_listed,cursor pricing,2026-01-01,3,True
+hn_weekly_listed,cursor pricing,2026-01-08,8,True
+hn_weekly_listed,cursor pricing,2026-01-15,2,True
+hn_weekly_listed,cursor pricing,2026-01-22,2,True
+hn_weekly_listed,cursor pricing,2026-01-29,5,True
+hn_weekly_listed,cursor pricing,2026-02-05,4,True
+hn_weekly_listed,cursor pricing,2026-02-12,3,True
+hn_weekly_listed,cursor pricing,2026-02-19,5,True
+hn_weekly_listed,cursor pricing,2026-02-26,7,True
+hn_weekly_listed,cursor pricing,2026-03-05,4,True
+hn_weekly_listed,cursor pricing,2026-03-12,10,True
+hn_weekly_listed,cursor pricing,2026-03-19,6,True
+hn_weekly_listed,cursor pricing,2026-03-26,0,True
+hn_weekly_listed,cursor pricing,2026-04-02,7,True
+hn_weekly_listed,cursor pricing,2026-04-09,3,True
+hn_weekly_listed,cursor pricing,2026-04-16,2,True
+hn_weekly_listed,cursor pricing,2026-04-23,2,True
+hn_weekly_listed,cursor pricing,2026-04-30,2,True
+hn_weekly_listed,cursor pricing,2026-05-07,1,True
+hn_weekly_listed,cursor pricing,2026-05-14,1,True
+hn_weekly_listed,cursor pricing,2026-05-21,3,True
+hn_weekly_listed,cursor pricing,2026-05-28,4,True
+hn_weekly_listed,cursor pricing,2026-06-04,4,True
+hn_weekly_listed,cursor pricing,2026-06-11,12,True
+hn_weekly_listed,cursor pricing,2026-06-18,4,True
+hn_weekly_listed,cursor pricing,2026-06-25,2,True
+hn_weekly_listed,cursor pricing,2026-07-02,4,True
+hn_weekly_listed,cursor pricing,2026-07-09,3,True
+hn_weekly_listed,cursor pricing,2026-07-16,3,True
+hn_weekly_listed,cursor pricing,2026-07-23,2,True
+hn_weekly_listed,cursor pricing,2026-07-30,10,True
+hn_weekly_listed,cursor pricing,2026-08-06,5,True
+hn_weekly_listed,cursor pricing,2026-08-13,5,True
+hn_weekly_listed,cursor pricing,2026-08-20,3,True
+hn_weekly_listed,cursor pricing,2026-08-27,6,True
+hn_weekly_listed,cursor pricing,2026-09-03,1,True
+hn_weekly_listed,cursor pricing,2026-09-10,3,True
+hn_weekly_listed,cursor pricing,2026-09-17,1,True
+hn_weekly_listed,cursor pricing,2026-09-24,0,True
+hn_weekly_listed,cursor pricing,2026-10-01,2,True
+hn_weekly_listed,cursor pricing,2026-10-08,3,True
+hn_weekly_listed,cursor pricing,2026-10-15,1,True
+hn_weekly_listed,cursor pricing,2026-10-22,3,True
+hn_weekly_listed,rate limit,2025-10-23,95,True
+hn_weekly_listed,rate limit,2025-10-30,94,True
+hn_weekly_listed,rate limit,2025-11-06,80,True
+hn_weekly_listed,rate limit,2025-11-13,96,True
+hn_weekly_listed,rate limit,2025-11-20,88,True
+hn_weekly_listed,rate limit,2025-11-27,89,True
+hn_weekly_listed,rate limit,2025-12-04,98,True
+hn_weekly_listed,rate limit,2025-12-11,100,True
+hn_weekly_listed,rate limit,2025-12-18,92,True
+hn_weekly_listed,rate limit,2025-12-25,73,True
+hn_weekly_listed,rate limit,2026-01-01,92,True
+hn_weekly_listed,rate limit,2026-01-08,131,True
+hn_weekly_listed,rate limit,2026-01-15,114,True
+hn_weekly_listed,rate limit,2026-01-22,106,True
+hn_weekly_listed,rate limit,2026-01-29,131,True
+hn_weekly_listed,rate limit,2026-02-05,134,True
+hn_weekly_listed,rate limit,2026-02-12,134,True
+hn_weekly_listed,rate limit,2026-02-19,167,True
+hn_weekly_listed,rate limit,2026-02-26,137,True
+hn_weekly_listed,rate limit,2026-03-05,134,True
+hn_weekly_listed,rate limit,2026-03-12,119,True
+hn_weekly_listed,rate limit,2026-03-19,76,True
+hn_weekly_listed,rate limit,2026-03-26,85,True
+hn_weekly_listed,rate limit,2026-04-02,109,True
+hn_weekly_listed,rate limit,2026-04-09,128,True
+hn_weekly_listed,rate limit,2026-04-16,149,True
+hn_weekly_listed,rate limit,2026-04-23,112,True
+hn_weekly_listed,rate limit,2026-04-30,104,True
+hn_weekly_listed,rate limit,2026-05-07,112,True
+hn_weekly_listed,rate limit,2026-05-14,84,True
+hn_weekly_listed,rate limit,2026-05-21,69,True
+hn_weekly_listed,rate limit,2026-05-28,89,True
+hn_weekly_listed,rate limit,2026-06-04,100,True
+hn_weekly_listed,rate limit,2026-06-11,102,True
+hn_weekly_listed,rate limit,2026-06-18,99,True
+hn_weekly_listed,rate limit,2026-06-25,113,True
+hn_weekly_listed,rate limit,2026-07-02,91,True
+hn_weekly_listed,rate limit,2026-07-09,113,True
+hn_weekly_listed,rate limit,2026-07-16,95,True
+hn_weekly_listed,rate limit,2026-07-23,80,True
+hn_weekly_listed,rate limit,2026-07-30,69,True
+hn_weekly_listed,rate limit,2026-08-06,86,True
+hn_weekly_listed,rate limit,2026-08-13,98,True
+hn_weekly_listed,rate limit,2026-08-20,106,True
+hn_weekly_listed,rate limit,2026-08-27,118,True
+hn_weekly_listed,rate limit,2026-09-03,109,True
+hn_weekly_listed,rate limit,2026-09-10,101,True
+hn_weekly_listed,rate limit,2026-09-17,95,True
+hn_weekly_listed,rate limit,2026-09-24,88,True
+hn_weekly_listed,rate limit,2026-10-01,85,True
+hn_weekly_listed,rate limit,2026-10-08,70,True
+hn_weekly_listed,rate limit,2026-10-15,93,True
+hn_weekly_listed,rate limit,2026-10-22,27,True
+hn_weekly_listed,technical debt,2025-10-23,120,True
+hn_weekly_listed,technical debt,2025-10-30,116,True
+hn_weekly_listed,technical debt,2025-11-06,84,True
+hn_weekly_listed,technical debt,2025-11-13,108,True
+hn_weekly_listed,technical debt,2025-11-20,114,True
+hn_weekly_listed,technical debt,2025-11-27,143,True
+hn_weekly_listed,technical debt,2025-12-04,134,True
+hn_weekly_listed,technical debt,2025-12-11,126,True
+hn_weekly_listed,technical debt,2025-12-18,110,True
+hn_weekly_listed,technical debt,2025-12-25,106,True
+hn_weekly_listed,technical debt,2026-01-01,138,True
+hn_weekly_listed,technical debt,2026-01-08,139,True
+hn_weekly_listed,technical debt,2026-01-15,141,True
+hn_weekly_listed,technical debt,2026-01-22,144,True
+hn_weekly_listed,technical debt,2026-01-29,176,True
+hn_weekly_listed,technical debt,2026-02-05,174,True
+hn_weekly_listed,technical debt,2026-02-12,165,True
+hn_weekly_listed,technical debt,2026-02-19,157,True
+hn_weekly_listed,technical debt,2026-02-26,190,True
+hn_weekly_listed,technical debt,2026-03-05,159,True
+hn_weekly_listed,technical debt,2026-03-12,131,True
+hn_weekly_listed,technical debt,2026-03-19,62,True
+hn_weekly_listed,technical debt,2026-03-26,105,True
+hn_weekly_listed,technical debt,2026-04-02,93,True
+hn_weekly_listed,technical debt,2026-04-09,108,True
+hn_weekly_listed,technical debt,2026-04-16,83,True
+hn_weekly_listed,technical debt,2026-04-23,76,True
+hn_weekly_listed,technical debt,2026-04-30,98,True
+hn_weekly_listed,technical debt,2026-05-07,99,True
+hn_weekly_listed,technical debt,2026-05-14,76,True
+hn_weekly_listed,technical debt,2026-05-21,89,True
+hn_weekly_listed,technical debt,2026-05-28,71,True
+hn_weekly_listed,technical debt,2026-06-04,124,True
+hn_weekly_listed,technical debt,2026-06-11,91,True
+hn_weekly_listed,technical debt,2026-06-18,67,True
+hn_weekly_listed,technical debt,2026-06-25,84,True
+hn_weekly_listed,technical debt,2026-07-02,83,True
+hn_weekly_listed,technical debt,2026-07-09,82,True
+hn_weekly_listed,technical debt,2026-07-16,78,True
+hn_weekly_listed,technical debt,2026-07-23,111,True
+hn_weekly_listed,technical debt,2026-07-30,87,True
+hn_weekly_listed,technical debt,2026-08-06,72,True
+hn_weekly_listed,technical debt,2026-08-13,81,True
+hn_weekly_listed,technical debt,2026-08-20,76,True
+hn_weekly_listed,technical debt,2026-08-27,72,True
+hn_weekly_listed,technical debt,2026-09-03,83,True
+hn_weekly_listed,technical debt,2026-09-10,79,True
+hn_weekly_listed,technical debt,2026-09-17,90,True
+hn_weekly_listed,technical debt,2026-09-24,77,True
+hn_weekly_listed,technical debt,2026-10-01,70,True
+hn_weekly_listed,technical debt,2026-10-08,64,True
+hn_weekly_listed,technical debt,2026-10-15,81,True
+hn_weekly_listed,technical debt,2026-10-22,39,True
+hn_weekly_listed,AI slop,2025-10-23,297,True
+hn_weekly_listed,AI slop,2025-10-30,255,True
+hn_weekly_listed,AI slop,2025-11-06,340,True
+hn_weekly_listed,AI slop,2025-11-13,312,True
+hn_weekly_listed,AI slop,2025-11-20,266,True
+hn_weekly_listed,AI slop,2025-11-27,404,True
+hn_weekly_listed,AI slop,2025-12-04,332,True
+hn_weekly_listed,AI slop,2025-12-11,291,True
+hn_weekly_listed,AI slop,2025-12-18,302,True
+hn_weekly_listed,AI slop,2025-12-25,407,True
+hn_weekly_listed,AI slop,2026-01-01,339,True
+hn_weekly_listed,AI slop,2026-01-08,417,True
+hn_weekly_listed,AI slop,2026-01-15,427,True
+hn_weekly_listed,AI slop,2026-01-22,465,True
+hn_weekly_listed,AI slop,2026-01-29,421,True
+hn_weekly_listed,AI slop,2026-02-05,523,True
+hn_weekly_listed,AI slop,2026-02-12,605,True
+hn_weekly_listed,AI slop,2026-02-19,615,True
+hn_weekly_listed,AI slop,2026-02-26,603,True
+hn_weekly_listed,AI slop,2026-03-05,598,True
+hn_weekly_listed,AI slop,2026-03-12,597,True
+hn_weekly_listed,AI slop,2026-03-19,421,True
+hn_weekly_listed,AI slop,2026-03-26,443,True
+hn_weekly_listed,AI slop,2026-04-02,452,True
+hn_weekly_listed,AI slop,2026-04-09,403,True
+hn_weekly_listed,AI slop,2026-04-16,437,True
+hn_weekly_listed,AI slop,2026-04-23,433,True
+hn_weekly_listed,AI slop,2026-04-30,473,True
+hn_weekly_listed,AI slop,2026-05-07,536,True
+hn_weekly_listed,AI slop,2026-05-14,582,True
+hn_weekly_listed,AI slop,2026-05-21,699,True
+hn_weekly_listed,AI slop,2026-05-28,602,True
+hn_weekly_listed,AI slop,2026-06-04,609,True
+hn_weekly_listed,AI slop,2026-06-11,567,True
+hn_weekly_listed,AI slop,2026-06-18,436,True
+hn_weekly_listed,AI slop,2026-06-25,529,True
+hn_weekly_listed,AI slop,2026-07-02,453,True
+hn_weekly_listed,AI slop,2026-07-09,560,True
+hn_weekly_listed,AI slop,2026-07-16,561,True
+hn_weekly_listed,AI slop,2026-07-23,592,True
+hn_weekly_listed,AI slop,2026-07-30,641,True
+hn_weekly_listed,AI slop,2026-08-06,582,True
+hn_weekly_listed,AI slop,2026-08-13,585,True
+hn_weekly_listed,AI slop,2026-08-20,446,True
+hn_weekly_listed,AI slop,2026-08-27,541,True
+hn_weekly_listed,AI slop,2026-09-03,570,True
+hn_weekly_listed,AI slop,2026-09-10,775,True
+hn_weekly_listed,AI slop,2026-09-17,692,True
+hn_weekly_listed,AI slop,2026-09-24,599,True
+hn_weekly_listed,AI slop,2026-10-01,582,True
+hn_weekly_listed,AI slop,2026-10-08,604,True
+hn_weekly_listed,AI slop,2026-10-15,556,True
+hn_weekly_listed,AI slop,2026-10-22,135,True
+hn_weekly_listed,usage limits,2025-10-23,38,True
+hn_weekly_listed,usage limits,2025-10-30,29,True
+hn_weekly_listed,usage limits,2025-11-06,35,True
+hn_weekly_listed,usage limits,2025-11-13,42,True
+hn_weekly_listed,usage limits,2025-11-20,64,True
+hn_weekly_listed,usage limits,2025-11-27,54,True
+hn_weekly_listed,usage limits,2025-12-04,44,True
+hn_weekly_listed,usage limits,2025-12-11,71,True
+hn_weekly_listed,usage limits,2025-12-18,42,True
+hn_weekly_listed,usage limits,2025-12-25,44,True
+hn_weekly_listed,usage limits,2026-01-01,42,True
+hn_weekly_listed,usage limits,2026-01-08,63,True
+hn_weekly_listed,usage limits,2026-01-15,48,True
+hn_weekly_listed,usage limits,2026-01-22,56,True
+hn_weekly_listed,usage limits,2026-01-29,72,True
+hn_weekly_listed,usage limits,2026-02-05,87,True
+hn_weekly_listed,usage limits,2026-02-12,61,True
+hn_weekly_listed,usage limits,2026-02-19,94,True
+hn_weekly_listed,usage limits,2026-02-26,65,True
+hn_weekly_listed,usage limits,2026-03-05,67,True
+hn_weekly_listed,usage limits,2026-03-12,79,True
+hn_weekly_listed,usage limits,2026-03-19,42,True
+hn_weekly_listed,usage limits,2026-03-26,76,True
+hn_weekly_listed,usage limits,2026-04-02,128,True
+hn_weekly_listed,usage limits,2026-04-09,100,True
+hn_weekly_listed,usage limits,2026-04-16,156,True
+hn_weekly_listed,usage limits,2026-04-23,109,True
+hn_weekly_listed,usage limits,2026-04-30,80,True
+hn_weekly_listed,usage limits,2026-05-07,58,True
+hn_weekly_listed,usage limits,2026-05-14,68,True
+hn_weekly_listed,usage limits,2026-05-21,58,True
+hn_weekly_listed,usage limits,2026-05-28,62,True
+hn_weekly_listed,usage limits,2026-06-04,75,True
+hn_weekly_listed,usage limits,2026-06-11,82,True
+hn_weekly_listed,usage limits,2026-06-18,52,True
+hn_weekly_listed,usage limits,2026-06-25,79,True
+hn_weekly_listed,usage limits,2026-07-02,75,True
+hn_weekly_listed,usage limits,2026-07-09,64,True
+hn_weekly_listed,usage limits,2026-07-16,88,True
+hn_weekly_listed,usage limits,2026-07-23,67,True
+hn_weekly_listed,usage limits,2026-07-30,48,True
+hn_weekly_listed,usage limits,2026-08-06,62,True
+hn_weekly_listed,usage limits,2026-08-13,74,True
+hn_weekly_listed,usage limits,2026-08-20,80,True
+hn_weekly_listed,usage limits,2026-08-27,71,True
+hn_weekly_listed,usage limits,2026-09-03,50,True
+hn_weekly_listed,usage limits,2026-09-10,56,True
+hn_weekly_listed,usage limits,2026-09-17,88,True
+hn_weekly_listed,usage limits,2026-09-24,90,True
+hn_weekly_listed,usage limits,2026-10-01,71,True
+hn_weekly_listed,usage limits,2026-10-08,41,True
+hn_weekly_listed,usage limits,2026-10-15,48,True
+hn_weekly_listed,usage limits,2026-10-22,4,True

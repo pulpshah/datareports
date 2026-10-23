@@ -1,0 +1,368 @@
+BUILD|build time|W1|story
+BUILD|build time|W1|comment
+BUILD|build time|W2|story
+BUILD|build time|W2|comment
+BUILD|build time|W3|story
+BUILD|build time|W3|comment
+BUILD|build time|W4|story
+BUILD|build time|W4|comment
+BUILD|slow build|W1|story
+BUILD|slow build|W1|comment
+BUILD|slow build|W2|story
+BUILD|slow build|W2|comment
+BUILD|slow build|W3|story
+BUILD|slow build|W3|comment
+BUILD|slow build|W4|story
+BUILD|slow build|W4|comment
+BUILD|compile time|W1|story
+BUILD|compile time|W1|comment
+BUILD|compile time|W2|story
+BUILD|compile time|W2|comment
+BUILD|compile time|W3|story
+BUILD|compile time|W3|comment
+BUILD|compile time|W4|story
+BUILD|compile time|W4|comment
+BUILD|turbopack|W1|story
+BUILD|turbopack|W1|comment
+BUILD|turbopack|W2|story
+BUILD|turbopack|W2|comment
+BUILD|turbopack|W3|story
+BUILD|turbopack|W3|comment
+BUILD|turbopack|W4|story
+BUILD|turbopack|W4|comment
+BUILD|webpack|W1|story
+BUILD|webpack|W1|comment
+BUILD|webpack|W2|story
+BUILD|webpack|W2|comment
+BUILD|webpack|W3|story
+BUILD|webpack|W3|comment
+BUILD|webpack|W4|story
+BUILD|webpack|W4|comment
+BUILD|vite|W1|story
+BUILD|vite|W1|comment
+BUILD|vite|W2|story
+BUILD|vite|W2|comment
+BUILD|vite|W3|story
+BUILD|vite|W3|comment
+BUILD|vite|W4|story
+BUILD|vite|W4|comment
+BUILD|hot reload|W1|story
+BUILD|hot reload|W1|comment
+BUILD|hot reload|W2|story
+BUILD|hot reload|W2|comment
+BUILD|hot reload|W3|story
+BUILD|hot reload|W3|comment
+BUILD|hot reload|W4|story
+BUILD|hot reload|W4|comment
+BUILD|dev server|W1|story
+BUILD|dev server|W1|comment
+BUILD|dev server|W2|story
+BUILD|dev server|W2|comment
+BUILD|dev server|W3|story
+BUILD|dev server|W3|comment
+BUILD|dev server|W4|story
+BUILD|dev server|W4|comment
+BUILD|typecheck|W1|story
+BUILD|typecheck|W1|comment
+BUILD|typecheck|W2|story
+BUILD|typecheck|W2|comment
+BUILD|typecheck|W3|story
+BUILD|typecheck|W3|comment
+BUILD|typecheck|W4|story
+BUILD|typecheck|W4|comment
+BUILD|storybook|W1|story
+BUILD|storybook|W1|comment
+BUILD|storybook|W2|story
+BUILD|storybook|W2|comment
+BUILD|storybook|W3|story
+BUILD|storybook|W3|comment
+BUILD|storybook|W4|story
+BUILD|storybook|W4|comment
+BUILD|playwright|W1|story
+BUILD|playwright|W1|comment
+BUILD|playwright|W2|story
+BUILD|playwright|W2|comment
+BUILD|playwright|W3|story
+BUILD|playwright|W3|comment
+BUILD|playwright|W4|story
+BUILD|playwright|W4|comment
+BUILD|monorepo|W1|story
+BUILD|monorepo|W1|comment
+BUILD|monorepo|W2|story
+BUILD|monorepo|W2|comment
+BUILD|monorepo|W3|story
+BUILD|monorepo|W3|comment
+BUILD|monorepo|W4|story
+BUILD|monorepo|W4|comment
+BUILD|docker build|W1|story
+BUILD|docker build|W1|comment
+BUILD|docker build|W2|story
+BUILD|docker build|W2|comment
+BUILD|docker build|W3|story
+BUILD|docker build|W3|comment
+BUILD|docker build|W4|story
+BUILD|docker build|W4|comment
+BUILD|CI slow|W1|story
+BUILD|CI slow|W1|comment
+BUILD|CI slow|W2|story
+BUILD|CI slow|W2|comment
+BUILD|CI slow|W3|story
+BUILD|CI slow|W3|comment
+BUILD|CI slow|W4|story
+BUILD|CI slow|W4|comment
+AICOST|expensive|W1|story
+AICOST|expensive|W1|comment
+AICOST|expensive|W2|story
+AICOST|expensive|W2|comment
+AICOST|expensive|W3|story
+AICOST|expensive|W3|comment
+AICOST|expensive|W4|story
+AICOST|expensive|W4|comment
+AICOST|usage limit|W1|story
+AICOST|usage limit|W1|comment
+AICOST|usage limit|W2|story
+AICOST|usage limit|W2|comment
+AICOST|usage limit|W3|story
+AICOST|usage limit|W3|comment
+AICOST|usage limit|W4|story
+AICOST|usage limit|W4|comment
+AICOST|rate limit|W1|story
+AICOST|rate limit|W1|comment
+AICOST|rate limit|W2|story
+AICOST|rate limit|W2|comment
+AICOST|rate limit|W3|story
+AICOST|rate limit|W3|comment
+AICOST|rate limit|W4|story
+AICOST|rate limit|W4|comment
+AICOST|credits|W1|story
+AICOST|credits|W1|comment
+AICOST|credits|W2|story
+AICOST|credits|W2|comment
+AICOST|credits|W3|story
+AICOST|credits|W3|comment
+AICOST|credits|W4|story
+AICOST|credits|W4|comment
+AICOST|pricing|W1|story
+AICOST|pricing|W1|comment
+AICOST|pricing|W2|story
+AICOST|pricing|W2|comment
+AICOST|pricing|W3|story
+AICOST|pricing|W3|comment
+AICOST|pricing|W4|story
+AICOST|pricing|W4|comment
+AICOST|token cost|W1|story
+AICOST|token cost|W1|comment
+AICOST|token cost|W2|story
+AICOST|token cost|W2|comment
+AICOST|token cost|W3|story
+AICOST|token cost|W3|comment
+AICOST|token cost|W4|story
+AICOST|token cost|W4|comment
+AICOST|quota|W1|story
+AICOST|quota|W1|comment
+AICOST|quota|W2|story
+AICOST|quota|W2|comment
+AICOST|quota|W3|story
+AICOST|quota|W3|comment
+AICOST|quota|W4|story
+AICOST|quota|W4|comment
+AICOST|subscription|W1|story
+AICOST|subscription|W1|comment
+AICOST|subscription|W2|story
+AICOST|subscription|W2|comment
+AICOST|subscription|W3|story
+AICOST|subscription|W3|comment
+AICOST|subscription|W4|story
+AICOST|subscription|W4|comment
+AISTAB|hallucinating|W1|story
+AISTAB|hallucinating|W1|comment
+AISTAB|hallucinating|W2|story
+AISTAB|hallucinating|W2|comment
+AISTAB|hallucinating|W3|story
+AISTAB|hallucinating|W3|comment
+AISTAB|hallucinating|W4|story
+AISTAB|hallucinating|W4|comment
+AISTAB|broke my|W1|story
+AISTAB|broke my|W1|comment
+AISTAB|broke my|W2|story
+AISTAB|broke my|W2|comment
+AISTAB|broke my|W3|story
+AISTAB|broke my|W3|comment
+AISTAB|broke my|W4|story
+AISTAB|broke my|W4|comment
+AISTAB|regression|W1|story
+AISTAB|regression|W1|comment
+AISTAB|regression|W2|story
+AISTAB|regression|W2|comment
+AISTAB|regression|W3|story
+AISTAB|regression|W3|comment
+AISTAB|regression|W4|story
+AISTAB|regression|W4|comment
+AISTAB|ignores|W1|story
+AISTAB|ignores|W1|comment
+AISTAB|ignores|W2|story
+AISTAB|ignores|W2|comment
+AISTAB|ignores|W3|story
+AISTAB|ignores|W3|comment
+AISTAB|ignores|W4|story
+AISTAB|ignores|W4|comment
+AISTAB|inconsistent|W1|story
+AISTAB|inconsistent|W1|comment
+AISTAB|inconsistent|W2|story
+AISTAB|inconsistent|W2|comment
+AISTAB|inconsistent|W3|story
+AISTAB|inconsistent|W3|comment
+AISTAB|inconsistent|W4|story
+AISTAB|inconsistent|W4|comment
+AISTAB|technical debt|W1|story
+AISTAB|technical debt|W1|comment
+AISTAB|technical debt|W2|story
+AISTAB|technical debt|W2|comment
+AISTAB|technical debt|W3|story
+AISTAB|technical debt|W3|comment
+AISTAB|technical debt|W4|story
+AISTAB|technical debt|W4|comment
+AISTAB|slop|W1|story
+AISTAB|slop|W1|comment
+AISTAB|slop|W2|story
+AISTAB|slop|W2|comment
+AISTAB|slop|W3|story
+AISTAB|slop|W3|comment
+AISTAB|slop|W4|story
+AISTAB|slop|W4|comment
+AISTAB|context window|W1|story
+AISTAB|context window|W1|comment
+AISTAB|context window|W2|story
+AISTAB|context window|W2|comment
+AISTAB|context window|W3|story
+AISTAB|context window|W3|comment
+AISTAB|context window|W4|story
+AISTAB|context window|W4|comment
+AISTAB|rewrote|W1|story
+AISTAB|rewrote|W1|comment
+AISTAB|rewrote|W2|story
+AISTAB|rewrote|W2|comment
+AISTAB|rewrote|W3|story
+AISTAB|rewrote|W3|comment
+AISTAB|rewrote|W4|story
+AISTAB|rewrote|W4|comment
+AISTAB|getting worse|W1|story
+AISTAB|getting worse|W1|comment
+AISTAB|getting worse|W2|story
+AISTAB|getting worse|W2|comment
+AISTAB|getting worse|W3|story
+AISTAB|getting worse|W3|comment
+AISTAB|getting worse|W4|story
+AISTAB|getting worse|W4|comment
+AISPEED|slower|W1|story
+AISPEED|slower|W1|comment
+AISPEED|slower|W2|story
+AISPEED|slower|W2|comment
+AISPEED|slower|W3|story
+AISPEED|slower|W3|comment
+AISPEED|slower|W4|story
+AISPEED|slower|W4|comment
+AISPEED|productivity|W1|story
+AISPEED|productivity|W1|comment
+AISPEED|productivity|W2|story
+AISPEED|productivity|W2|comment
+AISPEED|productivity|W3|story
+AISPEED|productivity|W3|comment
+AISPEED|productivity|W4|story
+AISPEED|productivity|W4|comment
+AISPEED|faster|W1|story
+AISPEED|faster|W1|comment
+AISPEED|faster|W2|story
+AISPEED|faster|W2|comment
+AISPEED|faster|W3|story
+AISPEED|faster|W3|comment
+AISPEED|faster|W4|story
+AISPEED|faster|W4|comment
+AISPEED|vibe coding|W1|story
+AISPEED|vibe coding|W1|comment
+AISPEED|vibe coding|W2|story
+AISPEED|vibe coding|W2|comment
+AISPEED|vibe coding|W3|story
+AISPEED|vibe coding|W3|comment
+AISPEED|vibe coding|W4|story
+AISPEED|vibe coding|W4|comment
+AISPEED|waiting|W1|story
+AISPEED|waiting|W1|comment
+AISPEED|waiting|W2|story
+AISPEED|waiting|W2|comment
+AISPEED|waiting|W3|story
+AISPEED|waiting|W3|comment
+AISPEED|waiting|W4|story
+AISPEED|waiting|W4|comment
+UIDATA|full stack|W1|story
+UIDATA|full stack|W1|comment
+UIDATA|full stack|W2|story
+UIDATA|full stack|W2|comment
+UIDATA|full stack|W3|story
+UIDATA|full stack|W3|comment
+UIDATA|full stack|W4|story
+UIDATA|full stack|W4|comment
+UIDATA|backend|W1|story
+UIDATA|backend|W1|comment
+UIDATA|backend|W2|story
+UIDATA|backend|W2|comment
+UIDATA|backend|W3|story
+UIDATA|backend|W3|comment
+UIDATA|backend|W4|story
+UIDATA|backend|W4|comment
+UIDATA|database|W1|story
+UIDATA|database|W1|comment
+UIDATA|database|W2|story
+UIDATA|database|W2|comment
+UIDATA|database|W3|story
+UIDATA|database|W3|comment
+UIDATA|database|W4|story
+UIDATA|database|W4|comment
+UIDATA|supabase|W1|story
+UIDATA|supabase|W1|comment
+UIDATA|supabase|W2|story
+UIDATA|supabase|W2|comment
+UIDATA|supabase|W3|story
+UIDATA|supabase|W3|comment
+UIDATA|supabase|W4|story
+UIDATA|supabase|W4|comment
+UIDATA|state management|W1|story
+UIDATA|state management|W1|comment
+UIDATA|state management|W2|story
+UIDATA|state management|W2|comment
+UIDATA|state management|W3|story
+UIDATA|state management|W3|comment
+UIDATA|state management|W4|story
+UIDATA|state management|W4|comment
+UIDATA|data fetching|W1|story
+UIDATA|data fetching|W1|comment
+UIDATA|data fetching|W2|story
+UIDATA|data fetching|W2|comment
+UIDATA|data fetching|W3|story
+UIDATA|data fetching|W3|comment
+UIDATA|data fetching|W4|story
+UIDATA|data fetching|W4|comment
+UIDATA|forms|W1|story
+UIDATA|forms|W1|comment
+UIDATA|forms|W2|story
+UIDATA|forms|W2|comment
+UIDATA|forms|W3|story
+UIDATA|forms|W3|comment
+UIDATA|forms|W4|story
+UIDATA|forms|W4|comment
+UIDATA|schema|W1|story
+UIDATA|schema|W1|comment
+UIDATA|schema|W2|story
+UIDATA|schema|W2|comment
+UIDATA|schema|W3|story
+UIDATA|schema|W3|comment
+UIDATA|schema|W4|story
+UIDATA|schema|W4|comment
+UIDATA|design system|W1|story
+UIDATA|design system|W1|comment
+UIDATA|design system|W2|story
+UIDATA|design system|W2|comment
+UIDATA|design system|W3|story
+UIDATA|design system|W3|comment
+UIDATA|design system|W4|story
+UIDATA|design system|W4|comment

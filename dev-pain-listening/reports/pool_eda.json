@@ -1,0 +1,1648 @@
+{
+ "discourse": {
+  "n": 8677,
+  "by_window": {
+   "W1": 1999,
+   "W2": 2291,
+   "W3": 2170,
+   "W4": 2217
+  },
+  "families_by_window": {
+   "AISPEED": {
+    "W1": 152,
+    "W2": 176,
+    "W3": 134,
+    "W4": 112
+   },
+   "BUILD": {
+    "W1": 228,
+    "W2": 216,
+    "W3": 210,
+    "W4": 244
+   },
+   "AISTAB": {
+    "W1": 1234,
+    "W2": 1310,
+    "W3": 1221,
+    "W4": 1118
+   },
+   "AICOST": {
+    "W1": 627,
+    "W2": 857,
+    "W3": 874,
+    "W4": 958
+   },
+   "UIDATA": {
+    "W1": 74,
+    "W2": 108,
+    "W3": 103,
+    "W4": 126
+   }
+  },
+  "tools": {
+   "Cursor": {
+    "n": 3988,
+    "share_by_window": [
+     0.4642,
+     0.4745,
+     0.4544,
+     0.4452
+    ],
+    "chi2": 4.3,
+    "p": 0.230722
+   },
+   "Claude": {
+    "n": 671,
+    "share_by_window": [
+     0.0795,
+     0.1021,
+     0.0696,
+     0.0573
+    ],
+    "chi2": 34.21,
+    "p": 0.0
+   },
+   "v0": {
+    "n": 568,
+    "share_by_window": [
+     0.068,
+     0.1017,
+     0.0442,
+     0.0465
+    ],
+    "chi2": 78.46,
+    "p": 0.0
+   },
+   "MCP": {
+    "n": 566,
+    "share_by_window": [
+     0.039,
+     0.048,
+     0.0585,
+     0.1132
+    ],
+    "chi2": 118.98,
+    "p": 0.0
+   },
+   "Vercel": {
+    "n": 447,
+    "share_by_window": [
+     0.046,
+     0.0563,
+     0.0498,
+     0.0532
+    ],
+    "chi2": 2.58,
+    "p": 0.461223
+   },
+   "GPT": {
+    "n": 368,
+    "share_by_window": [
+     0.051,
+     0.0458,
+     0.0475,
+     0.0262
+    ],
+    "chi2": 20.09,
+    "p": 0.000162
+   },
+   "Codex": {
+    "n": 129,
+    "share_by_window": [
+     0.019,
+     0.0175,
+     0.0134,
+     0.0099
+    ],
+    "chi2": 7.43,
+    "p": 0.05944
+   },
+   "Next.js": {
+    "n": 126,
+    "share_by_window": [
+     0.014,
+     0.0188,
+     0.0129,
+     0.0122
+    ],
+    "chi2": 4.17,
+    "p": 0.243387
+   },
+   "Gemini": {
+    "n": 124,
+    "share_by_window": [
+     0.027,
+     0.0175,
+     0.006,
+     0.0077
+    ],
+    "chi2": 42.12,
+    "p": 0.0
+   },
+   "Claude Code": {
+    "n": 108,
+    "share_by_window": [
+     0.0085,
+     0.0153,
+     0.0115,
+     0.014
+    ],
+    "chi2": 4.6,
+    "p": 0.203718
+   },
+   "Turbopack": {
+    "n": 49,
+    "share_by_window": [
+     0.0065,
+     0.0074,
+     0.0055,
+     0.0032
+    ],
+    "chi2": 4.0,
+    "p": 0.261849
+   },
+   "Docker": {
+    "n": 40,
+    "share_by_window": [
+     0.005,
+     0.0039,
+     0.0065,
+     0.0032
+    ],
+    "chi2": 2.92,
+    "p": 0.403748
+   },
+   "Vite": {
+    "n": 22,
+    "share_by_window": [
+     0.0035,
+     0.0022,
+     0.0018,
+     0.0027
+    ],
+    "chi2": 1.29,
+    "p": 0.732084
+   },
+   "Supabase": {
+    "n": 20,
+    "share_by_window": [
+     0.0055,
+     0.0013,
+     0.0005,
+     0.0023
+    ],
+    "chi2": 13.09,
+    "p": 0.004451
+   },
+   "Copilot": {
+    "n": 16,
+    "share_by_window": [
+     0.0035,
+     0.0022,
+     0.0018,
+     0.0
+    ],
+    "chi2": 7.22,
+    "p": 0.065117
+   },
+   "Bun": {
+    "n": 8,
+    "share_by_window": [
+     0.002,
+     0.0009,
+     0.0,
+     0.0009
+    ],
+    "chi2": 4.54,
+    "p": 0.209087
+   },
+   "Playwright": {
+    "n": 7,
+    "share_by_window": [
+     0.0015,
+     0.0009,
+     0.0009,
+     0.0
+    ],
+    "chi2": 3.03,
+    "p": 0.386645
+   },
+   "Windsurf": {
+    "n": 7,
+    "share_by_window": [
+     0.0015,
+     0.0,
+     0.0014,
+     0.0005
+    ],
+    "chi2": 4.28,
+    "p": 0.232335
+   },
+   "Webpack": {
+    "n": 7,
+    "share_by_window": [
+     0.001,
+     0.0,
+     0.0018,
+     0.0005
+    ],
+    "chi2": 5.18,
+    "p": 0.158851
+   },
+   "TypeScript native (tsgo)": {
+    "n": 4,
+    "share_by_window": [
+     0.0005,
+     0.0,
+     0.0014,
+     0.0
+    ],
+    "chi2": 6.08,
+    "p": 0.107554
+   },
+   "Firebase": {
+    "n": 4,
+    "share_by_window": [
+     0.0005,
+     0.0,
+     0.0009,
+     0.0005
+    ],
+    "chi2": 2.06,
+    "p": 0.559394
+   },
+   "Lovable": {
+    "n": 3,
+    "share_by_window": [
+     0.0005,
+     0.0004,
+     0.0005,
+     0.0
+    ],
+    "chi2": 1.04,
+    "p": 0.790946
+   },
+   "Bolt": {
+    "n": 3,
+    "share_by_window": [
+     0.0005,
+     0.0,
+     0.0005,
+     0.0005
+    ],
+    "chi2": 1.08,
+    "p": 0.780756
+   },
+   "Kiro": {
+    "n": 3,
+    "share_by_window": [
+     0.0,
+     0.0009,
+     0.0005,
+     0.0
+    ],
+    "chi2": 3.38,
+    "p": 0.336129
+   },
+   "Replit": {
+    "n": 1,
+    "share_by_window": [
+     0.0,
+     0.0,
+     0.0005,
+     0.0
+    ],
+    "chi2": 3.0,
+    "p": 0.391785
+   },
+   "Storybook": {
+    "n": 1,
+    "share_by_window": [
+     0.0,
+     0.0,
+     0.0005,
+     0.0
+    ],
+    "chi2": 3.0,
+    "p": 0.391785
+   }
+  },
+  "top": {
+   "AISPEED": [
+    {
+     "window": "W3",
+     "score": 27,
+     "title": "Kimi K3 Released - Request",
+     "text": "...rings a true local-first architecture to dev environments. For Cursor users, native integration with K3 would be a huge deal: it means seamless local context, much faster runtimes, and a highly efficient workspace wit",
+     "url": "https://forum.cursor.com/t/kimi-k3-released-request/165964/5"
+    },
+    {
+     "window": "W3",
+     "score": 17,
+     "title": "Composer 2.5 is now live!",
+     "text": "...utput tokens — identical to Composer 2. There's also a faster variant with the same intelligence at $3.00/M input and $15.00/M output , which is less expensive than the fast tiers of other frontier models. 2x included",
+     "url": "https://forum.cursor.com/t/composer-2-5-is-now-live/160934/1"
+    },
+    {
+     "window": "W2",
+     "score": 11,
+     "title": "Cursor 3: Worktrees & Best-of-N",
+     "text": "It's awful: Massive UX downgrade compared to the previous approach It's way slower to set up, burns unnecessary tokens (especially great when you're using Opus 4.6) It's fragile because sometimes the agent won't follow t",
+     "url": "https://forum.cursor.com/t/cursor-3-worktrees-best-of-n/156507/9"
+    },
+    {
+     "window": "W3",
+     "score": 10,
+     "title": "Can we get support for K3? It just dropped today and looks insane!",
+     "text": "...rings a true local-first architecture to dev environments. For Cursor users, native integration with K3 would be a huge deal: it means seamless local context, much faster runtimes, and a highly efficient workspace wit",
+     "url": "https://forum.cursor.com/t/can-we-get-support-for-k3-it-just-dropped-today-and-looks-insane/165975/1"
+    },
+    {
+     "window": "W1",
+     "score": 9,
+     "title": "GLM 4.7 in Cursor",
+     "text": "Lately i think cursor team is ignoring the open soruce models , no news on GLM , minimax. And supprot 20+ modal of openai which are too confusing and cannot be used for their speed. Would be greate if we get some opensou",
+     "url": "https://forum.cursor.com/t/glm-4-7-in-cursor/147082/14"
+    },
+    {
+     "window": "W4",
+     "score": 8,
+     "title": "Cursor 3.14.2 Sunsetting @Docs!?!",
+     "text": "...xed documentation. Its proposed replacement makes the agent fetch or search for the same information repeatedly. The result will be a product that is slower, less deterministic, less controllable, and more expensive t",
+     "url": "https://forum.cursor.com/t/cursor-3-14-2-sunsetting-docs/167423/1"
+    },
+    {
+     "window": "W2",
+     "score": 7,
+     "title": "Give Us Control Over Subagents — Stop Forcing Composer on Paying Customers",
+     "text": "...e I want a cheaper one. Maybe I want a faster one. That's my decision, not yours. All of this available on the standard plan — Cursor is already more expensive than Claude Code. Locking basic agent controls behind Max",
+     "url": "https://forum.cursor.com/t/give-us-control-over-subagents-stop-forcing-composer-on-paying-customers/154428/1"
+    },
+    {
+     "window": "W1",
+     "score": 7,
+     "title": "I’m increasingly afraid of working with Cursor (stability issues)",
+     "text": "...mmands suddenly started timing out. My team uses various scripts that can run for more than 10 minutes, sometimes 30 minutes or more. This completely broke our productivity, because our agents could no longer self-cor",
+     "url": "https://forum.cursor.com/t/i-m-increasingly-afraid-of-working-with-cursor-stability-issues/149173/1"
+    }
+   ],
+   "BUILD": [
+    {
+     "window": "W2",
+     "score": 23,
+     "title": "Vercel deployment failure with internal error during deploying outputs phase",
+     "text": "Problem I am experiencing a deployment failure on Vercel even though the build completes successfully. Current Behavior The failure occurs during the \"Deploying outputs\" phase with the following message: Error: We encoun",
+     "url": "https://community.vercel.com/t/vercel-deployment-failure-with-internal-error-during-deploying-outputs-phase/34782/1"
+    },
+    {
+     "window": "W2",
+     "score": 9,
+     "title": "Next.js 16.2 for dummies - our thoughts on the latest",
+     "text": "...We've got to find a way to shoe-horn this somewhere. We upgraded both our Next.js apps in about five minutes. No breaking changes, no config updates. Build times were the same (our site was already fast after the 16.0",
+     "url": "https://community.vercel.com/t/next-js-16-2-for-dummies-our-thoughts-on-the-latest/36817/1"
+    },
+    {
+     "window": "W3",
+     "score": 7,
+     "title": "OpenAI-compatible /v1/chat/completions for Cloud API",
+     "text": "...cross agent ecosystems. Without an official Cursor endpoint, every team must build and maintain its own adapter, which increases cost, fragility, and slows adoption of Cursor in automated / multi-agent environments. T",
+     "url": "https://forum.cursor.com/t/openai-compatible-v1-chat-completions-for-cloud-api/164522/1"
+    },
+    {
+     "window": "W2",
+     "score": 6,
+     "title": "Cursor Costs Are Climbing Without a Clear Reason",
+     "text": "We've been using Cursor for a while now, and recently something has started to feel off. Our workload and the complexity of what we're building haven't really changed much, but our monthly cost has. We went from under $2",
+     "url": "https://forum.cursor.com/t/cursor-costs-are-climbing-without-a-clear-reason/157233/1"
+    },
+    {
+     "window": "W1",
+     "score": 6,
+     "title": "After last update, stuck at \"Waiting for extension host\"",
+     "text": "...scode-file://vscode-app/c:/Users/Jim/AppData/Local/Programs/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:34229:14275) at async Wpc.buildComposerRequestContext (vscode-file://vscode-app/c:/Users/Jim/",
+     "url": "https://forum.cursor.com/t/after-last-update-stuck-at-waiting-for-extension-host/149538/1"
+    },
+    {
+     "window": "W2",
+     "score": 6,
+     "title": "News Cache (2026-02-09)",
+     "text": "January 31, 2026 - February 7, 2026 Top Highlights v0 Gets a Major Upgrade – Vercel's AI-powered app builder v0 has been redesigned with new capabilities, building on its success with over 4 million users who've turned i",
+     "url": "https://community.vercel.com/t/news-cache-2026-02-09/33058/1"
+    },
+    {
+     "window": "W3",
+     "score": 5,
+     "title": "Add Autonomous “Goal Mode” Similar to Claude Code’s /goal",
+     "text": "...while keeping all integration tests green\" \"Migrate REST endpoints to tRPC incrementally\" \"Resolve all NestJS dependency injection errors\" \"Optimize slow PostgreSQL queries until benchmarks improve\" TypeScript / Monor",
+     "url": "https://forum.cursor.com/t/add-autonomous-goal-mode-similar-to-claude-code-s-goal/160374/3"
+    },
+    {
+     "window": "W2",
+     "score": 5,
+     "title": "News Cache (2026-01-26)",
+     "text": "...tion ENV Cloud https://community.vercel.com/t/i-referred-5-people-to-v0/31862 I referred 5 people to v0 :blush: https://community.vercel.com/t/inside-turbopack-building-faster-by-building-less/31699 Inside Turbopack: ",
+     "url": "https://community.vercel.com/t/news-cache-2026-01-26/31886/1"
+    }
+   ],
+   "AISTAB": [
+    {
+     "window": "W3",
+     "score": 27,
+     "title": "Kimi K3 Released - Request",
+     "text": "...rings a true local-first architecture to dev environments. For Cursor users, native integration with K3 would be a huge deal: it means seamless local context, much faster runtimes, and a highly efficient workspace wit",
+     "url": "https://forum.cursor.com/t/kimi-k3-released-request/165964/5"
+    },
+    {
+     "window": "W4",
+     "score": 24,
+     "title": "Git hooks silently skipped for all Source Control operations since 3.15.6 — git extension forces `core.hooksPath=/dev/null`",
+     "text": "...-c user.useConfigOnly=true commit --quiet --allow-empty-message --file - Logs The Git output channel shows no --no-verify , and the timing makes the regression obvious. From my own Git.log history in the same repo wit",
+     "url": "https://forum.cursor.com/t/git-hooks-silently-skipped-for-all-source-control-operations-since-3-15-6-git-extension-forces-core-hookspath-dev-null/167719/1"
+    },
+    {
+     "window": "W3",
+     "score": 14,
+     "title": "Legacy Individual Plan - Max Mode Required",
+     "text": "Is it just me, or has Opus 4.6 gotten noticeably dumber? I've been using Opus 4.6 in Cursor for a while, and recently I've noticed a significant drop in quality. It feels like the model is less capable than before — more",
+     "url": "https://forum.cursor.com/t/legacy-individual-plan-max-mode-required/164969/281"
+    },
+    {
+     "window": "W3",
+     "score": 13,
+     "title": "Cursor re-opens closed chat tabs on each launch",
+     "text": ".... That issue exists quite a long time; can't tell from which version it began. I was too lazy to report it earlier. On my screenshot you can see even worse situation. It opens empty chats on each run, alongside with 1",
+     "url": "https://forum.cursor.com/t/cursor-re-opens-closed-chat-tabs-on-each-launch/162888/1"
+    },
+    {
+     "window": "W1",
+     "score": 12,
+     "title": "Cursor 2.4: Subagents, Skills and Image Generation",
+     "text": "...tps://forum.cursor.com/t/cursor-2-4-subagents/149403/1 Subagents , independent agents that handle discrete parts of a task in parallel with their own context and configuration. This is great for deep codebase research",
+     "url": "https://forum.cursor.com/t/cursor-2-4-subagents-skills-and-image-generation/149399/1"
+    },
+    {
+     "window": "W3",
+     "score": 11,
+     "title": "Legacy Individual Plan - Max Mode Required",
+     "text": "...users see when they search \"Cursor legacy plan\" — and they'll think twice before committing. This is your legacy now, Cursor. A 471-reply monument to broken trust. Hope it was worth it.",
+     "url": "https://forum.cursor.com/t/legacy-individual-plan-max-mode-required/164969/813"
+    },
+    {
+     "window": "W1",
+     "score": 10,
+     "title": "Skills vs. Commands [vs. Rules]",
+     "text": "...ills.io ) and works cross platform. They're stored in .cursor/skills/ as SKILL.md . Subagents (nightly only) are separate AI assistants with isolated context for complex tasks. They can run in parallel or in the backg",
+     "url": "https://forum.cursor.com/t/skills-vs-commands-vs-rules/148875/5"
+    },
+    {
+     "window": "W3",
+     "score": 10,
+     "title": "Cursor Android mobile app",
+     "text": "+1 on this request. I will provide some additional context of my need, because I imagine this would be helpful! My need: My local environment has everything for set-up for development and analysis, repos alre...",
+     "url": "https://forum.cursor.com/t/cursor-android-mobile-app/165496/9"
+    }
+   ],
+   "AICOST": [
+    {
+     "window": "W2",
+     "score": 34,
+     "title": "Kimi K2.6 Released - Request",
+     "text": "...the Claw Groups research preview. https://openrouter.ai/moonshotai/kimi-k2.6 openrouter.ai https://openrouter.ai/moonshotai/kimi-k2.6 Kimi K2.6 - API Pricing &amp; Benchmarks Kimi K2.6 is Moonshot AI's next-generation",
+     "url": "https://forum.cursor.com/t/kimi-k2-6-released-request/158548/1"
+    },
+    {
+     "window": "W3",
+     "score": 34,
+     "title": "Kimi K3 Released - Request",
+     "text": "...ontext. https://openrouter.ai/moonshotai/kimi-k3#providers openrouter.ai https://openrouter.ai/moonshotai/kimi-k3#providers Providers - Kimi K3 - API Pricing &amp; Benchmarks This model is hosted by one provider. Open",
+     "url": "https://forum.cursor.com/t/kimi-k3-released-request/165964/1"
+    },
+    {
+     "window": "W3",
+     "score": 17,
+     "title": "Composer 2.5 is now live!",
+     "text": "...utput tokens — identical to Composer 2. There's also a faster variant with the same intelligence at $3.00/M input and $15.00/M output , which is less expensive than the fast tiers of other frontier models. 2x included",
+     "url": "https://forum.cursor.com/t/composer-2-5-is-now-live/160934/1"
+    },
+    {
+     "window": "W2",
+     "score": 17,
+     "title": "Introducing Composer 2",
+     "text": "https://cursor.com/blog/composer-2 Blog · https://cursor.com/docs/models Pricing We're excited to announce Composer 2 , our most capable coding model yet! Composer 2 delivers frontier-level performance on coding tasks wi",
+     "url": "https://forum.cursor.com/t/introducing-composer-2/155288/1"
+    },
+    {
+     "window": "W3",
+     "score": 12,
+     "title": "Grok 4.5 is now available!",
+     "text": "https://cursor.com/blog/grok-4-5 Blog · https://cursor.com/docs/models/grok-4-5 Pricing Today we are releasing Grok 4.5 together with https://cursor.com/blog/spacex-model-training SpaceXAI , our most intelligent model an",
+     "url": "https://forum.cursor.com/t/grok-4-5-is-now-available/165158/1"
+    },
+    {
+     "window": "W2",
+     "score": 11,
+     "title": "Cursor 3: Worktrees & Best-of-N",
+     "text": "It's awful: Massive UX downgrade compared to the previous approach It's way slower to set up, burns unnecessary tokens (especially great when you're using Opus 4.6) It's fragile because sometimes the agent won't follow t",
+     "url": "https://forum.cursor.com/t/cursor-3-worktrees-best-of-n/156507/9"
+    },
+    {
+     "window": "W4",
+     "score": 10,
+     "title": "Introducing The X Subscription",
+     "text": "For those, who haven't switched to the X subscription, please DON'T! This is the worst choice! Dear support, is there any way to switch back? I feel like I got scammed. It is my fault not to do proper research before swi",
+     "url": "https://forum.cursor.com/t/introducing-the-x-subscription/174450/449"
+    },
+    {
+     "window": "W3",
+     "score": 9,
+     "title": "Chat/Agent Session Metadata for Client, Task, and Cost Attribution",
+     "text": "Feature request for product/service Cursor IDE Describe the request I searched the forum and found several related discussions around workspace-level cost tracking, client billing, time tracking for AI-assisted developme",
+     "url": "https://forum.cursor.com/t/chat-agent-session-metadata-for-client-task-and-cost-attribution/160895/1"
+    }
+   ],
+   "UIDATA": [
+    {
+     "window": "W1",
+     "score": 10,
+     "title": "Skills vs. Commands [vs. Rules]",
+     "text": "...ills.io ) and works cross platform. They're stored in .cursor/skills/ as SKILL.md . Subagents (nightly only) are separate AI assistants with isolated context for complex tasks. They can run in parallel or in the backg",
+     "url": "https://forum.cursor.com/t/skills-vs-commands-vs-rules/148875/5"
+    },
+    {
+     "window": "W2",
+     "score": 4,
+     "title": "[Feature Request] Preprocessor conditionals + replacement variables in .mdc rules and .md skills (like VSCode's predefined variables)",
+     "text": "...e rule files in the editor — there's no schema checking that flags invalid variable references or malformed conditionals before they silently produce broken context at inference time. Today the only way to debug a bro",
+     "url": "https://forum.cursor.com/t/feature-request-preprocessor-conditionals-replacement-variables-in-mdc-rules-and-md-skills-like-vscodes-predefined-variables/155107/1"
+    },
+    {
+     "window": "W2",
+     "score": 4,
+     "title": "\"Add MCP\" button does nothing when adding team MCP server via Dashboard",
+     "text": "...r console (if applicable — didn't check DevTools). Unclear whether the issue is with validation silently failing, a UI bug swallowing the event, or a backend error with no user-facing feedback. At minimum, if the inpu",
+     "url": "https://forum.cursor.com/t/add-mcp-button-does-nothing-when-adding-team-mcp-server-via-dashboard/156928/1"
+    },
+    {
+     "window": "W3",
+     "score": 3,
+     "title": "Opus 4.7 Max mode shows only 200K context instead of 1M",
+     "text": "So it's not just me. Multiple people reporting the same regression today, all saying yesterday was fine. Looks like something broke on the backend overnight. @Colin @mohitjain @Condor @Sanjeed5 can we get some eyes o...",
+     "url": "https://forum.cursor.com/t/opus-4-7-max-mode-shows-only-200k-context-instead-of-1m/158632/25"
+    },
+    {
+     "window": "W2",
+     "score": 3,
+     "title": "MCP entry broken on Cursor.com",
+     "text": "...anks for reporting this. We've identified the issue: a recent update inadvertently removed the dashboard UI for managing user-scoped MCP servers. The backend support is still in place, but the management surface to vi",
+     "url": "https://forum.cursor.com/t/mcp-entry-broken-on-cursor-com/154190/5"
+    },
+    {
+     "window": "W2",
+     "score": 3,
+     "title": "Subagents ignore user's own API key. Always bill against Cursor plan",
+     "text": "...d your own Anthropic API key Select an Anthropic model (e.g., Claude Opus 4.6) Open Agent Mode Prompt: \"Launch 2 sub agents to audit the frontend and backend code\" Result: Parent agent responds (using user's own key),",
+     "url": "https://forum.cursor.com/t/subagents-ignore-users-own-api-key-always-bill-against-cursor-plan/152971/1"
+    },
+    {
+     "window": "W2",
+     "score": 3,
+     "title": "Why does one message cost over 200 requests?",
+     "text": "...age The model UI indicates 6× , not 200×+ No batch, loop, agent workflow, or repeated prompts Yet over 200 requests were deducted at once If internal backend calls are counted separately, this is not clearly communica",
+     "url": "https://forum.cursor.com/t/why-does-one-message-cost-over-200-requests/151291/2"
+    },
+    {
+     "window": "W4",
+     "score": 3,
+     "title": "Frequent \"High Load\" errors in Cursor",
+     "text": "...oce.runAgentLoop (vscode-file://vscode-app/e:/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7115:34740) at async Lko.streamFromAgentBackend (vscode-file://vscode-app/e:/cursor/resources/app/out/vs/wo",
+     "url": "https://forum.cursor.com/t/frequent-high-load-errors-in-cursor/168832/1"
+    }
+   ]
+  }
+ },
+ "hn": {
+  "n": 35091,
+  "by_window": {
+   "W1": 8465,
+   "W2": 10230,
+   "W3": 8250,
+   "W4": 8146
+  },
+  "families_by_window": {
+   "BUILD": {
+    "W1": 2892,
+    "W2": 3299,
+    "W3": 2184,
+    "W4": 2337
+   },
+   "AICOST": {
+    "W1": 2959,
+    "W2": 4417,
+    "W3": 3548,
+    "W4": 3380
+   },
+   "AISTAB": {
+    "W1": 3165,
+    "W2": 4125,
+    "W3": 3179,
+    "W4": 3120
+   },
+   "UIDATA": {
+    "W1": 2007,
+    "W2": 2191,
+    "W3": 1466,
+    "W4": 1469
+   },
+   "AISPEED": {
+    "W1": 1907,
+    "W2": 2283,
+    "W3": 1878,
+    "W4": 1910
+   }
+  },
+  "tools": {
+   "Claude": {
+    "n": 8839,
+    "share_by_window": [
+     0.1838,
+     0.3151,
+     0.2707,
+     0.2243
+    ],
+    "chi2": 473.14,
+    "p": 0.0
+   },
+   "GPT": {
+    "n": 3953,
+    "share_by_window": [
+     0.1127,
+     0.1066,
+     0.1227,
+     0.11
+    ],
+    "chi2": 12.54,
+    "p": 0.005733
+   },
+   "Claude Code": {
+    "n": 3553,
+    "share_by_window": [
+     0.0822,
+     0.1464,
+     0.0967,
+     0.0689
+    ],
+    "chi2": 358.9,
+    "p": 0.0
+   },
+   "Codex": {
+    "n": 1740,
+    "share_by_window": [
+     0.0249,
+     0.0529,
+     0.0645,
+     0.056
+    ],
+    "chi2": 157.51,
+    "p": 0.0
+   },
+   "MCP": {
+    "n": 1601,
+    "share_by_window": [
+     0.0341,
+     0.0644,
+     0.036,
+     0.0437
+    ],
+    "chi2": 126.86,
+    "p": 0.0
+   },
+   "Gemini": {
+    "n": 1522,
+    "share_by_window": [
+     0.0501,
+     0.0543,
+     0.04,
+     0.0261
+    ],
+    "chi2": 98.9,
+    "p": 0.0
+   },
+   "Docker": {
+    "n": 1516,
+    "share_by_window": [
+     0.0421,
+     0.0519,
+     0.0365,
+     0.0403
+    ],
+    "chi2": 29.72,
+    "p": 2e-06
+   },
+   "Cursor": {
+    "n": 1057,
+    "share_by_window": [
+     0.0331,
+     0.0422,
+     0.0211,
+     0.021
+    ],
+    "chi2": 100.13,
+    "p": 0.0
+   },
+   "Next.js": {
+    "n": 976,
+    "share_by_window": [
+     0.0312,
+     0.0383,
+     0.0176,
+     0.0215
+    ],
+    "chi2": 89.37,
+    "p": 0.0
+   },
+   "Supabase": {
+    "n": 834,
+    "share_by_window": [
+     0.0285,
+     0.0304,
+     0.0171,
+     0.0173
+    ],
+    "chi2": 57.96,
+    "p": 0.0
+   },
+   "Playwright": {
+    "n": 779,
+    "share_by_window": [
+     0.0195,
+     0.0268,
+     0.0215,
+     0.02
+    ],
+    "chi2": 14.77,
+    "p": 0.00202
+   },
+   "Copilot": {
+    "n": 606,
+    "share_by_window": [
+     0.0163,
+     0.0264,
+     0.0154,
+     0.0087
+    ],
+    "chi2": 87.47,
+    "p": 0.0
+   },
+   "Vercel": {
+    "n": 569,
+    "share_by_window": [
+     0.0175,
+     0.0242,
+     0.0112,
+     0.0099
+    ],
+    "chi2": 75.52,
+    "p": 0.0
+   },
+   "Vite": {
+    "n": 438,
+    "share_by_window": [
+     0.0133,
+     0.0185,
+     0.0096,
+     0.007
+    ],
+    "chi2": 55.86,
+    "p": 0.0
+   },
+   "Bun": {
+    "n": 358,
+    "share_by_window": [
+     0.0043,
+     0.0048,
+     0.0255,
+     0.0077
+    ],
+    "chi2": 254.32,
+    "p": 0.0
+   },
+   "v0": {
+    "n": 238,
+    "share_by_window": [
+     0.0076,
+     0.01,
+     0.0041,
+     0.0047
+    ],
+    "chi2": 30.29,
+    "p": 1e-06
+   },
+   "Firebase": {
+    "n": 171,
+    "share_by_window": [
+     0.0052,
+     0.0073,
+     0.0034,
+     0.0029
+    ],
+    "chi2": 22.89,
+    "p": 4.3e-05
+   },
+   "Lovable": {
+    "n": 134,
+    "share_by_window": [
+     0.0065,
+     0.0029,
+     0.0032,
+     0.0028
+    ],
+    "chi2": 21.16,
+    "p": 9.7e-05
+   },
+   "Webpack": {
+    "n": 94,
+    "share_by_window": [
+     0.003,
+     0.0039,
+     0.0019,
+     0.0016
+    ],
+    "chi2": 11.31,
+    "p": 0.010171
+   },
+   "Bolt": {
+    "n": 79,
+    "share_by_window": [
+     0.0026,
+     0.0023,
+     0.0025,
+     0.0015
+    ],
+    "chi2": 3.01,
+    "p": 0.39005
+   },
+   "Windsurf": {
+    "n": 74,
+    "share_by_window": [
+     0.0017,
+     0.0044,
+     0.0011,
+     0.0007
+    ],
+    "chi2": 37.68,
+    "p": 0.0
+   },
+   "Storybook": {
+    "n": 57,
+    "share_by_window": [
+     0.002,
+     0.0013,
+     0.0019,
+     0.0014
+    ],
+    "chi2": 2.44,
+    "p": 0.48623
+   },
+   "Replit": {
+    "n": 47,
+    "share_by_window": [
+     0.003,
+     0.001,
+     0.0012,
+     0.0002
+    ],
+    "chi2": 24.87,
+    "p": 1.6e-05
+   },
+   "Turbopack": {
+    "n": 45,
+    "share_by_window": [
+     0.0018,
+     0.0024,
+     0.0002,
+     0.0004
+    ],
+    "chi2": 24.64,
+    "p": 1.8e-05
+   },
+   "TypeScript native (tsgo)": {
+    "n": 24,
+    "share_by_window": [
+     0.0005,
+     0.0001,
+     0.0017,
+     0.0006
+    ],
+    "chi2": 18.14,
+    "p": 0.000411
+   },
+   "Kiro": {
+    "n": 21,
+    "share_by_window": [
+     0.0007,
+     0.0007,
+     0.0006,
+     0.0004
+    ],
+    "chi2": 1.02,
+    "p": 0.796248
+   },
+   "Rolldown": {
+    "n": 14,
+    "share_by_window": [
+     0.0005,
+     0.0003,
+     0.0007,
+     0.0001
+    ],
+    "chi2": 4.19,
+    "p": 0.241707
+   },
+   "Rspack": {
+    "n": 10,
+    "share_by_window": [
+     0.0004,
+     0.0005,
+     0.0001,
+     0.0001
+    ],
+    "chi2": 3.16,
+    "p": 0.367109
+   }
+  },
+  "top": {
+   "BUILD": [
+    {
+     "window": "W3",
+     "score": 2935,
+     "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
+     "text": "I might be the only SRE on Earth with his own bowling center. It's a more in-depth gig than you'd think.\nMy family and I bought an abandoned 8-lane bowling center in the rural mid-west. In our small town there weren't ma",
+     "url": "https://news.ycombinator.com/item?id=48968606"
+    },
+    {
+     "window": "W3",
+     "score": 937,
+     "title": "Show HN: Getting GLM 5.2 running on my slow computer",
+     "text": "A few days ago I found myself trying out GLM 5.2 and was really positively impressed. The capabilities and security I was getting from this LLM are similar to those I've gotten from models like Claude or GPT, and this re",
+     "url": "https://news.ycombinator.com/item?id=48842459"
+    },
+    {
+     "window": "W2",
+     "score": 691,
+     "title": "Ask HN: How to be alone?",
+     "text": "For the first time in my life, at 38, I'm alone. When I was 18 I basically moved out of my parents' straight in with my highschool sweetheart, and we were together ever since. That chapter of my life is over now, and I'm",
+     "url": "https://news.ycombinator.com/item?id=47296547"
+    },
+    {
+     "window": "W4",
+     "score": 660,
+     "title": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry.",
+     "text": "I posted here about the then-upcoming PHP RCEs related to CVE-2026-109618 & CVE-2026-109619. I appreciate this has had considerable knock-on effects with the schedule for co-ordinated disclosure, and created additional w",
+     "url": "https://news.ycombinator.com/item?id=50193416"
+    },
+    {
+     "window": "W2",
+     "score": 657,
+     "title": "Show HN: Micasa – track your house from the terminal",
+     "text": "micasa is a terminal UI that helps you track home stuff, in a single SQLite file. No cloud, no\naccount, no subscription. Backup with cp.\nI built it because I was tired of losing track of everything in notes apps, and \"I'",
+     "url": "https://news.ycombinator.com/item?id=47075124"
+    },
+    {
+     "window": "W2",
+     "score": 648,
+     "title": "Show HN: I took back Video.js after 16 years and we rewrote it to be 88% smaller",
+     "text": "What do you do when private equity buys your old company and fires the maintainers of the popular open source project you started over a decade ago? You reboot it, and bring along some new friends to do it.\nVideo.js is u",
+     "url": "https://news.ycombinator.com/item?id=47506713"
+    },
+    {
+     "window": "W1",
+     "score": 577,
+     "title": "Stop Doom Scrolling, Start Doom Coding: Build via the terminal from your phone",
+     "text": "I used Tailscale, an old laptop, Claude Code, and Termius to code from my phone anywhere I have Internet connection.\nGreat for parties where you rather be home tinkering.",
+     "url": "https://news.ycombinator.com/item?id=46517458"
+    },
+    {
+     "window": "W4",
+     "score": 537,
+     "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+     "text": "Hey HN,\nHenry from Cactus here!\nWe previously released Cactus Needle, a 14MB agentic LLM for tool call, device use, and structured extraction for phones, wearables, smart homes, small robots and microcontrollers. We got ",
+     "url": "https://news.ycombinator.com/item?id=49246804"
+    }
+   ],
+   "AICOST": [
+    {
+     "window": "W3",
+     "score": 2935,
+     "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
+     "text": "I might be the only SRE on Earth with his own bowling center. It's a more in-depth gig than you'd think.\nMy family and I bought an abandoned 8-lane bowling center in the rural mid-west. In our small town there weren't ma",
+     "url": "https://news.ycombinator.com/item?id=48968606"
+    },
+    {
+     "window": "W2",
+     "score": 1099,
+     "title": "Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw",
+     "text": "Received the following email from Anthropic:\nHi,\nStarting April 4 at 12pm PT / 8pm BST, you’ll no longer be able to use your Claude subscription limits for third-party harnesses including OpenClaw. You can still use them",
+     "url": "https://news.ycombinator.com/item?id=47633396"
+    },
+    {
+     "window": "W3",
+     "score": 937,
+     "title": "Show HN: Getting GLM 5.2 running on my slow computer",
+     "text": "A few days ago I found myself trying out GLM 5.2 and was really positively impressed. The capabilities and security I was getting from this LLM are similar to those I've gotten from models like Claude or GPT, and this re",
+     "url": "https://news.ycombinator.com/item?id=48842459"
+    },
+    {
+     "window": "W4",
+     "score": 919,
+     "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
+     "text": "Hi HN,\nI built a specialized inference engine for running 4-bit Gemma 4 26B-A4B-IT on any M-series Mac using about 2 GB of RAM. It is called TurboFieldfare and is written in Swift and Metal.\nI have always adored on-devic",
+     "url": "https://news.ycombinator.com/item?id=49098510"
+    },
+    {
+     "window": "W4",
+     "score": 868,
+     "title": "Ask HN: Can we please limit the AI news flood?",
+     "text": "Over past couple months I noticed that HN feed is almost exclusively AI or AI-adjacent news. Meanwhile the legitimately, broadly-hacker stuff gets left out for the most part.\nI noticed that because the things I find genu",
+     "url": "https://news.ycombinator.com/item?id=49657850"
+    },
+    {
+     "window": "W3",
+     "score": 809,
+     "title": "I'm Eric Ries, author of \"The Lean Startup\" and new book \"Incorruptible\" – AMA",
+     "text": "Hey gang, you may remember me from such books as _The Lean Startup_ and _The Startup Way_.\nIt's been fifteen years since I wrote The Lean Startup, and in that time I've seen some things. In both big companies and tiny st",
+     "url": "https://news.ycombinator.com/item?id=48477135"
+    },
+    {
+     "window": "W3",
+     "score": 687,
+     "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+     "text": "Hi HN, I'm Antoine Zambelli, AI Director at Texas Instruments.\nI built Forge, an open-source reliability layer for self-hosted LLM tool-calling.\nWhat it does:\n- Adds domain-and-tool-agnostic guardrails (retry nudges, ste",
+     "url": "https://news.ycombinator.com/item?id=48192383"
+    },
+    {
+     "window": "W2",
+     "score": 657,
+     "title": "Show HN: Micasa – track your house from the terminal",
+     "text": "micasa is a terminal UI that helps you track home stuff, in a single SQLite file. No cloud, no\naccount, no subscription. Backup with cp.\nI built it because I was tired of losing track of everything in notes apps, and \"I'",
+     "url": "https://news.ycombinator.com/item?id=47075124"
+    }
+   ],
+   "AISTAB": [
+    {
+     "window": "W3",
+     "score": 1676,
+     "title": "Rumors of my death are slightly exaggerated",
+     "text": "AI hallucinations are getting ambitious.\nA couple people recently emailed, asking whether the Klein bottle business was still operating after my death.\n“Huh?” I thought. “I ain’t dead yet.”\nAfter some digging, I discover",
+     "url": "https://news.ycombinator.com/item?id=48037336"
+    },
+    {
+     "window": "W1",
+     "score": 1550,
+     "title": "Rob Pike goes nuclear over GenAI",
+     "text": "Related: Rob Pike got spammed with an AI slop \"act of kindness\" - https://news.ycombinator.com/item?id=46394867",
+     "url": "https://news.ycombinator.com/item?id=46392115"
+    },
+    {
+     "window": "W3",
+     "score": 937,
+     "title": "Show HN: Getting GLM 5.2 running on my slow computer",
+     "text": "A few days ago I found myself trying out GLM 5.2 and was really positively impressed. The capabilities and security I was getting from this LLM are similar to those I've gotten from models like Claude or GPT, and this re",
+     "url": "https://news.ycombinator.com/item?id=48842459"
+    },
+    {
+     "window": "W1",
+     "score": 937,
+     "title": "GPTZero finds 100 new hallucinations in NeurIPS 2025 accepted papers",
+     "text": "",
+     "url": "https://news.ycombinator.com/item?id=46720395"
+    },
+    {
+     "window": "W4",
+     "score": 868,
+     "title": "Ask HN: Can we please limit the AI news flood?",
+     "text": "Over past couple months I noticed that HN feed is almost exclusively AI or AI-adjacent news. Meanwhile the legitimately, broadly-hacker stuff gets left out for the most part.\nI noticed that because the things I find genu",
+     "url": "https://news.ycombinator.com/item?id=49657850"
+    },
+    {
+     "window": "W3",
+     "score": 860,
+     "title": "An AI agent deleted our production database. The agent's confession is below",
+     "text": "",
+     "url": "https://news.ycombinator.com/item?id=47911524"
+    },
+    {
+     "window": "W3",
+     "score": 809,
+     "title": "I'm Eric Ries, author of \"The Lean Startup\" and new book \"Incorruptible\" – AMA",
+     "text": "Hey gang, you may remember me from such books as _The Lean Startup_ and _The Startup Way_.\nIt's been fifteen years since I wrote The Lean Startup, and in that time I've seen some things. In both big companies and tiny st",
+     "url": "https://news.ycombinator.com/item?id=48477135"
+    },
+    {
+     "window": "W3",
+     "score": 687,
+     "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+     "text": "Hi HN, I'm Antoine Zambelli, AI Director at Texas Instruments.\nI built Forge, an open-source reliability layer for self-hosted LLM tool-calling.\nWhat it does:\n- Adds domain-and-tool-agnostic guardrails (retry nudges, ste",
+     "url": "https://news.ycombinator.com/item?id=48192383"
+    }
+   ],
+   "UIDATA": [
+    {
+     "window": "W3",
+     "score": 2935,
+     "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
+     "text": "I might be the only SRE on Earth with his own bowling center. It's a more in-depth gig than you'd think.\nMy family and I bought an abandoned 8-lane bowling center in the rural mid-west. In our small town there weren't ma",
+     "url": "https://news.ycombinator.com/item?id=48968606"
+    },
+    {
+     "window": "W2",
+     "score": 831,
+     "title": "Tell HN: Fiverr left customer files public and searchable",
+     "text": "Fiverr (gig work/task platform, competitor to Upwork) uses a service called Cloudinary to process PDF/images in messaging, including work products from the worker to client.\nBesides the PDF processing value add, Cloudina",
+     "url": "https://news.ycombinator.com/item?id=47769796"
+    },
+    {
+     "window": "W3",
+     "score": 687,
+     "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+     "text": "Hi HN, I'm Antoine Zambelli, AI Director at Texas Instruments.\nI built Forge, an open-source reliability layer for self-hosted LLM tool-calling.\nWhat it does:\n- Adds domain-and-tool-agnostic guardrails (retry nudges, ste",
+     "url": "https://news.ycombinator.com/item?id=48192383"
+    },
+    {
+     "window": "W4",
+     "score": 537,
+     "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+     "text": "Hey HN,\nHenry from Cactus here!\nWe previously released Cactus Needle, a 14MB agentic LLM for tool call, device use, and structured extraction for phones, wearables, smart homes, small robots and microcontrollers. We got ",
+     "url": "https://news.ycombinator.com/item?id=49246804"
+    },
+    {
+     "window": "W1",
+     "score": 509,
+     "title": "Show HN: Glasses to detect smart-glasses that have cameras",
+     "text": "Hi! Recently smart-glasses with cameras like the Meta Ray-bans seem to be getting more popular. As does some people's desire to remove/cover up the recording indicator LED. I wanted to see if there's a way to detect when",
+     "url": "https://news.ycombinator.com/item?id=46075882"
+    },
+    {
+     "window": "W1",
+     "score": 436,
+     "title": "Show HN: Why write code if the LLM can just do the thing? (web app experiment)",
+     "text": "I spent a few hours last weekend testing whether AI can replace code by executing directly. Built a contact manager where every HTTP request goes to an LLM with three tools: database (SQLite), webResponse (HTML/JSON/JS),",
+     "url": "https://news.ycombinator.com/item?id=45783640"
+    },
+    {
+     "window": "W1",
+     "score": 393,
+     "title": "Show HN: I built a dashboard to compare mortgage rates across 120 credit unions",
+     "text": "When I bought my home, the big bank I'd been using for years quoted me 7% APR. A local credit union was offering 5.5% for the exact same mortgage.\nI was surprised until I learned that mortgages are basically standardized",
+     "url": "https://news.ycombinator.com/item?id=46139761"
+    },
+    {
+     "window": "W3",
+     "score": 390,
+     "title": "Show HN: Freenet, a peer-to-peer platform for decentralized apps",
+     "text": "For the past 5 years or so I've been working on a ground-up redesign of Freenet, my peer-to-peer project from the early 2000s (now renamed Hyphanet).\nThe new Freenet has been up and running since December along with some",
+     "url": "https://news.ycombinator.com/item?id=48223362"
+    }
+   ],
+   "AISPEED": [
+    {
+     "window": "W3",
+     "score": 2935,
+     "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
+     "text": "I might be the only SRE on Earth with his own bowling center. It's a more in-depth gig than you'd think.\nMy family and I bought an abandoned 8-lane bowling center in the rural mid-west. In our small town there weren't ma",
+     "url": "https://news.ycombinator.com/item?id=48968606"
+    },
+    {
+     "window": "W4",
+     "score": 919,
+     "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
+     "text": "Hi HN,\nI built a specialized inference engine for running 4-bit Gemma 4 26B-A4B-IT on any M-series Mac using about 2 GB of RAM. It is called TurboFieldfare and is written in Swift and Metal.\nI have always adored on-devic",
+     "url": "https://news.ycombinator.com/item?id=49098510"
+    },
+    {
+     "window": "W3",
+     "score": 787,
+     "title": "Vibe coding and agentic engineering are getting closer than I'd like",
+     "text": "",
+     "url": "https://news.ycombinator.com/item?id=48037128"
+    },
+    {
+     "window": "W4",
+     "score": 702,
+     "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+     "text": "",
+     "url": "https://news.ycombinator.com/item?id=49731285"
+    },
+    {
+     "window": "W3",
+     "score": 687,
+     "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+     "text": "Hi HN, I'm Antoine Zambelli, AI Director at Texas Instruments.\nI built Forge, an open-source reliability layer for self-hosted LLM tool-calling.\nWhat it does:\n- Adds domain-and-tool-agnostic guardrails (retry nudges, ste",
+     "url": "https://news.ycombinator.com/item?id=48192383"
+    },
+    {
+     "window": "W4",
+     "score": 537,
+     "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+     "text": "Hey HN,\nHenry from Cactus here!\nWe previously released Cactus Needle, a 14MB agentic LLM for tool call, device use, and structured extraction for phones, wearables, smart homes, small robots and microcontrollers. We got ",
+     "url": "https://news.ycombinator.com/item?id=49246804"
+    },
+    {
+     "window": "W1",
+     "score": 471,
+     "title": "Ask HN: How can I get better at using AI for programming?",
+     "text": "I've been working on a personal project recently, rewriting an old jQuery + Django project into SvelteKit. The main work is translating the UI templates into idiomatic SvelteKit while maintaining the original styling. Th",
+     "url": "https://news.ycombinator.com/item?id=46255285"
+    },
+    {
+     "window": "W3",
+     "score": 463,
+     "title": "Ask HN: Why is the HN crowd so anti-AI?",
+     "text": "Genuine question.\nOver the past six months, there hasn’t been a single day where I’ve checked the HN Best RSS feed without seeing a post about how AI “writes bad code,” “introduces bugs,” “creates technical debt,” or som",
+     "url": "https://news.ycombinator.com/item?id=48420827"
+    }
+   ]
+  }
+ },
+ "stackoverflow": {
+  "n": 82,
+  "by_window": {
+   "W1": 42,
+   "W2": 21,
+   "W3": 12,
+   "W4": 7
+  },
+  "families_by_window": {
+   "BUILD": {
+    "W1": 41,
+    "W2": 18,
+    "W3": 11,
+    "W4": 6
+   },
+   "UIDATA": {
+    "W1": 13,
+    "W2": 11,
+    "W3": 3,
+    "W4": 2
+   },
+   "AISPEED": {
+    "W1": 4,
+    "W2": 1,
+    "W3": 1,
+    "W4": 0
+   },
+   "AICOST": {
+    "W1": 3,
+    "W2": 2,
+    "W3": 0,
+    "W4": 0
+   },
+   "AISTAB": {
+    "W1": 2,
+    "W2": 2,
+    "W3": 0,
+    "W4": 0
+   }
+  },
+  "tools": {
+   "Docker": {
+    "n": 25,
+    "share_by_window": [
+     0.3095,
+     0.381,
+     0.25,
+     0.1429
+    ],
+    "chi2": 1.62,
+    "p": 0.655917
+   },
+   "Next.js": {
+    "n": 17,
+    "share_by_window": [
+     0.0952,
+     0.3333,
+     0.5,
+     0.0
+    ],
+    "chi2": 13.33,
+    "p": 0.003983
+   },
+   "Vite": {
+    "n": 6,
+    "share_by_window": [
+     0.0238,
+     0.0476,
+     0.1667,
+     0.2857
+    ],
+    "chi2": 7.92,
+    "p": 0.047676
+   },
+   "Vercel": {
+    "n": 3,
+    "share_by_window": [
+     0.0476,
+     0.0476,
+     0.0,
+     0.0
+    ],
+    "chi2": 0.94,
+    "p": 0.815978
+   },
+   "Supabase": {
+    "n": 3,
+    "share_by_window": [
+     0.0,
+     0.0952,
+     0.0833,
+     0.0
+    ],
+    "chi2": 4.65,
+    "p": 0.198924
+   },
+   "Firebase": {
+    "n": 3,
+    "share_by_window": [
+     0.0476,
+     0.0476,
+     0.0,
+     0.0
+    ],
+    "chi2": 0.94,
+    "p": 0.815978
+   },
+   "Bun": {
+    "n": 2,
+    "share_by_window": [
+     0.0238,
+     0.0476,
+     0.0,
+     0.0
+    ],
+    "chi2": 0.95,
+    "p": 0.812916
+   },
+   "Copilot": {
+    "n": 2,
+    "share_by_window": [
+     0.0,
+     0.0476,
+     0.0833,
+     0.0
+    ],
+    "chi2": 3.45,
+    "p": 0.326873
+   },
+   "v0": {
+    "n": 2,
+    "share_by_window": [
+     0.0238,
+     0.0476,
+     0.0,
+     0.0
+    ],
+    "chi2": 0.95,
+    "p": 0.812916
+   },
+   "Playwright": {
+    "n": 2,
+    "share_by_window": [
+     0.0476,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "chi2": 1.95,
+    "p": 0.582349
+   }
+  },
+  "top": {
+   "BUILD": [
+    {
+     "window": "W2",
+     "score": 28,
+     "title": "Xcode 26.4 build error: \"call to consteval function 'fmt::basic_format_string' is not a constant expression\" in React Native iOS build",
+     "text": "I am encountering a build error while compiling a React Native iOS project using Xcode 26.4.\n\n\nEnvironment\n\n\n\nReact Native: 0.81.x\n\nXcode: 26.4\n\nmacOS: 26.4\n\n\nError\nDuring the build process, I get the following error:\n\n\n",
+     "url": "https://stackoverflow.com/questions/79921402/xcode-26-4-build-error-call-to-consteval-function-fmtbasic-format-string-i"
+    },
+    {
+     "window": "W1",
+     "score": 7,
+     "title": "Superset Guest Token",
+     "text": "I'm trying to access an Apache Superset dashboard using a guest token, but no matter what configuration I change, Superset always redirects to the login page instead of displaying the embedded dashboard.\n\n\nSetup:\n\n\nI pla",
+     "url": "https://stackoverflow.com/questions/79802360/superset-guest-token"
+    },
+    {
+     "window": "W1",
+     "score": 4,
+     "title": "Hydration failed when synchronously instantiating a WebAssembly module inside a client component",
+     "text": "I came across surprising hydration mismatch in a Next.js 15 App Router app when I synchronously instantiate a small WebAssembly module during the render of a client component.\n\n\nServer builds fine.\n\n\nOn the client during",
+     "url": "https://stackoverflow.com/questions/79802365/hydration-failed-when-synchronously-instantiating-a-webassembly-module-inside-a"
+    },
+    {
+     "window": "W4",
+     "score": 4,
+     "title": "Install referrer not returned when app is installed while signed into a managed Play Store account",
+     "text": "I'm reading the Google Play Install Referrer in an Expo + React Native app using expo-application's Application.getInstallReferrerAsync(). The referrer comes back correctly when the app is installed while the Play Store ",
+     "url": "https://stackoverflow.com/questions/79999626/install-referrer-not-returned-when-app-is-installed-while-signed-into-a-managed"
+    },
+    {
+     "window": "W1",
+     "score": 3,
+     "title": "Cannot attach VS Code to Spark container: Permission denied creating .vscode-server in /nonexistent",
+     "text": "I'm getting what I feel should be a super simple error, but I'm having a tough time figuring out what I'm doing wrong. I want to open a running container in VS Code, but I keep getting a permission error. Help would be m",
+     "url": "https://stackoverflow.com/questions/79867782/cannot-attach-vs-code-to-spark-container-permission-denied-creating-vscode-ser"
+    },
+    {
+     "window": "W1",
+     "score": 3,
+     "title": "ld: framework 'Pods_MyProjectName' not found",
+     "text": "I just reset my MacBook Pro M1 Pro and updated it to MacOS Tahoe 26.2. I cloned my Expo (bare workflow) app, installed XCode and CocoaPods using brew, updated ruby to v3.1.4 and ran \"pod install\". The problem is when I t",
+     "url": "https://stackoverflow.com/questions/79854542/ld-framework-pods-myprojectname-not-found"
+    },
+    {
+     "window": "W2",
+     "score": 2,
+     "title": "@supabase/ssr with Next.js App Router: map markers disappear after magic link login",
+     "text": "I'm building a Next.js 15 App Router app using @supabase/ssr for authentication. The app displays georeferenced reports on a map.\n\n\nEverything works correctly for anonymous users — reports load as expected. However, afte",
+     "url": "https://stackoverflow.com/questions/79915223/supabase-ssr-with-next-js-app-router-map-markers-disappear-after-magic-link-lo"
+    },
+    {
+     "window": "W3",
+     "score": 2,
+     "title": "Does Vite 8.1 build.chunkImportMap stop an old tab from loading removed lazy chunks?",
+     "text": "I am testing the new build.chunkImportMap option in Vite 8.1 with a React app that uses React.lazy().\n\n\nMy basic setup\n\n\nimport { lazy, Suspense, useState } from 'react'\n\nconst LazyPage = lazy(() => import('./LazyPage.js",
+     "url": "https://stackoverflow.com/questions/79983966/does-vite-8-1-build-chunkimportmap-stop-an-old-tab-from-loading-removed-lazy-chu"
+    }
+   ],
+   "UIDATA": [
+    {
+     "window": "W1",
+     "score": 3,
+     "title": "Keeping BLE and GPS active in background with screen locked (React Native + Expo)",
+     "text": "I’m developing a mobile app in React Native using Expo, and I’m testing it through an EAS development build (not Expo Go). The app uses Bluetooth Low Energy (BLE) to communicate with an external device and relies on cont",
+     "url": "https://stackoverflow.com/questions/79856487/keeping-ble-and-gps-active-in-background-with-screen-locked-react-native-expo"
+    },
+    {
+     "window": "W2",
+     "score": 2,
+     "title": "@supabase/ssr with Next.js App Router: map markers disappear after magic link login",
+     "text": "I'm building a Next.js 15 App Router app using @supabase/ssr for authentication. The app displays georeferenced reports on a map.\n\n\nEverything works correctly for anonymous users — reports load as expected. However, afte",
+     "url": "https://stackoverflow.com/questions/79915223/supabase-ssr-with-next-js-app-router-map-markers-disappear-after-magic-link-lo"
+    },
+    {
+     "window": "W1",
+     "score": 2,
+     "title": "Angular Electron: Typescript component is not rendered in index.html",
+     "text": "I am new in Angular environment and I am actually developing a little desktop app with electron.\n\n\nI have inserted the selector (app-root) of the App component (generated automatically) into index.html's main section.\nTh",
+     "url": "https://stackoverflow.com/questions/79870482/angular-electron-typescript-component-is-not-rendered-in-index-html"
+    },
+    {
+     "window": "W1",
+     "score": 1,
+     "title": "Apple Sign-In Fails with Mysterious 404 Error on Non-Existent /appleauth/auth/federate Endpoint",
+     "text": "I'm implementing Apple Sign-In in my Next.js application with a NestJS backend. After the user authenticates with Apple, instead of redirecting to my configured callback URL, the browser makes a POST request to a mysteri",
+     "url": "https://stackoverflow.com/questions/79856680/apple-sign-in-fails-with-mysterious-404-error-on-non-existent-appleauth-auth-fe"
+    },
+    {
+     "window": "W2",
+     "score": 1,
+     "title": "Supabase Realtime doesn't receive INSERT events when writing via Prisma (Transaction Pooler/PgBouncer)",
+     "text": "I'm currently building a real-time chat application using Next.js, Supabase, and Prisma, but I've got problem with the Realtime subscriptions.\n\n\nThe Context\n\n\nMy setup is:\n\n\n\n\nFrontend: Next.js with the supabase-js clien",
+     "url": "https://stackoverflow.com/questions/79890589/supabase-realtime-doesnt-receive-insert-events-when-writing-via-prisma-transac"
+    },
+    {
+     "window": "W3",
+     "score": 1,
+     "title": "Dokploy Nextjs Dockerfile not working in ISR",
+     "text": "I am building nextjs dockerfile in Dokploy. It works fine for most cases, but if my nextjs build needs prisma during build time, It fails because dockerfile doesnt pass DATABASE_URL to prisma. What do i do, I have added ",
+     "url": "https://stackoverflow.com/questions/79945973/dokploy-nextjs-dockerfile-not-working-in-isr"
+    },
+    {
+     "window": "W2",
+     "score": 1,
+     "title": "Laravel Octane + Native Docker + WSL2: Extreme Performance Issues",
+     "text": "I'm experiencing severe performance issues with my Laravel application running on Docker + WSL2. Despite implementing numerous optimizations, all pages take 2-10 seconds to load. I'm hoping someone has experienced this a",
+     "url": "https://stackoverflow.com/questions/79911479/laravel-octane-native-docker-wsl2-extreme-performance-issues"
+    },
+    {
+     "window": "W1",
+     "score": 1,
+     "title": "Error in taskiq python while executing dynamic interval schedules",
+     "text": "I have aiogram bot with taskiq worker and scheduler (taskiq redis with taskiq_aiogram), in message handler I run dynamic interval schduled task, after some time (30-40 minutes), I getting: redis.exceptions.ResponseError:",
+     "url": "https://stackoverflow.com/questions/79858728/error-in-taskiq-python-while-executing-dynamic-interval-schedules"
+    }
+   ],
+   "AISPEED": [
+    {
+     "window": "W1",
+     "score": 1,
+     "title": "angular-auth-oidc-client with AWS Cognito PKCE Flow state error",
+     "text": "I'm building an application that uses AWS Cognito as IDP for authentication and angular-auth-oidc-client library to handle authentication on my Angular 21 client.\n\n\nI configured it as follows:\n\n\nconfig: {\n  triggerAuthor",
+     "url": "https://stackoverflow.com/questions/79841986/angular-auth-oidc-client-with-aws-cognito-pkce-flow-state-error"
+    },
+    {
+     "window": "W3",
+     "score": 0,
+     "title": "How can I stop Next.js from writing to cache after builds?",
+     "text": "I’m doing a lot of vibe coding with Next.js 16. After every turn, Copilot tries to validate its changes by running a full project rebuild.\n\n\nThe build itself isn’t too slow, about a minute, but it ends with a cache-writi",
+     "url": "https://stackoverflow.com/questions/79934271/how-can-i-stop-next-js-from-writing-to-cache-after-builds"
+    },
+    {
+     "window": "W1",
+     "score": 0,
+     "title": "Why does Next.js app render CSS on port 3000, but not port 80?",
+     "text": "I am trying to deploy a Next.js app on my local machine as a \"dress\nrehearsal\" for deploying on a server.\nMy Next.js app renders properly (i.e. the human eye will see shapes and\ncolors in the website in addition to text)",
+     "url": "https://stackoverflow.com/questions/79833547/why-does-next-js-app-render-css-on-port-3000-but-not-port-80"
+    },
+    {
+     "window": "W2",
+     "score": 0,
+     "title": "How can I sync scrolling text from a teleprompter app with YouTube Live stream timing?",
+     "text": "I’m building a workflow for YouTube Live where I use a teleprompter app to display scripted content while streaming.\n\n\nThe issue I’m facing is timing drift; the teleprompter scroll speed doesn’t always match my speaking ",
+     "url": "https://stackoverflow.com/questions/79890790/how-can-i-sync-scrolling-text-from-a-teleprompter-app-with-youtube-live-stream-t"
+    },
+    {
+     "window": "W1",
+     "score": 0,
+     "title": "Cache Go dependencies in dev container",
+     "text": "I'm trying to build a pre-built dev container (see here). Among others, the app has some Go dependencies specified in go.mod (link to file):\n\n\nmodule github.com/jovandeginste/workout-tracker/v2\n\ngo 1.24.1\n\nreplace github",
+     "url": "https://stackoverflow.com/questions/79806636/cache-go-dependencies-in-dev-container"
+    },
+    {
+     "window": "W1",
+     "score": 0,
+     "title": "Android gradle build command taking hours for a React Native project",
+     "text": "My Android Studio project used to build faster but now it takes a long time to build. Any ideas what could be causing the delays?\n\n\nI'm using ./gradlew build command to build my react native android app.\n\n\nthis is react-",
+     "url": "https://stackoverflow.com/questions/79840262/android-gradle-build-command-taking-hours-for-a-react-native-project"
+    }
+   ],
+   "AICOST": [
+    {
+     "window": "W1",
+     "score": 7,
+     "title": "Superset Guest Token",
+     "text": "I'm trying to access an Apache Superset dashboard using a guest token, but no matter what configuration I change, Superset always redirects to the login page instead of displaying the embedded dashboard.\n\n\nSetup:\n\n\nI pla",
+     "url": "https://stackoverflow.com/questions/79802360/superset-guest-token"
+    },
+    {
+     "window": "W2",
+     "score": 2,
+     "title": "@supabase/ssr with Next.js App Router: map markers disappear after magic link login",
+     "text": "I'm building a Next.js 15 App Router app using @supabase/ssr for authentication. The app displays georeferenced reports on a map.\n\n\nEverything works correctly for anonymous users — reports load as expected. However, afte",
+     "url": "https://stackoverflow.com/questions/79915223/supabase-ssr-with-next-js-app-router-map-markers-disappear-after-magic-link-lo"
+    },
+    {
+     "window": "W1",
+     "score": 1,
+     "title": "Apple Sign-In Fails with Mysterious 404 Error on Non-Existent /appleauth/auth/federate Endpoint",
+     "text": "I'm implementing Apple Sign-In in my Next.js application with a NestJS backend. After the user authenticates with Apple, instead of redirecting to my configured callback URL, the browser makes a POST request to a mysteri",
+     "url": "https://stackoverflow.com/questions/79856680/apple-sign-in-fails-with-mysterious-404-error-on-non-existent-appleauth-auth-fe"
+    },
+    {
+     "window": "W1",
+     "score": 1,
+     "title": "angular-auth-oidc-client with AWS Cognito PKCE Flow state error",
+     "text": "I'm building an application that uses AWS Cognito as IDP for authentication and angular-auth-oidc-client library to handle authentication on my Angular 21 client.\n\n\nI configured it as follows:\n\n\nconfig: {\n  triggerAuthor",
+     "url": "https://stackoverflow.com/questions/79841986/angular-auth-oidc-client-with-aws-cognito-pkce-flow-state-error"
+    },
+    {
+     "window": "W2",
+     "score": 1,
+     "title": "React native expo Flatlist with items containing an input field",
+     "text": "I have a React native expo app where in one page I use a FlatList to show a list of products. Each list item has a input field, weird design but this is what the client needs. The problem is the FlatList's recycling wher",
+     "url": "https://stackoverflow.com/questions/79921246/react-native-expo-flatlist-with-items-containing-an-input-field"
+    }
+   ],
+   "AISTAB": [
+    {
+     "window": "W2",
+     "score": 2,
+     "title": "@supabase/ssr with Next.js App Router: map markers disappear after magic link login",
+     "text": "I'm building a Next.js 15 App Router app using @supabase/ssr for authentication. The app displays georeferenced reports on a map.\n\n\nEverything works correctly for anonymous users — reports load as expected. However, afte",
+     "url": "https://stackoverflow.com/questions/79915223/supabase-ssr-with-next-js-app-router-map-markers-disappear-after-magic-link-lo"
+    },
+    {
+     "window": "W1",
+     "score": 1,
+     "title": "Apple Sign-In Fails with Mysterious 404 Error on Non-Existent /appleauth/auth/federate Endpoint",
+     "text": "I'm implementing Apple Sign-In in my Next.js application with a NestJS backend. After the user authenticates with Apple, instead of redirecting to my configured callback URL, the browser makes a POST request to a mysteri",
+     "url": "https://stackoverflow.com/questions/79856680/apple-sign-in-fails-with-mysterious-404-error-on-non-existent-appleauth-auth-fe"
+    },
+    {
+     "window": "W1",
+     "score": 1,
+     "title": "angular-auth-oidc-client with AWS Cognito PKCE Flow state error",
+     "text": "I'm building an application that uses AWS Cognito as IDP for authentication and angular-auth-oidc-client library to handle authentication on my Angular 21 client.\n\n\nI configured it as follows:\n\n\nconfig: {\n  triggerAuthor",
+     "url": "https://stackoverflow.com/questions/79841986/angular-auth-oidc-client-with-aws-cognito-pkce-flow-state-error"
+    },
+    {
+     "window": "W2",
+     "score": 0,
+     "title": "Why doesn't my alembic sync to my docker database but it works in production?",
+     "text": "I have an Alembic and SQLAlchemy defined database that's working just fine updating my database when I run\n\n\nalembic -c traveler/db/alembic.ini upgrade head\n\n\n\nEverything gets updated to the new models.\n\n\nI'm trying to r",
+     "url": "https://stackoverflow.com/questions/79911585/why-doesnt-my-alembic-sync-to-my-docker-database-but-it-works-in-production"
+    }
+   ]
+  }
+ }
+}

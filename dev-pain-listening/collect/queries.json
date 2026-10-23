@@ -1,0 +1,248 @@
+{
+  "version": "1.3",
+  "frozen": "2026-10-23",
+  "windows": [
+    [
+      "W1",
+      "2025-10-23",
+      "2026-01-23"
+    ],
+    [
+      "W2",
+      "2026-01-23",
+      "2026-04-23"
+    ],
+    [
+      "W3",
+      "2026-04-23",
+      "2026-07-23"
+    ],
+    [
+      "W4",
+      "2026-07-23",
+      "2026-10-23"
+    ]
+  ],
+  "families": {
+    "BUILD": {
+      "keywords": [
+        "build time",
+        "slow build",
+        "compile time",
+        "turbopack",
+        "webpack",
+        "vite",
+        "hot reload",
+        "dev server",
+        "typecheck",
+        "storybook",
+        "playwright",
+        "monorepo",
+        "docker build",
+        "CI slow"
+      ],
+      "regex": "(build|compil|typecheck|tsc\\b|turbopack|webpack|vite|rolldown|esbuild|hmr|hot reload|fast refresh|dev server|storybook|playwright|monorepo|turborepo|\\bnx\\b|docker build|\\bci\\b|pipeline|cold start)",
+      "pain_regex": "(slow|minutes|seconds|forever|takes|hang|stuck|flaky|timeout|faster|speed|wait|memory|oom|crash|broke|fail)"
+    },
+    "AICOST": {
+      "keywords": [
+        "expensive",
+        "usage limit",
+        "rate limit",
+        "credits",
+        "pricing",
+        "token cost",
+        "quota",
+        "subscription"
+      ],
+      "regex": "(expensive|cost|price|pricing|usage limit|rate limit|limits?\\b|credits?|tokens?|bill|quota|subscription|\\$\\d|per month|/mo\\b|max plan|pro plan)",
+      "ai_required": true
+    },
+    "AISTAB": {
+      "keywords": [
+        "hallucinating",
+        "broke my",
+        "regression",
+        "ignores",
+        "inconsistent",
+        "technical debt",
+        "slop",
+        "context window",
+        "rewrote",
+        "getting worse"
+      ],
+      "regex": "(hallucinat|broke|breaks|regress|ignor|inconsistent|technical debt|tech debt|slop|context window|context|rewr[io]te|worse|nerf|dumber|lobotom|messed up|deleted)",
+      "ai_required": true
+    },
+    "AISPEED": {
+      "keywords": [
+        "slower",
+        "productivity",
+        "faster",
+        "vibe coding",
+        "waiting"
+      ],
+      "regex": "(slower|productiv|faster|speed|vibe cod|waiting|takes forever|10x|time saved|wasted)",
+      "ai_required": true
+    },
+    "UIDATA": {
+      "keywords": [
+        "full stack",
+        "backend",
+        "database",
+        "supabase",
+        "state management",
+        "data fetching",
+        "forms",
+        "schema",
+        "design system"
+      ],
+      "regex": "(full.?stack|backend|back-end|database|supabase|firebase|state management|data fetching|forms?\\b|schema|api integration|wire|design system|frontend and backend|ui and data)",
+      "pain_regex": "(hard|pain|struggl|confus|mess|broke|stuck|hate|annoy|cumbersome|disconnect|separate|sync|drift|debt|slow|lost)"
+    }
+  },
+  "ai_regex": "(\\bai\\b|llm|gpt|claude|cursor|copilot|codex|gemini|agent|vibe|lovable|bolt|v0\\b|replit|windsurf|prompt|model)",
+  "reddit": {
+    "dev": [
+      "ExperiencedDevs",
+      "webdev",
+      "reactjs",
+      "nextjs",
+      "javascript",
+      "typescript",
+      "node",
+      "Frontend",
+      "dataengineering",
+      "devops"
+    ],
+    "learner": [
+      "learnprogramming",
+      "learnjavascript"
+    ],
+    "ai": [
+      "ClaudeAI",
+      "ClaudeCode",
+      "cursor",
+      "vibecoding",
+      "ChatGPTCoding",
+      "lovable",
+      "replit",
+      "v0_",
+      "boltnewbuilders"
+    ],
+    "families_by_cluster": {
+      "dev": [
+        "BUILD",
+        "UIDATA",
+        "AISTAB",
+        "AISPEED",
+        "AICOST"
+      ],
+      "learner": [
+        "BUILD",
+        "UIDATA",
+        "AISTAB",
+        "AISPEED"
+      ],
+      "ai": [
+        "AICOST",
+        "AISTAB",
+        "AISPEED",
+        "UIDATA",
+        "BUILD"
+      ]
+    },
+    "comment_subs": [
+      "ClaudeAI",
+      "cursor",
+      "vibecoding",
+      "webdev",
+      "learnprogramming"
+    ],
+    "comment_keywords": [
+      "expensive",
+      "usage limit",
+      "technical debt",
+      "broke my"
+    ]
+  },
+  "hn_weekly_keywords": [
+    "build times",
+    "turbopack",
+    "vite",
+    "vibe coding",
+    "claude code",
+    "cursor pricing",
+    "rate limit",
+    "technical debt",
+    "AI slop",
+    "usage limits"
+  ],
+  "discourse": {
+    "forum.cursor.com": [
+      "slow",
+      "expensive",
+      "usage limit",
+      "pricing",
+      "broke",
+      "ignores",
+      "regression",
+      "context",
+      "hallucinat",
+      "worse",
+      "rate limit",
+      "build",
+      "backend"
+    ],
+    "community.vercel.com": [
+      "build time",
+      "slow build",
+      "turbopack",
+      "build failed",
+      "build cache",
+      "v0 credits",
+      "v0 broke",
+      "v0 backend",
+      "deploy slow",
+      "out of memory"
+    ]
+  },
+  "devto_tags": [
+    "vibecoding",
+    "ai",
+    "webdev",
+    "nextjs",
+    "react",
+    "typescript",
+    "vite",
+    "cursor",
+    "claude",
+    "productivity",
+    "performance",
+    "devops",
+    "beginners"
+  ],
+  "stackoverflow": {
+    "tags": [
+      "next.js",
+      "vite",
+      "webpack",
+      "typescript",
+      "turbopack",
+      "storybook",
+      "playwright",
+      "docker",
+      "github-copilot",
+      "cursor-ide",
+      "angular",
+      "react-native"
+    ],
+    "q": [
+      "slow",
+      "build time",
+      "takes long",
+      "memory",
+      "hang"
+    ]
+  }
+}
